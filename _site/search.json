@@ -102,7 +102,7 @@
     "href": "proportionuncertainty.html",
     "title": "Proportions and Power",
     "section": "",
-    "text": "CI for Proportions \nProportional Uncertainty \nPower Curves"
+    "text": "Warning\n\n\n\nDo NOT use this page unless you understand the limitations of these calculations, and when they do not apply.\n\n\n\nCI for Proportions \nProportional Uncertainty \nPower Curves"
   },
   {
     "objectID": "clientresources.html",
@@ -124,5 +124,12 @@
     "title": "Sample Size - 2 Proportion",
     "section": "",
     "text": "Warning\n\n\n\nDo NOT use this page unless you understand the limitations of these calculations, and when they do not apply."
+  },
+  {
+    "objectID": "astinterpreter.html",
+    "href": "astinterpreter.html",
+    "title": "AST Interpreter",
+    "section": "",
+    "text": "Warning\n\n\n\nThis tool is still under development."
   }
 ]

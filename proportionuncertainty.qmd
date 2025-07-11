@@ -1,6 +1,9 @@
 ---
 title: "Proportions and Power"
 ---
+::: {.callout-warning}
+Do NOT use this page unless you understand the limitations of these calculations, and when they do not apply.
+:::
 
 ::: {style="display: flex; justify-content: center; gap: 10px;"}
 <a href="https://lvr-explore.shinyapps.io/ShinyCIforProportion/" button type="button" class="btn btn-lg btn-info">CI for Proportions</button> </a>
