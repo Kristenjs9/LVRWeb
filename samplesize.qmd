@@ -1,0 +1,6 @@
+---
+title: "Sample Size - 2 Proportion"
+---
+::: {.callout-warning}
+Do NOT use this page unless you understand the limitations of these calculations, and when they do not apply.
+:::

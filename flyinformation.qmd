@@ -1,0 +1,58 @@
+---
+title: " "
+---
+
+:::::: {layout-ncol="3"}
+::: column-content-1
+### Horn Flies
+
+-   Identification:
+
+    -   Congregate along the back and sides of cattle
+    -   Small (3-5mm)
+    -   Bloodfeeders
+
+-   Prevention and Control:
+
+    -   Ear-tags should be used once 100-200 flies per cow are present to help avoid resistance and should be removed in the fall
+    -   Pour-ons such as ivermectin can be used but are only effective about 28 days so reapplication is necessary
+    -   Back rubbers and dust bags can be effective when hung in locations cattle can self treat and don’t require handling of cattle
+    -   Oral larvicides can be beneficial mixed in feed or mineral but only protect against more larvae, not from adult flies
+:::
+
+::: column-content-2
+### Face Flies
+
+-   Identification:
+
+    -   Dark gray in color
+    -   6-8 mm in size
+    -   Non-biting, but contribute to pink eye
+    -   Congregate around wounds as well as ocular and nasal discharge
+
+-   Prevention and Control:
+
+    -   Pyrethroid ear tags
+    -   Pour-ons
+    -   Back rubbers and dust bags can be effective when hung in locations cattle can self treat and don’t require handling of cattle
+    -   Control can be more difficult as these flies spend fewer moments on the cattle
+:::
+
+::: column-content-3
+### Stable Flies
+
+-   Identification:
+
+    -   Gray with checkerboard pattern
+    -   7-8 mm in size
+    -   Bloodfeeders
+    -   Congregate on legs
+    -   Present mid-May through September
+
+-   Prevention and Control:
+
+    -   Sanitation is most effective, removing locations for larvae to develop such as manure piles
+    -   Measures should be taken when even 5 flies per head are present
+    -   Tend to rest in shaded areas and premise spraying can create some relief
+:::
+::::::

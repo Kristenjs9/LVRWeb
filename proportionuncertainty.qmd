@@ -1,0 +1,12 @@
+---
+title: "Proportions and Power"
+---
+
+::: {style="display: flex; justify-content: center; gap: 10px;"}
+<a href="https://lvr-explore.shinyapps.io/ShinyCIforProportion/" button type="button" class="btn btn-lg btn-info">CI for Proportions</button> </a>
+
+<a href="https://lvr-explore.shinyapps.io/PropUncertainty/" button type="button" class="btn btn-lg btn-info">Proportional Uncertainty</button> </a>
+
+<a href="https://lvr-explore.shinyapps.io/Power_Curves_Binomial_Prop/" button type="button" class="btn btn-lg btn-info">Power Curves</button> </a>
+:::
+

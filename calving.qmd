@@ -1,0 +1,47 @@
+---
+title: "Calving"
+---
+
+::::: columns
+::: {.column width="60%"}
+**Stage 1**\
+Animal is restless, may get up and down, abdominal contractions present\
+*Duration: 1–12 hours*
+
+⇩
+
+**Stage 2**\
+Water bag out or animal is laying down pushing\
+*Duration:*
+
+-   *1–2 hours (cow)*
+
+-   *1–4 hours (heifer)*
+
+⇩
+
+**Calf Delivered**
+
+------------------------------------------------------------------------
+
+**Cow should make progress every 30 minutes.**\
+If you come back 30 min later and everything looks the same, you likely have a problem.
+:::
+
+::: {.column width="40%"}
+**Dummy Calves**
+
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/rJl0nuyqrGI?si=loCXo6R8qxyPZySU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+<br><br>
+
+![](images/calving.jpg){width="286"}
+
+<br>
+
+[Image Source](https://hansendairy.files.wordpress.com/2013/05/normal.jpg)
+
+:::
+:::::

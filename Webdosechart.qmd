@@ -1,0 +1,104 @@
+---
+format: html
+editor: visual
+echo: false
+warnings: false
+embed-resources: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(tidyverse)
+library(DT)
+library(gt)
+library(shiny)
+
+```
+
+```{r}
+dose<-readxl::read_excel("data/Dosage Chart.xlsx") |> 
+  mutate(across(where(is.numeric), ceiling))
+```
+
+::: {.column-screen style="padding-left: 10px; padding-right: 10px;"}
+# Dosage Chart by Animal BW in lbs
+
+```{r}
+datatable(
+  dose,
+  options = list(
+    dom = 't',
+    pageLength = nrow(dose),
+    #scrollX = TRUE,
+    paging = FALSE,
+    ordering = FALSE,
+    # columnDefs = list(
+    #   list(targets = 0, width = "150px"), 
+    #   list(targets = 1, width = "200px"), 
+    #   list(targets = 2, width = "150px"),
+    #   list(targets = 3:15, width = "100px" )
+    # ),
+    drawCallback = JS(
+      "function() {
+         var table = this.api();
+         table.$('td').hover(
+           function() {
+             var idx = table.cell(this).index();
+             if (idx) {
+               $(table.row(idx.row).nodes()).addClass('row-highlight');
+               $(table.column(idx.column).nodes()).addClass('col-highlight');
+             }
+           },
+           function() {
+             var idx = table.cell(this).index();
+             if (idx) {
+               $(table.row(idx.row).nodes()).removeClass('row-highlight');
+               $(table.column(idx.column).nodes()).removeClass('col-highlight');
+             }
+           }
+         );
+         table.columns.adjust(); // Ensure proper alignment
+      }"
+    )
+  ),
+  escape = FALSE,
+  class = "hover highlight second-table", # Add a unique class
+  rownames = FALSE # Suppress the left index column
+) %>% 
+  htmlwidgets::onRender("
+    function(el) {
+      var sheet = document.createElement('style');
+      sheet.innerHTML = `
+        .second-table thead th {
+          font-size: 12px !important;
+          font-weight: bold !important;
+          padding: 8px !important;
+          text-align: center !important;
+          background-color: #f9f9f9 !important; /* Ensure a consistent background */
+        }
+        .second-table tbody td {
+          padding: 8px !important;
+          text-align: center !important;
+          font-size: 12px !important;
+        }
+        table.dataTable {
+          border-collapse: collapse !important;
+          width: 100% !important;
+        }
+        .second-table tbody td:hover {
+          outline: 2px solid red !important;
+        }
+        .second-table .row-highlight {
+          background-color: rgba(255, 200, 200, 0.4) !important;
+        }
+        .second-table .col-highlight {
+          background-color: rgba(255, 200, 200, 0.4) !important;
+        }
+      `;
+      document.body.appendChild(sheet);
+    }
+  ")
+
+```
+:::

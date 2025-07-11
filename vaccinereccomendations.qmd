@@ -1,0 +1,86 @@
+---
+title: "Vaccine Recommendations"
+---
+
+![](images/Calf.JPG){fig-align="left" width="331"}
+
+Calves should receive at minimum a 5 Way Respiratory vaccine and 7 Way Clostridial vaccine 2 times between 30 days of age and weaning.
+
+```{=html}
+<table style="border-collapse: collapse; width: 100%; table-layout: fixed; text-align: center; border: 1px solid #aaa;">
+  <thead style="background-color: #d3d3d3;">
+    <tr>
+      <th style="border: 1px solid #aaa; width: 33.33%; height: 80px;">Turnout</th>
+      <th style="border: 1px solid #aaa; width: 33.33%; ">Pre-Weaning</th>
+      <th style="border: 1px solid #aaa; width: 33.33%; ">Weaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="background-color: #e97451; border: 1px solid #aaa; width: 33.33%; height: 80px;">5 Way Respiratory</td>
+      <td style="background-color: #e97451; border: 1px solid #aaa; width: 33.33%; ">5 Way Respiratory</td>
+      <td style="border: 1px solid #aaa; width: 33.33%; "></td>
+    </tr>
+    <tr>
+      <td style="background-color: #7bb274; border: 1px solid #aaa; width: 33.33%; ">7 Way Clostridial</td>
+      <td style="background-color: #7bb274; border: 1px solid #aaa; width: 33.33%; ">7 Way Clostridial</td>
+      <td style="border: 1px solid #aaa; width: 33.33%; "></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table style="border-collapse: collapse; width: 100%; table-layout: fixed; text-align: center; border: 1px solid #aaa;">
+  <thead style="background-color: #d3d3d3;">
+    <tr>
+      <th style="border: 1px solid #aaa; width: 33.33%; height: 80px;">Turnout</th>
+      <th style="border: 1px solid #aaa; width: 33.33%; ">Pre-Weaning</th>
+      <th style="border: 1px solid #aaa; width: 33.33%; ">Weaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="background-color: #e97451; border: 1px solid #aaa; width: 33.33%; ">5 Way Respiratory</td>
+      <td style="border: 1px solid #aaa;"></td>
+      <td style="background-color: #e97451; border: 1px solid #aaa; width: 33.33%; ">5 Way Respiratory</td>
+    </tr>
+    <tr>
+      <td style="background-color: #7bb274; border: 1px solid #aaa; width: 33.33%; ">7 Way Clostridial</td>
+      <td style="border: 1px solid #aaa; width: 33.33%; "></td>
+      <td style="background-color: #7bb274; border: 1px solid #aaa; width: 33.33%; ">7 Way Clostridial</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br>
+
+<table style="border-collapse: collapse; width: 100%; table-layout: fixed; text-align: center; border: 1px solid #aaa;">
+  <thead style="background-color: #d3d3d3;">
+    <tr>
+      <th style="border: 1px solid #aaa; width: 33.33%; height: 80px;">Turnout</th>
+      <th style="border: 1px solid #aaa; width: 33.33%; ">Pre-Weaning</th>
+      <th style="border: 1px solid #aaa; width: 33.33%; ">Weaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #aaa;"></td>
+      <td style="background-color: #e97451; border: 1px solid #aaa; width: 33.33%; ">5 Way Respiratory</td>
+      <td style="background-color: #e97451; border: 1px solid #aaa; width: 33.33%; ">5 Way Respiratory</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #aaa; width: 33.33%; "></td>
+      <td style="background-color: #7bb274; border: 1px solid #aaa; width: 33.33%; ">7 Way Clostridial</td>
+      <td style="background-color: #7bb274; border: 1px solid #aaa; width: 33.33%; ">7 Way Clostridial</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+```
+
+**\*3-week minimum between pre-weaning and weaning\***
+
+Contact us with questions and for more information!

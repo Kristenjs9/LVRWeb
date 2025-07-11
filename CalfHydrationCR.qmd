@@ -1,0 +1,19 @@
+---
+title: "Calf Hydration"
+---
+
+![](images/CalfHydration.png){width="598"}
+
+<br><br>
+
+LVR Recommended Products:
+
+::::: columns
+::: {.column width="50%"}
+![](images/Epic.png){fig-align="right" width="162"}
+:::
+
+::: {.column width="50%"}
+![](images/Replenish.png){fig-align="left" width="154"}
+:::
+:::::
