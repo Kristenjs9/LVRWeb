@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  navbar:
+    logo: images/LVR.png
+    background: primary
+    search: false
+    left: 
+      - text: "Home"
+        href: index.qmd
+      - text: "Client Resources"
+        menu:
+          - text: "Calf Hydration and Colostrum"
+            href: CalfHydrationCR.qmd
+          - text: "Fly Information"
+            href: flyinformation.qmd
+          - text: "Vaccine Recommendations"
+            href: vaccinereccomendations.qmd
+          - text: "Calving"
+            href: calving.qmd
+          - text: "Dosage Chart"
+            href: Webdosechart.qmd
+      - text: "Vet Resources"
+        menu: 
+          - text: "Proportions and Power"
+            href: proportionuncertainty.qmd
+          - text: "Sample Size - 2 Proportion"
+            href: samplesize.qmd
+          - text: "Shiny Green Book"
+            href: shinygreenbook.qmd
+          - text: "Cattle Heat Stress Resources"
+            href: heatstress.qmd
+          - text: "Feedlot Reporting"
+            href: feedlotreporting.qmd
+          - text: "AST Interpreter"
+            href: astinterpreter.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - text: "About"
+        href: about.qmd
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
