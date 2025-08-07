@@ -1,0 +1,8 @@
+---
+title: "MicroBeef Cattle Inventory"
+---
+::: {style="display: flex; justify-content: center; gap: 10px;"}
+
+<iframe src="https://lvr-explore.shinyapps.io/CattleInventory_Micro/" width="800" height="600"></iframe>
+
+:::
