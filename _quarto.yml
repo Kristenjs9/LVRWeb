@@ -21,6 +21,8 @@ website:
             href: calving.qmd
           - text: "Dosage Chart"
             href: Webdosechart.qmd
+          - text: "MicroBeef Cattle Inventory"
+            href: CattleInventory.qmd
       - text: "Vet Resources"
         menu: 
           - text: "Proportions and Power"
@@ -49,3 +51,6 @@ format:
     toc: true
 
 editor: visual
+
+resources:
+  - CNAME
