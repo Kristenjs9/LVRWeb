@@ -3,5 +3,13 @@ title: "Shiny Green Book"
 ---
 
 ::: {style="display: flex; justify-content: center; gap: 10px;"}
-<a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" button type="button" class="btn btn-lg btn-info">Shiny Green Book</button> </a>
+<a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" button type="button" class="btn btn-lg btn-info">Electronic Green Book</button> </a>
 :::
+
+
+<script>
+document.querySelectorAll("a").forEach(link => {
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener noreferrer");
+});
+</script>
