@@ -5,6 +5,3 @@ title: "Shiny Green Book"
 ::: {style="display: flex; justify-content: center; gap: 10px;"}
 <a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" button type="button" class="btn btn-lg btn-info">Shiny Green Book</button> </a>
 :::
-
-
-
