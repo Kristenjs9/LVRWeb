@@ -8,9 +8,3 @@ title: "Shiny Green Book"
 
 
 
-<script>
-document.querySelectorAll("a").forEach(link => {
-  link.setAttribute("target", "_blank");
-  link.setAttribute("rel", "noopener noreferrer");
-});
-</script>
