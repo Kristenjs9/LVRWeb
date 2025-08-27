@@ -1,5 +1,7 @@
 ---
-title: "Shiny Green Book"
+title: ""
 ---
 
-<iframe src="https://lvr-explore.shinyapps.io/shinyGreenbook/" width="800" height="600"></iframe>
+::: {style="display: flex; justify-content: center; gap: 10px;"}
+<a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" button type="button" class="btn btn-lg btn-info">Shiny Green Book</button> </a>
+:::

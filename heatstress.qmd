@@ -2,6 +2,13 @@
 title: "Cattle Heat Stress Resources"
 ---
 
-K-State Mesonet Animal Comfort Index - this tool uses temperature, humidity, and wind speed to calculate an animal comfort index.  Cattle on pasture with plenty of water generally do not need special attention, but cattle in a lot might, and especially fat cattle in a lot.  Make sure you have a plan for providing extra water if the animal comfort index is in the orange or red.  Consider providing extra water when index is yellow if times of orange or red are predicted following the yellow time.
+K-State Mesonet Animal Comfort Index - this tool uses temperature, humidity, and wind speed to calculate an animal comfort index. Cattle on pasture with plenty of water generally do not need special attention, but cattle in a lot might, and especially fat cattle in a lot. Make sure you have a plan for providing extra water if the animal comfort index is in the orange or red. Consider providing extra water when index is yellow if times of orange or red are predicted following the yellow time.
 
-<iframe width="100%" height="100%" src="https://mesonet.k-state.edu/agriculture/animal/" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+::: {style="display: flex; justify-content: center; gap: 10px;"}
+<a href="https://mesonet.k-state.edu/agriculture/animal/" button type="button" class="btn btn-lg btn-info">Heat Stress</button> </a>
+
+<a href="https://lvr-explore.shinyapps.io/HeatStressWater/" button type="button" class="btn btn-lg btn-info">Water Requirements</button> </a>
+:::
+
+
+

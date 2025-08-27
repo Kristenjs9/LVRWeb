@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-**Under Construction - check back soon!**
+![](images/Nora.jpg){width="110"} **Dr. Nora Schrag**
+
+Nora Schrag received her DVM from Kansas State University in 2006, and then spent her first year of practice in the Chaco region of Paraguay.  For the next 6 years she enjoyed rural mixed animal practice in southeast Nebraska.  She then returned to Kansas State College of Veterinary Medicine to teach livestock field services.  This position eventually transitioned into doing research, a PhD, and board certification in clinical pharmacology (Dip. ACVCP).  Nora enjoys the challenge of applying research within the real world of clinical practice.  Her time is split between practice in the flint hills of Kansas and doing data analytics for a variety of veterinary related projects.
+
+![](images/kristen.jpg){width="100"} **Kristen Smith**
+
+Kristen graduated with a Masters in Veterinary Clinical Sciences from Kansas State University in 2022. She completed her bachelors in Animal Science at Kansas State University in 2020, she spent 3 years during undergrad working at the Beef Cattle Research Center as well as a summer at the Dairy. She grew up with horses and now manages a horse boarding facility in Randolph, KS. Kristen is passionate about improving animal health and welfare through data analysis and evidence-based practices. She proudly holds the title of "Sidekick" to Dr. Schrag, and is excited to be a part of the Livestock Vet Resource team.

@@ -1,8 +1,19 @@
 ---
-title: "MicroBeef Cattle Inventory"
+title: ""
 ---
-::: {style="display: flex; justify-content: center; gap: 10px;"}
 
-<iframe src="https://lvr-explore.shinyapps.io/CattleInventory/" width="800" height="600"></iframe>
+::::: columns
+::: {.column width="50%"}
+## MicroBeef Cattle Inventory
+:::
 
+::: {.column width="50%"}
+![](images/feedlotsteers.JPG){width="250%" style="border-radius:8px;"}
+:::
+:::::
+
+::: {style="text-align:center; margin-top:0.25rem;"}
+<iframe src="https://lvr-explore.shinyapps.io/CattleInventory/" width="900" height="650">
+
+</iframe>
 :::
