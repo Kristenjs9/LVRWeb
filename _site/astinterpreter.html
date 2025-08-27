@@ -216,6 +216,10 @@ Warning
 
 
 </main> <!-- /main -->
+document.querySelectorAll("a[href^='http']").forEach(link =&gt; {
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener noreferrer");
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
