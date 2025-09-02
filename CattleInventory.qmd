@@ -2,18 +2,23 @@
 title: ""
 ---
 
-::::: columns
-::: {.column width="50%"}
+::::::: columns
+::::: {.column width="50%"}
 ## MicroBeef Cattle Inventory
+
+::: callout-warning
+This application only works if your herd has been set up through LVR
 :::
 
-::: {.column width="50%"}
-![](images/feedlotsteers.JPG){width="250%" style="border-radius:8px;"}
+<br>
+
+::: text-center
+<a href="https://lvr-explore.shinyapps.io/CattleInventory/"
+     class="btn btn-lg btn-info w-80"> Cattle Inventory </a>
 :::
 :::::
 
-::: {style="text-align:center; margin-top:0.25rem;"}
-<iframe src="https://lvr-explore.shinyapps.io/CattleInventory/" width="900" height="650">
-
-</iframe>
+::: {.column width="50%"}
+![](images/feedlotsteers.JPG){style="border-radius:8px;" width="100%"}
 :::
+:::::::

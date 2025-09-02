@@ -1,1 +1,13 @@
+/* Increase navbar logo size */
+.navbar-brand img {
+  height: 80px !important;   /* adjust size */
+  max-height: 80px !important;
+  width: auto;               /* keep proportions */
+}
+
+/* Keep logo vertically centered in navbar */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
 /* css styles */

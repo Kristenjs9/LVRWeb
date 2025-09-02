@@ -1,11 +1,22 @@
 ---
 title: "Contact"
 ---
-
+::::::: columns
+::::: {.column width="50%"}
 **Dr. Nora Schrag**
 
 Phone: (620) 755-3500
 
 Email: LivestockVets\@gmail.com
 
+**Kristen Smith**
+
+Phone: (913) 449-2858
+
 We look forward to hearing from you!
+:::::
+
+::: {.column width="50%"}
+![](images/Willow.jpg)
+:::
+:::::::

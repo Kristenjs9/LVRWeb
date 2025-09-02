@@ -6,4 +6,4 @@ title: "Livestock Veterinary Resources"
 
 **Research:** LVR participates in contract research projects which improve livestock health by supporting policy change and product development.
 
-
+![](images/FlintHills.jpg){fig-align="center" width="627" height="285"}

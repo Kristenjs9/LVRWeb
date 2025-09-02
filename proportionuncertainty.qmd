@@ -13,6 +13,6 @@ Do NOT use this page unless you understand the limitations of these calculations
 <a href="https://lvr-explore.shinyapps.io/Power_Curves_Binomial_Prop/" button type="button" class="btn btn-lg btn-info">Power Curves</button> </a>
 :::
 
-![](images/stats.jpeg){fig-align="center" width="180"}
+![](images/stats.jpeg){fig-align="center" width="300"}
 
 
