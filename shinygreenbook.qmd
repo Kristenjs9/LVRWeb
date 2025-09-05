@@ -2,7 +2,6 @@
 title: " "
 ---
 
-::: {style="display: flex; justify-content: center; gap: 10px;"}
-<a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" button type="button" class="btn btn-lg btn-info">Electronic Green Book</button> </a>
+::: text-center
+<a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" button type="button" class="btn btn-lg btn-info w-120">Electronic Green Book</button> </a>
 :::
-

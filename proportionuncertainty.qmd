@@ -1,7 +1,12 @@
 ---
+
+---
+
+---
 title: "Proportions and Power"
 ---
-::: {.callout-warning}
+
+::: callout-warning
 Do NOT use this page unless you understand the limitations of these calculations, and when they do not apply.
 :::
 
@@ -13,6 +18,7 @@ Do NOT use this page unless you understand the limitations of these calculations
 <a href="https://lvr-explore.shinyapps.io/Power_Curves_Binomial_Prop/" button type="button" class="btn btn-lg btn-info">Power Curves</button> </a>
 :::
 
-![](images/stats.jpeg){fig-align="center" width="300"}
+![](images/p_values.png){fig-align="center"}
 
+[Source: ExplainXKCD](https://www.explainxkcd.com/wiki/index.php/2048:_Curve-Fitting)
 

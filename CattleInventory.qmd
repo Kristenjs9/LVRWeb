@@ -6,15 +6,13 @@ title: ""
 ::::: {.column width="50%"}
 ## MicroBeef Cattle Inventory
 
-::: callout-warning
+:::{.callout-note}
 This application only works if your herd has been set up through LVR
 :::
 
-<br>
-
 ::: text-center
 <a href="https://lvr-explore.shinyapps.io/CattleInventory/"
-     class="btn btn-lg btn-info w-80"> Cattle Inventory </a>
+     class="btn btn-lg btn-info w-100"> Cattle Inventory </a>
 :::
 :::::
 

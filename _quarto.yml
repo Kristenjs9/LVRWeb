@@ -23,6 +23,8 @@ website:
             href: Webdosechart.qmd
           - text: "MicroBeef Cattle Inventory"
             href: CattleInventory.qmd
+          - text: "Repro Protocols"
+            href: ReproProtocols.qmd
       - text: "Vet Resources"
         menu: 
           - text: "Proportions and Power"
@@ -48,7 +50,7 @@ format:
       - flatly
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 

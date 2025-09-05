@@ -4,21 +4,21 @@
     "href": "vaccinereccomendations.html",
     "title": "Vaccine Recommendations",
     "section": "",
-    "text": "Calves should receive at minimum a 5 Way Respiratory vaccine and 7 Way Clostridial vaccine 2 times between 30 days of age and weaning.\n\n\n\nTurnout\nPre-Weaning\nWeaning\n\n\n\n\n5 Way Respiratory\n5 Way Respiratory\n\n\n\n7 Way Clostridial\n7 Way Clostridial\n\n\n\n\n\n\n\n\n\n\n\n\nTurnout\nPre-Weaning\nWeaning\n\n\n\n\n5 Way Respiratory\n\n5 Way Respiratory\n\n\n7 Way Clostridial\n\n7 Way Clostridial\n\n\n\n\n\n\n\n\n\n\n\n\nTurnout\nPre-Weaning\nWeaning\n\n\n\n\n\n5 Way Respiratory\n5 Way Respiratory\n\n\n\n7 Way Clostridial\n7 Way Clostridial\n\n\n\n\n\n\n*3-week minimum between pre-weaning and weaning*\nContact us with questions and for more information!"
+    "text": "Calves should receive at minimum a 5 Way Respiratory vaccine and 7 Way Clostridial vaccine 2 times between 30 days of age and weaning.\n\n\n\n  \n    Option 1\n  \n\n  \n\n\n\nTurnout\nPre-Weaning\nWeaning\n\n\n\n\n5 Way Respiratory\n5 Way Respiratory\n\n\n\n7 Way Clostridial\n7 Way Clostridial\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    Option 2\n  \n\n  \n\n\n\nTurnout\nPre-Weaning\nWeaning\n\n\n\n\n5 Way Respiratory\n\n5 Way Respiratory\n\n\n7 Way Clostridial\n\n7 Way Clostridial\n\n\n\n\n\n\n\n\n\n\n\n  \n    Option 3\n  \n\n  \n\n\n\nTurnout\nPre-Weaning\nWeaning\n\n\n\n\n\n5 Way Respiratory\n5 Way Respiratory\n\n\n\n7 Way Clostridial\n7 Way Clostridial\n\n\n\n\n\n\n\n*3-week minimum between pre-weaning and weaning*\nContact us with questions and for more information!"
   },
   {
     "objectID": "CattleInventory.html",
     "href": "CattleInventory.html",
     "title": "",
     "section": "",
-    "text": "Warning\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n\n Cattle Inventory"
+    "text": "Note\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n Cattle Inventory"
   },
   {
     "objectID": "CattleInventory.html#microbeef-cattle-inventory",
     "href": "CattleInventory.html#microbeef-cattle-inventory",
     "title": "",
     "section": "",
-    "text": "Warning\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n\n Cattle Inventory"
+    "text": "Note\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n Cattle Inventory"
   },
   {
     "objectID": "heatstress.html",
@@ -56,18 +56,25 @@
     "text": "Electronic Green Book"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Dr. Nora Schrag\nPhone: (620) 755-3500\nEmail: LivestockVets@gmail.com\nKristen Smith\nPhone: (913) 449-2858\nWe look forward to hearing from you!"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
     "text": "LVR participates in multiple research projects aimed at improving livestock health, and has a special interest in antimicrobial stewardship.  We are passionate about improving our ability to fully evaluate the effects of treatments we recommend for livestock systems.    \nFor more detailed information about research activities please contact us by phone (620-755-3500) or email (livestockvets@gmail.com)."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Dr. Nora Schrag\nPhone: (620) 755-3500 Email: LivestockVets@gmail.com\nKristen Smith\nPhone: (913) 449-2858\nWe look forward to hearing from you!"
+  },
+  {
+    "objectID": "ReproProtocols.html",
+    "href": "ReproProtocols.html",
+    "title": "Repro Protocols",
+    "section": "",
+    "text": "Click Here"
   },
   {
     "objectID": "calving.html",
@@ -109,7 +116,7 @@
     "href": "proportionuncertainty.html",
     "title": "Proportions and Power",
     "section": "",
-    "text": "Warning\n\n\n\nDo NOT use this page unless you understand the limitations of these calculations, and when they do not apply.\n\n\n\nCI for Proportions \nProportional Uncertainty \nPower Curves"
+    "text": "Warning\n\n\n\nDo NOT use this page unless you understand the limitations of these calculations, and when they do not apply.\n\n\n\nCI for Proportions \nProportional Uncertainty \nPower Curves \n\n\n\n\n\n\nSource: ExplainXKCD"
   },
   {
     "objectID": "samplesize.html",

@@ -10,5 +10,4 @@ K-State Mesonet Animal Comfort Index - this tool uses temperature, humidity, and
 <a href="https://lvr-explore.shinyapps.io/HeatStressWater/" button type="button" class="btn btn-lg btn-info">Water Requirements</button> </a>
 :::
 
-
-
+![](images/Water.jpg){fig-align="center" width="212"}
