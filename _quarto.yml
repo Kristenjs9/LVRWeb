@@ -37,6 +37,8 @@ website:
             href: feedlotreporting.qmd
           - text: "AST Interpreter"
             href: astinterpreter.qmd
+          - text: "Regimen Spend"
+            href: regimenspend.qmd
       - text: "Research"
         href: research.qmd
       - text: "Contact"

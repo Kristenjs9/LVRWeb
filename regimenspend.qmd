@@ -1,0 +1,7 @@
+---
+title: "Regimen Spend"
+---
+
+::: text-center
+<a href="https://lvr-explore.shinyapps.io/RegimenSpend/" button type="button" class="btn btn-lg btn-info w-120">Regimen Spend</button> </a>
+:::
