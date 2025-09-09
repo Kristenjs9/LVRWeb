@@ -1,5 +1,6 @@
 ---
 title: "Livestock Veterinary Resources"
+page-layout: full
 ---
 
 **Clinical Veterinary Services:** LVR partners with clients to improve herd health by providing production data analytics and mobile large animal clinical veterinary services to select clients near Olsburg, KS.   

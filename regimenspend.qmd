@@ -1,13 +1,18 @@
 ---
-title: " "
+title: "Metaphylaxis Decisions"
+title-block: false
+page-layout: full
 ---
 
-<div style="width:100%; text-align:center; margin-bottom: 1rem;">
-  <img src="images/amy.jpeg" 
+::: {style="width:100%; text-align:center; margin-bottom: 1rem;"}
+```{=html}
+<img src="images/amy.jpeg" 
        style="width:100%; max-height:250px; object-fit:cover; border-radius:8px;" />
-</div>
+```
+:::
 
 ::: text-center
 <a href="https://lvr-explore.shinyapps.io/RegimenSpend/" button type="button" class="btn btn-lg btn-info w-120">Explore Metaphylaxis Decisions</button> </a>
 :::
 
+![](images/target.metric.png){fig-align="center" width="256"}

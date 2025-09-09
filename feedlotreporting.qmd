@@ -2,7 +2,7 @@
 title: "Feedlot Reporting"
 ---
 
-**Under Construction**
+**Under Construction! Check back soon!**
 
 <!-- Graphics and summaries from report files downloaded from your Microbeef Accu-Trac software, if your file size is large you may need to be patient while the page loads. <br> Although you upload a file to the generator, it doesn't store that file. So, if you wish to reproduce a report you need to keep your original file to upload again. Or just screen shot the report when you generate it. <br> If you have questions about how to use this report generator please text Dr. Nora at 620-755-3500 -->
 

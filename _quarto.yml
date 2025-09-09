@@ -37,7 +37,7 @@ website:
             href: feedlotreporting.qmd
           - text: "AST Interpreter"
             href: astinterpreter.qmd
-          - text: "Regimen Spend"
+          - text: "Metaphylaxis Decisions"
             href: regimenspend.qmd
       - text: "Research"
         href: research.qmd
