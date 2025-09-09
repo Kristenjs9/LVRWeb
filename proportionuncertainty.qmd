@@ -1,6 +1,6 @@
----
+------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
 ---
 title: "Proportions and Power"
@@ -21,4 +21,3 @@ Do NOT use this page unless you understand the limitations of these calculations
 ![](images/p_values.png){fig-align="center"}
 
 [Source: ExplainXKCD](https://www.explainxkcd.com/wiki/index.php/2048:_Curve-Fitting)
-

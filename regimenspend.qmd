@@ -16,3 +16,5 @@ page-layout: full
 :::
 
 ![](images/target.metric.png){fig-align="center" width="256"}
+
+[Source: ExplainXKCD](https://www.explainxkcd.com/wiki/index.php/2899:_Goodhart%27s_Law)
