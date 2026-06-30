@@ -49,6 +49,9 @@ a:hover {
 .navbar {
   background-color: var(--lvr-navy) !important;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  min-height: 1200px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .navbar-brand img {
@@ -65,10 +68,10 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link,
 .navbar .nav-link {
   color: rgba(255, 255, 255, 0.92) !important;
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding-left: 0.85rem;
-  padding-right: 0.85rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navbar .nav-link:hover,
@@ -86,9 +89,10 @@ a:hover {
 
 .navbar .dropdown-item {
   border-radius: 6px;
-  font-size: 0.92rem;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--lvr-navy);
-  padding: 0.5rem 0.85rem;
+  padding: 0.55rem 0.9rem;
 }
 
 /* ---------------------------------------------------------
