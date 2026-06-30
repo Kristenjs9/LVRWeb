@@ -1,0 +1,40 @@
+---
+title: "Client Portal"
+draft: true
+---
+
+::::::: columns
+::::: {.column width="60%"}
+## Access Your Client Portal
+
+Our online client portal gives you secure, anytime access to your account with LVR — including invoices, and herd health records.
+
+### What you can do in the portal
+
+- View and pay invoices online
+- Access medical records and treatment history for your herd
+- Request appointments or refills
+
+### Logging in
+
+1.  Click the **Client Portal** button below.
+2.  Enter the email on file with our clinic.
+3.  You will be sent a login link to your email.
+4.  Once logged in, you'll see a dashboard with your account summary and any medical records, VFD's, health papers, visit history and more.
+
+::: callout-note
+If you don't see your account information after logging in, or you're having trouble accessing the portal, please [contact us](contact.qmd) and we'll get you set up.
+:::
+
+::: text-center
+<a href="https://lvr.portal.instinctvet.com"
+   class="btn btn-lg btn-info w-100"
+   target="_blank"
+   rel="noopener"> Go to Client Portal </a>
+:::
+:::::
+
+::: {.column width="40%"}
+![](images/Willow.jpg){style="border-radius:8px;" width="100%"}
+:::
+:::::::

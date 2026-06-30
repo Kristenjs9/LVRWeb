@@ -1,13 +1,198 @@
-/* Increase navbar logo size */
-.navbar-brand img {
-  height: 80px !important;   /* adjust size */
-  max-height: 80px !important;
-  width: auto;               /* keep proportions */
+/* =========================================================
+   LVR Site Theme — Navy & White
+   ========================================================= */
+
+:root {
+  --lvr-navy: #0d2240;
+  --lvr-navy-light: #1b3a63;
+  --lvr-navy-dark: #081729;
+  --lvr-white: #ffffff;
+  --lvr-gray-50: #f7f8fa;
+  --lvr-gray-100: #eef1f5;
+  --lvr-gray-300: #cdd5de;
+  --lvr-gray-600: #5b6877;
+  --lvr-text: #1f2937;
+  --lvr-radius: 10px;
+  --lvr-shadow: 0 2px 10px rgba(13, 34, 64, 0.08);
 }
 
-/* Keep logo vertically centered in navbar */
+body {
+  font-family: "Source Sans Pro", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--lvr-text);
+  background-color: var(--lvr-white);
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Source Sans Pro", "Segoe UI", system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--lvr-navy);
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.1rem; margin-bottom: 1rem; }
+h2 { font-size: 1.5rem; margin-top: 1.75rem; }
+h3 { font-size: 1.2rem; margin-top: 1.5rem; }
+
+a {
+  color: var(--lvr-navy);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--lvr-navy-light);
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------------
+   Navbar
+   --------------------------------------------------------- */
+.navbar {
+  background-color: var(--lvr-navy) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand img {
+  height: 64px !important;
+  max-height: 64px !important;
+  width: auto;
+}
+
 .navbar-brand {
   display: flex;
   align-items: center;
 }
-/* css styles */
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.92) !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.navbar .dropdown-menu {
+  border: none;
+  border-radius: var(--lvr-radius);
+  box-shadow: var(--lvr-shadow);
+  padding: 0.4rem;
+}
+
+.navbar .dropdown-item {
+  border-radius: 6px;
+  font-size: 0.92rem;
+  color: var(--lvr-navy);
+  padding: 0.5rem 0.85rem;
+}
+
+/* ---------------------------------------------------------
+   Page layout
+   --------------------------------------------------------- */
+main.content {
+  max-width: 1100px;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.title-block-header {
+  border-bottom: 2px solid var(--lvr-gray-100);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+/* ---------------------------------------------------------
+   Buttons
+   --------------------------------------------------------- */
+.btn,
+.btn-info,
+.btn-lg {
+  background-color: var(--lvr-navy) !important;
+  border: none !important;
+  color: var(--lvr-white) !important;
+  font-weight: 600;
+  border-radius: var(--lvr-radius);
+  padding: 0.7rem 1.4rem;
+  letter-spacing: 0.01em;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn:hover,
+.btn-info:hover {
+  background-color: var(--lvr-navy-light) !important;
+  color: var(--lvr-white) !important;
+  transform: translateY(-1px);
+}
+
+/* ---------------------------------------------------------
+   Images & figures
+   --------------------------------------------------------- */
+img {
+  border-radius: var(--lvr-radius);
+}
+
+figure, .quarto-figure {
+  margin-bottom: 1rem;
+}
+
+/* ---------------------------------------------------------
+   Callouts
+   --------------------------------------------------------- */
+.callout {
+  border-radius: var(--lvr-radius);
+  box-shadow: var(--lvr-shadow);
+  border-left-width: 5px;
+}
+
+.callout-note {
+  border-left-color: var(--lvr-navy) !important;
+  background-color: var(--lvr-gray-50) !important;
+}
+
+.callout-warning {
+  border-left-color: #b8860b !important;
+  background-color: #fdf6e7 !important;
+}
+
+/* ---------------------------------------------------------
+   Cards / panel-style content blocks
+   --------------------------------------------------------- */
+.lvr-card {
+  background-color: var(--lvr-white);
+  border: 1px solid var(--lvr-gray-100);
+  border-radius: var(--lvr-radius);
+  box-shadow: var(--lvr-shadow);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------------------------------------------------------
+   Tables (DT / gt)
+   --------------------------------------------------------- */
+table.dataTable thead th {
+  background-color: var(--lvr-navy) !important;
+  color: var(--lvr-white) !important;
+}
+
+/* ---------------------------------------------------------
+   Footer
+   --------------------------------------------------------- */
+.nav-footer {
+  border-top: 1px solid var(--lvr-gray-100);
+  color: var(--lvr-gray-600);
+  font-size: 0.85rem;
+  padding-top: 1rem;
+}
+
+/* ---------------------------------------------------------
+   Responsive tweaks
+   --------------------------------------------------------- */
+@media (max-width: 768px) {
+  h1 { font-size: 1.6rem; }
+  .navbar-brand img { height: 48px !important; max-height: 48px !important; }
+}

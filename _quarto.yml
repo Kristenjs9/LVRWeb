@@ -9,22 +9,36 @@ website:
     left: 
       - text: "Home"
         href: index.qmd
-      - text: "Client Resources"
+      - text: "Calf Care"
         menu:
           - text: "Calf Hydration and Colostrum"
             href: CalfHydrationCR.qmd
-          - text: "Fly Information"
-            href: flyinformation.qmd
-          - text: "Vaccine Recommendations"
-            href: vaccinereccomendations.qmd
           - text: "Calving"
             href: calving.qmd
+          - text: "Vaccine Recommendations"
+            href: vaccinereccomendations.qmd
+      - text: "Cattle Health"
+        menu:
+          - text: "Fly Information"
+            href: flyinformation.qmd
+          - text: "Prolapses"
+            href: prolapses.qmd
+          - text: "Bloat"
+            href: bloat.qmd
+          - text: "Johne's Disease"
+            href: johnesdisease.qmd
+          - text: "Lameness"
+            href: hairyheelwart.qmd
+      - text: "Other Client Resources"
+        menu:
           - text: "Dosage Chart"
             href: Webdosechart.qmd
           - text: "MicroBeef Cattle Inventory"
             href: CattleInventory.qmd
           - text: "Repro Protocols"
             href: ReproProtocols.qmd
+            # - text: "Client Portal"
+            #   href: clientportal.qmd
       - text: "Vet Resources"
         menu: 
           - text: "Proportions and Power"
@@ -41,16 +55,12 @@ website:
             href: regimenspend.qmd
       - text: "Research"
         href: research.qmd
-      - text: "Contact"
-        href: contact.qmd
       - text: "About"
         href: about.qmd
 
 format:
   html:
-    theme:
-      - flatly
-      - brand
+    theme: cosmo
     css: styles.css
     toc: false
 

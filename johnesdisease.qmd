@@ -1,0 +1,34 @@
+---
+title: "Johne's Disease"
+draft: false
+---
+
+## Overview
+
+Johne's disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by *Mycobacterium avium subspecies paratuberculosis (MAP)*. It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don't appear until 3years of age or older.
+
+## Signs
+
+- Chronic, watery diarrhea without blood or straining
+- Progressive weight loss despite normal appetite
+- Decreased milk production
+- Normal temperature (helps distinguish from other causes of diarrhea)
+
+## Why it matters
+
+- There is no cure once an animal is clinically affected.
+- Infected animals shed bacteria into the environment well before showing symptoms, making early detection and herd-level management critical.
+- Can have economic impacts through reduced productivity and culling.
+
+## Prevention & Management
+
+- Test and cull strategically to reduce herd prevalence
+- Manage calving areas to minimize manure contact with newborn calves
+- Feed colostrum/milk only from test-negative dams when possible
+- Maintain clean water and feed sources, away from manure runoff
+
+:::{.callout-note}
+Ask us about herd-level testing options if you suspect Johne's disease may be present in your herd.
+:::
+
+Contact us with questions and for more information!

@@ -8,3 +8,17 @@ page-layout: full
 **Research:** LVR participates in contract research projects which improve livestock health by supporting policy change and product development.
 
 ![](images/FlintHills.jpg){fig-align="center" width="627" height="285"}
+
+Want to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our [About page](about.qmd).
+
+:::: columns
+::: {.column width="50%"}
+**Dr. Nora Schrag and Dr. Tara Fountain**
+
+Phone: (785) 333-8384
+
+Email: LivestockVets\@gmail.com
+
+We look forward to hearing from you!
+:::
+::::

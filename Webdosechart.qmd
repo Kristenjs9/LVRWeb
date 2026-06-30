@@ -101,4 +101,10 @@ datatable(
   ")
 
 ```
+
+<p style="font-size: 0.85rem; color: #5b6877; margin-top: 0.75rem;">
+
+**SC** = Subcutaneous (Under Skin)  \|  **IV** = In the vein  \|  **TD** = Transdermal (On Skin)  \|  **WT** = Withdrawal time
+
+</p>
 :::
