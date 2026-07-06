@@ -30,7 +30,7 @@ datatable(
   options = list(
     dom = 't',
     pageLength = nrow(dose),
-    #scrollX = TRUE,
+    scrollX = TRUE,
     paging = FALSE,
     ordering = FALSE,
     # columnDefs = list(
@@ -75,7 +75,8 @@ datatable(
           font-weight: bold !important;
           padding: 8px !important;
           text-align: center !important;
-          background-color: #f9f9f9 !important; /* Ensure a consistent background */
+          background-color: #0d2240 !important;
+          color: #ffffff !important;
         }
         .second-table tbody td {
           padding: 8px !important;
@@ -87,13 +88,13 @@ datatable(
           width: 100% !important;
         }
         .second-table tbody td:hover {
-          outline: 2px solid red !important;
+          outline: 2px solid #b8621b !important;
         }
         .second-table .row-highlight {
-          background-color: rgba(255, 200, 200, 0.4) !important;
+          background-color: rgba(184, 98, 27, 0.12) !important;
         }
         .second-table .col-highlight {
-          background-color: rgba(255, 200, 200, 0.4) !important;
+          background-color: rgba(184, 98, 27, 0.12) !important;
         }
       `;
       document.body.appendChild(sheet);

@@ -12,7 +12,7 @@ page-layout: full
 :::
 
 ::: text-center
-<a href="https://lvr-explore.shinyapps.io/RegimenSpend/" button type="button" class="btn btn-lg btn-info w-120">Explore Metaphylaxis Decisions</button> </a>
+<a href="https://lvr-explore.shinyapps.io/RegimenSpend/" class="btn btn-lg btn-info">Explore Metaphylaxis Decisions</a>
 :::
 
 ![](images/target.metric.png){fig-align="center" width="256"}

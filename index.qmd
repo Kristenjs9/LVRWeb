@@ -3,16 +3,32 @@ title: "Livestock Veterinary Resources"
 page-layout: full
 ---
 
-**Clinical Veterinary Services:** LVR partners with clients to improve herd health by providing production data analytics and mobile large animal clinical veterinary services to select clients near Olsburg, KS.   
+---
+title: "Livestock Veterinary Resources"
+page-layout: full
+---
+
+**Clinical Veterinary Services:** LVR partners with clients to improve herd health by providing production data analytics and mobile large animal clinical veterinary services to select clients near Olsburg, KS.
 
 **Research:** LVR participates in contract research projects which improve livestock health by supporting policy change and product development.
 
-![](images/FlintHills.jpg){fig-align="center" width="627" height="285"}
+::: lvr-hero-slideshow
+![](images/FlintHills.jpg)
+
+![](images/black2.JPG)
+
+![](images/red1.JPG)
+
+![](images/pair.jpg)
+
+![](images/cow.jpg)
+
+![](images/Fireflinthills.jpg)
+:::
 
 Want to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our [About page](about.qmd).
 
-:::: columns
-::: {.column width="50%"}
+::: lvr-contact-card
 **Dr. Nora Schrag and Dr. Tara Fountain**
 
 Phone: (785) 333-8384
@@ -21,4 +37,3 @@ Email: LivestockVets\@gmail.com
 
 We look forward to hearing from you!
 :::
-::::

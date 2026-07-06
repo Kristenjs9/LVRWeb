@@ -200,6 +200,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./clientportal.html"> 
+<span class="menu-text">Client Portal</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -235,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="width:100%; text-align:center; margin-bottom: 1rem;">
-<p><img src="images/red1.jpg" style="width:100%; max-height:250px; object-fit:cover; border-radius:8px;"></p>
+<img src="images/drugshelf.jpeg" style="width:100%; max-height:250px; object-fit:cover; border-radius:8px;">
 </div>
 <p><a href="https://lvr-explore.shinyapps.io/shinyGreenbook/" class="btn btn-lg btn-info w-100" role="button"> Electronic Green Book </a></p>
 
@@ -315,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/www\.livestockveterinaryresources\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

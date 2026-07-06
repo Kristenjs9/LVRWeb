@@ -6,4 +6,4 @@ title: "AST Interpreter"
 This tool is still under development.
 :::
 
-<iframe src="https://lvr-explore.shinyapps.io/ASTInterpreter/"  width="800" height="600"></iframe>
+<iframe src="https://lvr-explore.shinyapps.io/ASTInterpreter/" style="width: 100%; max-width: 800px; height: 600px; display: block; margin: 0 auto;"></iframe>

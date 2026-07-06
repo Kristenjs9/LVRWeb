@@ -2,9 +2,15 @@
 title: "Repro Protocols"
 ---
 
-# [Click Here](https://beefrepro.org/)
+## Repro Protocols
 
-<div style="width:100%; text-align:center; margin-bottom: 1rem;">
+Visit the Beef Reproduction Task Force for current repro protocols.
+
+::: text-center
+<a href="https://beefrepro.org/" class="btn btn-lg btn-info" target="_blank" rel="noopener">Visit BeefRepro.org</a>
+:::
+
+<div style="width:100%; text-align:center; margin: 1.5rem 0 1rem;">
   <img src="images/BullsonHill.jpg" 
        style="width:100%; max-height:250px; object-fit:cover; border-radius:8px;" />
 </div>

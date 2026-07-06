@@ -37,8 +37,6 @@ website:
             href: CattleInventory.qmd
           - text: "Repro Protocols"
             href: ReproProtocols.qmd
-            # - text: "Client Portal"
-            #   href: clientportal.qmd
       - text: "Vet Resources"
         menu: 
           - text: "Proportions and Power"
@@ -57,7 +55,8 @@ website:
         href: research.qmd
       - text: "About"
         href: about.qmd
-
+      - text: "Client Portal"
+        href: clientportal.qmd
 format:
   html:
     theme: cosmo

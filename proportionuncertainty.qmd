@@ -1,7 +1,3 @@
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
 ---
 title: "Proportions and Power"
 ---
@@ -10,12 +6,12 @@ title: "Proportions and Power"
 Do NOT use this page unless you understand the limitations of these calculations, and when they do not apply.
 :::
 
-::: {style="display: flex; justify-content: center; gap: 10px;"}
-<a href="https://lvr-explore.shinyapps.io/ShinyCIforProportion/" button type="button" class="btn btn-lg btn-info">CI for Proportions</button> </a>
+::: {style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;"}
+<a href="https://lvr-explore.shinyapps.io/ShinyCIforProportion/" class="btn btn-lg btn-info">CI for Proportions</a>
 
-<a href="https://lvr-explore.shinyapps.io/PropUncertainty/" button type="button" class="btn btn-lg btn-info">Proportional Uncertainty</button> </a>
+<a href="https://lvr-explore.shinyapps.io/PropUncertainty/" class="btn btn-lg btn-info">Proportional Uncertainty</a>
 
-<a href="https://lvr-explore.shinyapps.io/Power_Curves_Binomial_Prop/" button type="button" class="btn btn-lg btn-info">Power Curves</button> </a>
+<a href="https://lvr-explore.shinyapps.io/Power_Curves_Binomial_Prop/" class="btn btn-lg btn-info">Power Curves</a>
 :::
 
 ![](images/p_values.png){fig-align="center"}
