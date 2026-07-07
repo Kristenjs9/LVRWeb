@@ -6684,6 +6684,35 @@ box-shadow: var(--lvr-shadow);
 padding: 1.5rem;
 margin-bottom: 1.5rem;
 }
+.lvr-card h3 {
+margin-top: 0;
+}
+
+.lvr-threshold {
+background-color: rgba(184, 98, 27, 0.08);
+border-left: 4px solid var(--lvr-accent);
+border-radius: 6px;
+padding: 0.6rem 0.9rem;
+margin: 0.85rem 0;
+font-size: 0.95rem;
+}
+
+.lvr-tag {
+display: inline-block;
+border-radius: 999px;
+padding: 0.2rem 0.75rem;
+font-size: 0.8rem;
+font-weight: 700;
+margin-right: 0.4rem;
+margin-bottom: 0.5rem;
+color: var(--lvr-white);
+}
+.lvr-tag-flies {
+background-color: var(--lvr-navy);
+}
+.lvr-tag-ticks {
+background-color: var(--lvr-accent);
+}
 
 .lvr-hero-slideshow {
 position: relative;
@@ -6701,7 +6730,6 @@ position: absolute;
 inset: 0;
 margin: 0;
 }
-
 .lvr-hero-slideshow > p img {
 position: absolute;
 inset: 0;
@@ -6716,7 +6744,6 @@ animation: lvr-hero-fade 30s infinite;
 .lvr-hero-slideshow > p:first-child img {
 object-position: center 75%;
 }
-
 .lvr-hero-slideshow > p:nth-child(1) img { animation-delay: 0s; }
 .lvr-hero-slideshow > p:nth-child(2) img { animation-delay: 5s; }
 .lvr-hero-slideshow > p:nth-child(3) img { animation-delay: 10s; }
@@ -6840,6 +6867,16 @@ table.dataTable thead th {
 background-color: var(--lvr-navy) !important;
 color: var(--lvr-white) !important;
 }
+table:not(.dataTable) thead th {
+background-color: var(--lvr-navy);
+color: var(--lvr-white);
+vertical-align: middle;
+}
+table:not(.dataTable) {
+border-radius: var(--lvr-radius);
+overflow: hidden;
+box-shadow: var(--lvr-shadow);
+}
 
 .nav-footer {
 border-top: 1px solid var(--lvr-gray-100);
@@ -6887,8 +6924,7 @@ color: var(--lvr-white);
 .lvr-card, .callout {
 padding: 1.1rem;
 }
-}
-</style>
+}</style>
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -7042,8 +7078,8 @@ padding: 1.1rem;
 <h1>Dosage Chart by Animal BW in lbs</h1>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-9453cddeee18d278c999" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-9453cddeee18d278c999">{"x":{"filter":"none","vertical":false,"data":[["oxytetracycline",null,null,null,"tulathromycin",null,"florfenical",null,null,"ceftiofur",null,null,null,"enrofloxacin","flunixin meglamine",null,null,null],["BioMycin 200","VETRIMYCIN 200","Noromycin 300","Oxytetracycline 200","Draxxin","Macrosyn","Norfenical","Nuflor","Resflor","Excede","Naxcel","Cefenil RTU","Excenel","Baytril","Banamine","Prevail","Flunixin","Flunixin Meglamine"],["SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","IV","IV","IV","TD"],[28,28,28,28,18,18,38,38,38,13,4,3,4,28,4,4,4,8],[5,5,3,5,2,2,6,6,6,2,2,2,2,4,1,1,1,3],[9,9,6,9,3,3,12,12,12,3,3,3,3,7,2,2,2,6],[14,14,9,14,4,4,18,18,18,5,5,5,5,11,3,3,3,9],[18,18,12,18,5,5,24,24,24,6,6,6,6,14,4,4,4,12],[23,23,15,23,6,6,30,30,30,8,8,8,8,17,5,5,5,15],[27,27,18,27,7,7,36,36,36,9,9,9,9,21,6,6,6,18],[32,32,21,32,8,8,42,42,42,11,11,11,11,24,7,7,7,21],[36,36,24,36,10,10,48,48,48,12,12,12,12,28,8,8,8,24],[41,41,27,41,11,11,54,54,54,14,14,14,14,31,9,9,9,27],[45,45,30,45,12,12,60,60,60,16,16,16,16,34,10,10,10,30],[50,50,33,50,13,13,66,66,66,17,17,17,17,38,11,11,11,33],[54,54,36,54,14,14,72,72,72,19,19,19,19,41,12,12,12,36],[59,59,39,59,15,15,78,78,78,20,20,20,20,45,13,13,13,39],[63,63,42,63,16,16,84,84,84,22,22,22,22,48,14,14,14,42]],"container":"<table class=\"hover highlight second-table\">\n  <thead>\n    <tr>\n      <th>Drug<\/th>\n      <th>Common Name<\/th>\n      <th>Route<\/th>\n      <th>WT<\/th>\n      <th>100<\/th>\n      <th>200<\/th>\n      <th>300<\/th>\n      <th>400<\/th>\n      <th>500<\/th>\n      <th>600<\/th>\n      <th>700<\/th>\n      <th>800<\/th>\n      <th>900<\/th>\n      <th>1000<\/th>\n      <th>1100<\/th>\n      <th>1200<\/th>\n      <th>1300<\/th>\n      <th>1400<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","pageLength":18,"scrollX":true,"paging":false,"ordering":false,"drawCallback":"function() {\n         var table = this.api();\n         table.$('td').hover(\n           function() {\n             var idx = table.cell(this).index();\n             if (idx) {\n               $(table.row(idx.row).nodes()).addClass('row-highlight');\n               $(table.column(idx.column).nodes()).addClass('col-highlight');\n             }\n           },\n           function() {\n             var idx = table.cell(this).index();\n             if (idx) {\n               $(table.row(idx.row).nodes()).removeClass('row-highlight');\n               $(table.column(idx.column).nodes()).removeClass('col-highlight');\n             }\n           }\n         );\n         table.columns.adjust(); // Ensure proper alignment\n      }","columnDefs":[{"className":"dt-right","targets":[3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]},{"name":"Drug","targets":0},{"name":"Common Name","targets":1},{"name":"Route","targets":2},{"name":"WT","targets":3},{"name":"100","targets":4},{"name":"200","targets":5},{"name":"300","targets":6},{"name":"400","targets":7},{"name":"500","targets":8},{"name":"600","targets":9},{"name":"700","targets":10},{"name":"800","targets":11},{"name":"900","targets":12},{"name":"1000","targets":13},{"name":"1100","targets":14},{"name":"1200","targets":15},{"name":"1300","targets":16},{"name":"1400","targets":17}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,18,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.drawCallback"],"jsHooks":{"render":[{"code":"\n    function(el) {\n      var sheet = document.createElement('style');\n      sheet.innerHTML = `\n        .second-table thead th {\n          font-size: 12px !important;\n          font-weight: bold !important;\n          padding: 8px !important;\n          text-align: center !important;\n          background-color: #0d2240 !important;\n          color: #ffffff !important;\n        }\n        .second-table tbody td {\n          padding: 8px !important;\n          text-align: center !important;\n          font-size: 12px !important;\n        }\n        table.dataTable {\n          border-collapse: collapse !important;\n          width: 100% !important;\n        }\n        .second-table tbody td:hover {\n          outline: 2px solid #b8621b !important;\n        }\n        .second-table .row-highlight {\n          background-color: rgba(184, 98, 27, 0.12) !important;\n        }\n        .second-table .col-highlight {\n          background-color: rgba(184, 98, 27, 0.12) !important;\n        }\n      `;\n      document.body.appendChild(sheet);\n    }\n  ","data":null}]}}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-1f38bb4f63fcb76285a2" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1f38bb4f63fcb76285a2">{"x":{"filter":"none","vertical":false,"data":[["oxytetracycline",null,null,null,"tulathromycin",null,"florfenical",null,null,"ceftiofur",null,null,null,"enrofloxacin","flunixin meglamine",null,null,null],["BioMycin 200","VETRIMYCIN 200","Noromycin 300","Oxytetracycline 200","Draxxin","Macrosyn","Norfenical","Nuflor","Resflor","Excede","Naxcel","Cefenil RTU","Excenel","Baytril","Banamine","Prevail","Flunixin","Flunixin Meglamine"],["SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","SC","IV","IV","IV","TD"],[28,28,28,28,18,18,38,38,38,13,4,3,4,28,4,4,4,8],[5,5,3,5,2,2,6,6,6,2,2,2,2,4,1,1,1,3],[9,9,6,9,3,3,12,12,12,3,3,3,3,7,2,2,2,6],[14,14,9,14,4,4,18,18,18,5,5,5,5,11,3,3,3,9],[18,18,12,18,5,5,24,24,24,6,6,6,6,14,4,4,4,12],[23,23,15,23,6,6,30,30,30,8,8,8,8,17,5,5,5,15],[27,27,18,27,7,7,36,36,36,9,9,9,9,21,6,6,6,18],[32,32,21,32,8,8,42,42,42,11,11,11,11,24,7,7,7,21],[36,36,24,36,10,10,48,48,48,12,12,12,12,28,8,8,8,24],[41,41,27,41,11,11,54,54,54,14,14,14,14,31,9,9,9,27],[45,45,30,45,12,12,60,60,60,16,16,16,16,34,10,10,10,30],[50,50,33,50,13,13,66,66,66,17,17,17,17,38,11,11,11,33],[54,54,36,54,14,14,72,72,72,19,19,19,19,41,12,12,12,36],[59,59,39,59,15,15,78,78,78,20,20,20,20,45,13,13,13,39],[63,63,42,63,16,16,84,84,84,22,22,22,22,48,14,14,14,42]],"container":"<table class=\"hover highlight second-table\">\n  <thead>\n    <tr>\n      <th>Drug<\/th>\n      <th>Common Name<\/th>\n      <th>Route<\/th>\n      <th>WT<\/th>\n      <th>100<\/th>\n      <th>200<\/th>\n      <th>300<\/th>\n      <th>400<\/th>\n      <th>500<\/th>\n      <th>600<\/th>\n      <th>700<\/th>\n      <th>800<\/th>\n      <th>900<\/th>\n      <th>1000<\/th>\n      <th>1100<\/th>\n      <th>1200<\/th>\n      <th>1300<\/th>\n      <th>1400<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","pageLength":18,"scrollX":true,"paging":false,"ordering":false,"drawCallback":"function() {\n         var table = this.api();\n         table.$('td').hover(\n           function() {\n             var idx = table.cell(this).index();\n             if (idx) {\n               $(table.row(idx.row).nodes()).addClass('row-highlight');\n               $(table.column(idx.column).nodes()).addClass('col-highlight');\n             }\n           },\n           function() {\n             var idx = table.cell(this).index();\n             if (idx) {\n               $(table.row(idx.row).nodes()).removeClass('row-highlight');\n               $(table.column(idx.column).nodes()).removeClass('col-highlight');\n             }\n           }\n         );\n         table.columns.adjust(); // Ensure proper alignment\n      }","columnDefs":[{"className":"dt-right","targets":[3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]},{"name":"Drug","targets":0},{"name":"Common Name","targets":1},{"name":"Route","targets":2},{"name":"WT","targets":3},{"name":"100","targets":4},{"name":"200","targets":5},{"name":"300","targets":6},{"name":"400","targets":7},{"name":"500","targets":8},{"name":"600","targets":9},{"name":"700","targets":10},{"name":"800","targets":11},{"name":"900","targets":12},{"name":"1000","targets":13},{"name":"1100","targets":14},{"name":"1200","targets":15},{"name":"1300","targets":16},{"name":"1400","targets":17}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,18,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.drawCallback"],"jsHooks":{"render":[{"code":"\n    function(el) {\n      var sheet = document.createElement('style');\n      sheet.innerHTML = `\n        .second-table thead th {\n          font-size: 12px !important;\n          font-weight: bold !important;\n          padding: 8px !important;\n          text-align: center !important;\n          background-color: #0d2240 !important;\n          color: #ffffff !important;\n        }\n        .second-table tbody td {\n          padding: 8px !important;\n          text-align: center !important;\n          font-size: 12px !important;\n        }\n        table.dataTable {\n          border-collapse: collapse !important;\n          width: 100% !important;\n        }\n        .second-table tbody td:hover {\n          outline: 2px solid #b8621b !important;\n        }\n        .second-table .row-highlight {\n          background-color: rgba(184, 98, 27, 0.12) !important;\n        }\n        .second-table .col-highlight {\n          background-color: rgba(184, 98, 27, 0.12) !important;\n        }\n      `;\n      document.body.appendChild(sheet);\n    }\n  ","data":null}]}}</script>
 </div>
 </div>
 <p style="font-size: 0.85rem; color: #5b6877; margin-top: 0.75rem;">
