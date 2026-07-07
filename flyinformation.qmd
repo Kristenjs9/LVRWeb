@@ -4,57 +4,88 @@ title: " "
 
 ![](images/allflies.jpeg){fig-align="center" width="388"}
 
+## Quick Reference
+
+| Fly Type | What to Look For | Best Control |
+|---|---|---|
+| **Horn Flies** | Small (3–5mm), gather on the back and sides, bite and feed on blood | Ear tags, pour-ons, back rubbers/dust bags |
+| **Face Flies** | Dark gray, 6–8mm, non-biting but spread pinkeye, gather near eyes, nose, and wounds | Pyrethroid ear tags, pour-ons, back rubbers/dust bags |
+| **Stable Flies** | Gray checkerboard pattern, 7–8mm, bite and feed on blood, gather on legs, active mid-May–September | Sanitation, premise spraying |
+
 :::::: {layout-ncol="3"}
 ::: column-content-1
 ### Horn Flies
 
--   Identification:
+**What to look for:** Small flies (3–5mm) that gather on the back and sides of cattle and bite and feed on blood.
 
-    -   Congregate along the back and sides of cattle
-    -   Small (3-5mm)
-    -   Bloodfeeders
+**Control:**
 
--   Prevention and Control:
-
-    -   Ear-tags should be used once 100-200 flies per cow are present to help avoid resistance and should be removed in the fall
-    -   Pour-ons such as ivermectin can be used but are only effective about 28 days so reapplication is necessary
-    -   Back rubbers and dust bags can be effective when hung in locations cattle can self treat and don’t require handling of cattle
-    -   Oral larvicides can be beneficial mixed in feed or mineral but only protect against more larvae, not from adult flies
+-   Ear tags — remove in the fall to help prevent resistance
+-   Pour-ons like ivermectin — protect for about 28 days, so reapply as needed
+-   Back rubbers and dust bags — let cattle treat themselves, no handling required
+-   Oral larvicides in feed or mineral — stop new larvae but don't kill adult flies
 :::
 
 ::: column-content-2
 ### Face Flies
 
--   Identification:
+**What to look for:** Dark gray flies (6–8mm) that don't bite but spread pinkeye. They gather around the eyes, nose, and wounds.
 
-    -   Dark gray in color
-    -   6-8 mm in size
-    -   Non-biting, but contribute to pink eye
-    -   Congregate around wounds as well as ocular and nasal discharge
+**Control:**
 
--   Prevention and Control:
-
-    -   Pyrethroid ear tags
-    -   Pour-ons
-    -   Back rubbers and dust bags can be effective when hung in locations cattle can self treat and don’t require handling of cattle
-    -   Control can be more difficult as these flies spend fewer moments on the cattle
+-   Pyrethroid ear tags
+-   Pour-ons
+-   Back rubbers and dust bags — let cattle treat themselves, no handling required
 :::
 
 ::: column-content-3
 ### Stable Flies
 
--   Identification:
+**What to look for:** Gray flies with a checkerboard pattern (7–8mm) that bite and feed on blood, usually on the legs. Most common mid-May through September.
 
-    -   Gray with checkerboard pattern
-    -   7-8 mm in size
-    -   Bloodfeeders
-    -   Congregate on legs
-    -   Present mid-May through September
+**Control:**
 
--   Prevention and Control:
-
-    -   Sanitation is most effective, removing locations for larvae to develop such as manure piles
-    -   Measures should be taken when even 5 flies per head are present
-    -   Tend to rest in shaded areas and premise spraying can create some relief
+-   Sanitation — remove manure piles and other larvae breeding sites (most effective option)
+-   Premise spraying — flies rest in shaded areas, so treating those spots can help
 :::
 ::::::
+
+## Recommended Products
+
+:::: columns
+::: {.column width="33%"}
+::: lvr-card
+### Cyonara
+
+**Type:** Pour-on
+
+<span class="lvr-tag lvr-tag-flies">Flies</span><span class="lvr-tag lvr-tag-ticks">Ticks</span>
+
+Applied along the topline, Cyonara is our recommended pour-on for fly and tick control.
+:::
+:::
+
+::: {.column width="33%"}
+::: lvr-card
+### Corathon
+
+**Type:** Spray
+
+<span class="lvr-tag lvr-tag-flies">Flies</span><span class="lvr-tag lvr-tag-ticks">Ticks</span>
+
+Can be sprayed directly on ears and sores for targeted fly and tick control.
+:::
+:::
+
+::: {.column width="33%"}
+::: lvr-card
+### Permethrin 10%
+
+**Type:** Fogger
+
+<span class="lvr-tag lvr-tag-flies">Flies</span><span class="lvr-tag lvr-tag-ticks">Ticks</span>
+
+Used in a fogger for premise treatment to help knock down adult fly and tick populations.
+:::
+:::
+::::

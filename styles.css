@@ -207,10 +207,47 @@ figure, .quarto-figure {
   margin-bottom: 1.5rem;
 }
 
+.lvr-card h3 {
+  margin-top: 0;
+}
+
+/* ---------------------------------------------------------
+   Treatment threshold callouts (e.g. Fly Information page)
+   --------------------------------------------------------- */
+.lvr-threshold {
+  background-color: rgba(184, 98, 27, 0.08);
+  border-left: 4px solid var(--lvr-accent);
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+  margin: 0.85rem 0;
+  font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------------
+   Small product/target tags (pills)
+   --------------------------------------------------------- */
+.lvr-tag {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-right: 0.4rem;
+  margin-bottom: 0.5rem;
+  color: var(--lvr-white);
+}
+
+.lvr-tag-flies {
+  background-color: var(--lvr-navy);
+}
+
+.lvr-tag-ticks {
+  background-color: var(--lvr-accent);
+}
+
 /* ---------------------------------------------------------
    Homepage hero photo slideshow (auto-crossfade, no JS)
    --------------------------------------------------------- */
-
 .lvr-hero-slideshow {
   position: relative;
   width: 100%;
@@ -222,14 +259,13 @@ figure, .quarto-figure {
   box-shadow: var(--lvr-shadow);
 }
 
-/* Quarto wraps each image in a <p> */
+/* Quarto wraps each standalone image in its own <p> */
 .lvr-hero-slideshow > p {
   position: absolute;
   inset: 0;
   margin: 0;
 }
 
-/* Images */
 .lvr-hero-slideshow > p img {
   position: absolute;
   inset: 0;
@@ -237,7 +273,6 @@ figure, .quarto-figure {
   height: 100%;
   object-fit: cover;
   border-radius: var(--lvr-radius);
-
   opacity: 0;
   animation: lvr-hero-fade 30s infinite;
 }
@@ -247,7 +282,6 @@ figure, .quarto-figure {
   object-position: center 75%;
 }
 
-/* Animation timing */
 .lvr-hero-slideshow > p:nth-child(1) img { animation-delay: 0s; }
 .lvr-hero-slideshow > p:nth-child(2) img { animation-delay: 5s; }
 .lvr-hero-slideshow > p:nth-child(3) img { animation-delay: 10s; }
@@ -256,11 +290,11 @@ figure, .quarto-figure {
 .lvr-hero-slideshow > p:nth-child(6) img { animation-delay: 25s; }
 
 @keyframes lvr-hero-fade {
-  0%      { opacity: 0; }
-  2%      { opacity: 1; }
-  14.5%   { opacity: 1; }
-  16.67%  { opacity: 0; }
-  100%    { opacity: 0; }
+  0%     { opacity: 0; }
+  2%     { opacity: 1; }
+  14.5%  { opacity: 1; }
+  16.67% { opacity: 0; }
+  100%   { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -268,7 +302,6 @@ figure, .quarto-figure {
     animation: none;
     opacity: 0;
   }
-
   .lvr-hero-slideshow > p:first-child img {
     opacity: 1;
   }
@@ -402,6 +435,18 @@ iframe {
 table.dataTable thead th {
   background-color: var(--lvr-navy) !important;
   color: var(--lvr-white) !important;
+}
+
+table:not(.dataTable) thead th {
+  background-color: var(--lvr-navy);
+  color: var(--lvr-white);
+  vertical-align: middle;
+}
+
+table:not(.dataTable) {
+  border-radius: var(--lvr-radius);
+  overflow: hidden;
+  box-shadow: var(--lvr-shadow);
 }
 
 /* ---------------------------------------------------------
