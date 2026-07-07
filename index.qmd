@@ -26,7 +26,6 @@ page-layout: full
 ![](images/Fireflinthills.jpg)
 :::
 
-Want to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our [About page](about.qmd).
 
 ::: lvr-contact-card
 **Dr. Nora Schrag and Dr. Tara Fountain**
@@ -37,3 +36,5 @@ Email: LivestockVets\@gmail.com
 
 We look forward to hearing from you!
 :::
+
+Want to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our [About page](about.qmd).

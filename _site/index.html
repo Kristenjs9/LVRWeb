@@ -248,13 +248,13 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/cow.jpg" class="img-fluid"></p>
 <p><img src="images/Fireflinthills.jpg" class="img-fluid"></p>
 </div>
-<p>Want to learn more about Dr.&nbsp;Schrag, Dr.&nbsp;Fountain, and Kristen first? Visit our <a href="./about.html">About page</a>.</p>
 <div class="lvr-contact-card">
 <p><strong>Dr.&nbsp;Nora Schrag and Dr.&nbsp;Tara Fountain</strong></p>
 <p>Phone: (785) 333-8384</p>
 <p>Email: LivestockVets@gmail.com</p>
 <p>We look forward to hearing from you!</p>
 </div>
+<p>Want to learn more about Dr.&nbsp;Schrag, Dr.&nbsp;Fountain, and Kristen first? Visit our <a href="./about.html">About page</a>.</p>
 
 
 
@@ -332,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/www\.livestockveterinaryresources\.com");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
