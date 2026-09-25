@@ -226,12 +226,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="lvr-hero">
 <p><img src="images/hero-cattle-flinthills.jpg" class="lvr-hero-bg img-fluid" alt="Cattle grazing a green ridge in the Kansas Flint Hills"></p>
-<section id="veterinary-services-data-analytics" class="level1 lvr-hero-inner">
-<h1>Veterinary services &amp; data analytics</h1>
-<div class="lvr-hero-sub">
-<p>Flint Hills of Kansas</p>
-</div>
-<p><a href="#client-tools" class="btn btn-lg">Client tools</a> <a href="#contact" class="btn btn-lg btn-accent">Contact</a></p>
+<section id="livestock-veterinary-resources" class="level1 lvr-hero-inner">
+<h1>Livestock Veterinary Resources</h1>
+<p><a href="#client-tools" class="btn btn-lg">Client tools</a> <a href="#" class="btn btn-lg btn-accent" onclick="lvrOpenContact();return false;">Contact</a></p>
 </section>
 </div>
 <p><strong>Clinical veterinary services:</strong> LVR partners with clients to improve herd health by providing production data analytics and mobile large animal clinical veterinary services to select clients near Olsburg, KS.</p>
@@ -264,6 +261,22 @@ ul.task-list li input[type="checkbox"] {
 <p>We look forward to hearing from you!</p>
 </div>
 <p>Want to learn more about Dr.&nbsp;Schrag, Dr.&nbsp;Fountain, and Kristen first? Visit our <a href="./about.html">About page</a>.</p>
+<div id="lvrContactModal" class="lvr-modal" hidden="">
+  <div class="lvr-modal-backdrop" data-close=""></div>
+  <div class="lvr-modal-box" role="dialog" aria-modal="true" aria-labelledby="lvrContactTitle">
+    <button class="lvr-modal-close" aria-label="Close" data-close="">×</button>
+    <h2 id="lvrContactTitle" class="anchored">Contact LVR</h2>
+    <p class="lvr-modal-names">Dr. Nora Schrag &amp; Dr. Tara Fountain</p>
+    <p class="lvr-modal-phone"><a href="tel:+17853338384">(785)&nbsp;333-8384</a></p>
+    <p class="lvr-modal-note">We look forward to hearing from you!</p>
+  </div>
+</div>
+<script>
+function lvrOpenContact(){var m=document.getElementById('lvrContactModal');if(m){m.hidden=false;document.body.style.overflow='hidden';}}
+function lvrCloseContact(){var m=document.getElementById('lvrContactModal');if(m){m.hidden=true;document.body.style.overflow='';}}
+document.addEventListener('click',function(e){if(e.target.closest('[data-close]'))lvrCloseContact();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lvrCloseContact();});
+</script>
 
 
 </section>
