@@ -683,3 +683,46 @@ img.lvr-figure,
   cursor: pointer;
 }
 .lvr-modal-close:hover { color: var(--lvr-navy); }
+
+/* ---------------------------------------------------------
+   About page — photo-first team grid with click-to-reveal bios
+   --------------------------------------------------------- */
+.lvr-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.lvr-team-card {
+  background: var(--lvr-white);
+  border: 1px solid var(--lvr-gray-100);
+  border-radius: var(--lvr-radius);
+  box-shadow: var(--lvr-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.lvr-team-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 0 !important;
+  cursor: pointer;
+}
+.lvr-team-body { padding: 1rem 1.15rem 1.2rem; }
+.lvr-team-name { font-weight: 700; font-size: 1.15rem; color: var(--lvr-navy); margin: 0 0 0.4rem; }
+.lvr-bio-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--lvr-accent);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.lvr-bio-toggle:hover { text-decoration: underline; }
+.lvr-bio { margin-top: 0.75rem; color: var(--lvr-text); font-size: 0.95rem; line-height: 1.6; }
+.lvr-bio[hidden] { display: none; }
+.lvr-bio p:last-child { margin-bottom: 0; }
