@@ -46,14 +46,14 @@
     "href": "johnesdisease.html",
     "title": "Johne’s Disease",
     "section": "",
-    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3years of age or older."
+    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3 years of age or older."
   },
   {
     "objectID": "johnesdisease.html#overview",
     "href": "johnesdisease.html#overview",
     "title": "Johne’s Disease",
     "section": "",
-    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3years of age or older."
+    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3 years of age or older."
   },
   {
     "objectID": "johnesdisease.html#signs",
@@ -74,7 +74,7 @@
     "href": "johnesdisease.html#prevention-management",
     "title": "Johne’s Disease",
     "section": "Prevention & Management",
-    "text": "Prevention & Management\n\nTest and cull strategically to reduce herd prevalence\nManage calving areas to minimize manure contact with newborn calves\nFeed colostrum/milk only from test-negative dams when possible\nMaintain clean water and feed sources, away from manure runoff\n\n\n\n\n\n\n\nNote\n\n\n\nAsk us about herd-level testing options if you suspect Johne’s disease may be present in your herd.\n\n\nContact us with questions and for more information!"
+    "text": "Prevention & Management\n\nTest and cull strategically to reduce herd prevalence\nManage calving areas to minimize manure contact with newborn calves\nFeed colostrum/milk only from test-negative dams when possible\nMaintain clean water and feed sources, away from manure runoff\n\n\n\n\n\n\n\nNote\n\n\n\nAsk us about herd-level testing options if you suspect Johne’s disease may be present in your herd.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
     "objectID": "heatstress.html",
@@ -154,11 +154,18 @@
     "text": "Signs\n\nVisible distension on the left side of the abdomen\nDiscomfort, kicking at the belly\nLabored breathing\nReluctance to move"
   },
   {
+    "objectID": "bloat.html#treatment",
+    "href": "bloat.html#treatment",
+    "title": "Bloat",
+    "section": "Treatment",
+    "text": "Treatment\n\nFree-gas bloat\n\nRelieve gas pressure with a tube\nGive Banamine\nIf it has a fever, treat with Nuflor\nFeed only prairie hay for at least 12 hours\n\nIf it bloats again or doesn’t go down when tubed, call for help.\n\n\n\n\n\n\nWarning\n\n\n\nSevere bloat can be fatal within hours. If an animal shows significant distension or difficulty breathing, contact LVR immediately."
+  },
+  {
     "objectID": "bloat.html#prevention",
     "href": "bloat.html#prevention",
     "title": "Bloat",
     "section": "Prevention",
-    "text": "Prevention\n\nIntroduce cattle to lush pasture gradually\nProvide adequate dry hay/roughage before turnout onto legume-heavy pasture\n\nContact us with questions and for more information!"
+    "text": "Prevention\n\nIntroduce cattle to lush pasture gradually\nProvide adequate dry hay/roughage before turnout onto legume-heavy pasture\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
     "objectID": "calving.html",
@@ -214,7 +221,7 @@
     "href": "hairyheelwart.html#footrot",
     "title": "Lameness",
     "section": "Footrot",
-    "text": "Footrot\n\nA bacterial infection of the soft tissue between the toes, usually following a break in the skin (cuts, abrasions, abscess sites).\nEntire foot is swollen not just one side.\nGenerally affects one animal at a time rather than spreading rapidly like digital dermatitis.\n\nManagement:\n\nSystemic antibiotic treatment (not just topical)\nExpect significant improvement within 2 days, if not call us.\nKeeping the area clean and dry during recovery\nAddressing environmental factors (rocks, debris, wet lots) that cause the initial injury\n\n\n\n\nPhoto courtesy of Gerard Cramer\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf lameness doesn’t improve within a few days of treatment for footrot or 2 weeks for heel wart, or if you’re unsure which condition you’re dealing with, give us a call.\n\n\nContact us with questions and for more information!"
+    "text": "Footrot\n\nA bacterial infection of the soft tissue between the toes, usually following a break in the skin (cuts, abrasions, abscess sites).\nEntire foot is swollen not just one side.\nGenerally affects one animal at a time rather than spreading rapidly like digital dermatitis.\n\nManagement:\n\nSystemic antibiotic treatment (not just topical)\nExpect significant improvement within 2 days, if not call us.\nKeeping the area clean and dry during recovery\nAddressing environmental factors (rocks, debris, wet lots) that cause the initial injury\n\n\n\n\nPhoto courtesy of Gerard Cramer\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf lameness doesn’t improve within a few days of treatment for footrot or 2 weeks for heel wart, or if you’re unsure which condition you’re dealing with, give us a call.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
     "objectID": "index.html",
@@ -235,14 +242,14 @@
     "href": "prolapses.html",
     "title": "Prolapses",
     "section": "",
-    "text": "Typically occurs in late pregnancy, before calving.\nTissue protrudes intermittently at first, often worsening over time.\n\n\n\n\n\n\nOccurs shortly after calving, when the uterus turns inside out and passes through the vulva.\nThis is an emergency — contact us immediately.\nHave her tied to something (Tree, tractor, contained somehow) by the time we get there.\n\n\n\n\n\n\nTissue from the rectum protrudes through the anus.\nCan be associated with straining, coughing, or other underlying conditions.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nAny prolapse should be treated. Contact LVR right away if you notice a prolapse in your herd.\n\n\nContact us with questions and for more information!"
+    "text": "Typically occurs in late pregnancy, before calving.\nTissue protrudes intermittently at first, often worsening over time.\n\n\n\n\n\n\nOccurs shortly after calving, when the uterus turns inside out and passes through the vulva.\nThis is an emergency — contact us immediately.\nHave her tied to something (tree, tractor, or otherwise contained) by the time we get there.\n\n\n\n\n\n\nTissue from the rectum protrudes through the anus.\nCan be associated with straining, coughing, or other underlying conditions.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nAny prolapse should be treated. Contact LVR right away if you notice a prolapse in your herd.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
     "objectID": "prolapses.html#types",
     "href": "prolapses.html#types",
     "title": "Prolapses",
     "section": "",
-    "text": "Typically occurs in late pregnancy, before calving.\nTissue protrudes intermittently at first, often worsening over time.\n\n\n\n\n\n\nOccurs shortly after calving, when the uterus turns inside out and passes through the vulva.\nThis is an emergency — contact us immediately.\nHave her tied to something (Tree, tractor, contained somehow) by the time we get there.\n\n\n\n\n\n\nTissue from the rectum protrudes through the anus.\nCan be associated with straining, coughing, or other underlying conditions.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nAny prolapse should be treated. Contact LVR right away if you notice a prolapse in your herd.\n\n\nContact us with questions and for more information!"
+    "text": "Typically occurs in late pregnancy, before calving.\nTissue protrudes intermittently at first, often worsening over time.\n\n\n\n\n\n\nOccurs shortly after calving, when the uterus turns inside out and passes through the vulva.\nThis is an emergency — contact us immediately.\nHave her tied to something (tree, tractor, or otherwise contained) by the time we get there.\n\n\n\n\n\n\nTissue from the rectum protrudes through the anus.\nCan be associated with straining, coughing, or other underlying conditions.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nAny prolapse should be treated. Contact LVR right away if you notice a prolapse in your herd.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
     "objectID": "regimenspend.html",
