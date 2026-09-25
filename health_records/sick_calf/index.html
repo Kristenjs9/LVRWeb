@@ -186,10 +186,8 @@
   <div class="card" id="result">
     <label class="q">Exam summary</label>
     <pre id="summary"></pre>
-    <button class="go" id="sms">Text it to the clinic (sends a picture)</button>
-    <button class="go" id="email" style="margin-top:8px">Email it to the clinic</button>
-    <button class="ghost" id="copy">Copy as plain text instead</button>
-    <p class="copied" id="copiedMsg">Copied — paste it into a text message to the clinic.</p>
+    <button class="go" id="copy">Copy as text</button>
+    <p class="copied" id="copiedMsg">Copied — now paste it wherever you need it.</p>
     <button class="ghost" id="reset">Start a new exam</button>
   </div>
 </div>
@@ -199,7 +197,7 @@
   var CLINIC_PHONE = '';
   var CLINIC_EMAIL = 'livestockvets@gmail.com';
   var $ = function (id) { return document.getElementById(id); };
-  var DAYS = [['t', 'Today'], ['y', 'Yesterday'], ['d', 'Two days ago']];
+  var DAYS = [['t', 'Today'], ['y', 'Yesterday']];
   var TIMES = [['7a', '7 a.m.'], ['1p', '1 p.m.'], ['7p', '7 p.m.'], ['1a', '1 a.m.']];
   (function buildAppetite() {
     var h = '';
@@ -304,49 +302,6 @@
   function msg(t) {
     var m = $('copiedMsg'); m.textContent = t; m.style.display = 'block';
   }
-  function drawSummary() {
-    var text = $('summary').textContent.split('\n');
-    var scale = 2, pad = 18, lh = 24, fs = 15;
-    var c = document.createElement('canvas');
-    var ctx = c.getContext('2d');
-    ctx.font = fs + 'px Menlo, Consolas, monospace';
-    var w = 0;
-    text.forEach(function (l) { w = Math.max(w, ctx.measureText(l).width); });
-    var W = Math.max(320, Math.ceil(w) + pad * 2);
-    var H = text.length * lh + pad * 2;
-    c.width = W * scale; c.height = H * scale;
-    ctx = c.getContext('2d'); ctx.scale(scale, scale);
-    ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, W, H);
-    ctx.fillStyle = '#111111'; ctx.textBaseline = 'top';
-    text.forEach(function (l, i) {
-      ctx.font = (i === 0 ? 'bold ' : '') + fs + 'px Menlo, Consolas, monospace';
-      ctx.fillText(l, pad, pad + i * lh);
-    });
-    return c;
-  }
-  $('sms').addEventListener('click', function () {
-    drawSummary().toBlob(function (blob) {
-      if (!blob) { msg('Could not make the picture — use the copy button.'); return; }
-      var file;
-      try { file = new File([blob], 'calf-exam.png', {type: 'image/png'}); } catch (e) {}
-      if (file && navigator.share && navigator.canShare &&
-          navigator.canShare({files: [file]})) {
-        navigator.share({files: [file], title: 'Calf exam'}).catch(function () {});
-      } else if (navigator.clipboard && window.ClipboardItem) {
-        navigator.clipboard.write([new ClipboardItem({'image/png': blob})])
-          .then(function () { msg('Picture copied — paste it into a text message.'); },
-                function () { msg('Could not copy the picture — use the copy button.'); });
-      } else {
-        msg('Pictures not supported on this device — use the copy button.');
-      }
-    }, 'image/png');
-  });
-  $('email').addEventListener('click', function () {
-    var txt = $('summary').textContent;
-    var subj = encodeURIComponent(txt.split('\n')[0]);
-    window.location.href = 'mailto:' + CLINIC_EMAIL + '?subject=' + subj +
-      '&body=' + encodeURIComponent(txt);
-  });
   $('copy').addEventListener('click', function () {
     var txt = $('summary').textContent;
     function done() { msg('Text copied — paste it anywhere.'); }
