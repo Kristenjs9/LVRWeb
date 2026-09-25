@@ -15,7 +15,7 @@ Flint Hills of Kansas
 :::
 
 [Client tools](#client-tools){.btn .btn-lg}
-[Call the clinic](tel:+17853338384){.btn .btn-lg .btn-accent}
+[Contact](#contact){.btn .btn-lg .btn-accent}
 :::
 :::
 
@@ -78,7 +78,7 @@ Flint Hills of Kansas
 
 ::::
 
-::: lvr-contact-card
+::: {#contact .lvr-contact-card}
 **Dr. Nora Schrag and Dr. Tara Fountain**
 
 Phone: [(785) 333-8384](tel:+17853338384)
