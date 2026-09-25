@@ -11,6 +11,8 @@ website:
         href: index.qmd
       - text: "Calf Care"
         menu:
+          - text: "Sick Calf Exam"
+            href: health_records/sick_calf/index.html
           - text: "Calf Hydration and Colostrum"
             href: CalfHydrationCR.qmd
           - text: "Calving"
@@ -67,3 +69,4 @@ editor: visual
 
 resources:
   - CNAME
+  - health_records

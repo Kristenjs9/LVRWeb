@@ -509,3 +509,95 @@ table:not(.dataTable) {
     padding: 1.1rem;
   }
 }
+/* ---------------------------------------------------------
+   Homepage hero banner (index) — navy overlay on a photo
+   --------------------------------------------------------- */
+.lvr-hero {
+  position: relative;
+  border-radius: var(--lvr-radius);
+  overflow: hidden;
+  margin: 0.5rem 0 2rem;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  background: var(--lvr-navy);
+}
+.lvr-hero .lvr-hero-bg,
+.lvr-hero p:has(.lvr-hero-bg) {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+.lvr-hero img.lvr-hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  object-position: center 60%;
+}
+.lvr-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(8,23,41,0.86) 0%, rgba(8,23,41,0.6) 55%, rgba(8,23,41,0.2) 100%);
+}
+.lvr-hero-inner {
+  position: relative;
+  z-index: 1;
+  color: var(--lvr-white);
+  padding: 2.5rem clamp(1.5rem, 4vw, 3.5rem);
+  max-width: 640px;
+}
+.lvr-hero-inner h1 {
+  color: var(--lvr-white);
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  line-height: 1.12;
+  margin: 0 0 0.6rem;
+}
+.lvr-hero-sub {
+  font-size: 1.15rem;
+  color: rgba(255,255,255,0.9);
+  margin: 0 0 1.4rem;
+}
+.lvr-hero-inner .btn { margin: 0 0.5rem 0.5rem 0; }
+
+/* ---------------------------------------------------------
+   Client tools card grid (index)
+   --------------------------------------------------------- */
+.lvr-tool {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--lvr-white);
+  border: 1px solid var(--lvr-gray-100);
+  border-radius: var(--lvr-radius);
+  box-shadow: var(--lvr-shadow);
+  padding: 1.2rem 1.3rem;
+  text-decoration: none;
+  color: var(--lvr-text);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+.lvr-tool:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(13,34,64,0.15);
+  border-color: var(--lvr-navy);
+  color: var(--lvr-text);
+  text-decoration: none;
+}
+.lvr-tool-title { font-weight: 700; font-size: 1.1rem; color: var(--lvr-navy); margin: 0 0 0.35rem; }
+.lvr-tool-desc { color: var(--lvr-gray-600); font-size: 0.95rem; margin: 0; flex: 1; }
+.lvr-tool-cta { margin-top: 0.9rem; font-weight: 700; color: var(--lvr-accent); font-size: 0.9rem; }
+.lvr-tool-feature { border: 2px solid var(--lvr-navy); }
+.lvr-tool-badge {
+  align-self: flex-start;
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--lvr-white);
+  background: var(--lvr-accent);
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin: 0 0 0.55rem;
+}

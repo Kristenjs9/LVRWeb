@@ -51,3 +51,7 @@ rsconnect/
 /.quarto/
 
 **/*.quarto_ipynb
+
+# Source dump of Steve's photos — only hand-picked copies (saved directly
+# into images/) get committed, not this whole staging folder.
+images/StevePhotos/
