@@ -5,27 +5,32 @@ draft: false
 
 ## Types
 
-### Vaginal Prolapse
+### Vaginal prolapse
 
 - Typically occurs in late pregnancy, before calving.
 - Tissue protrudes intermittently at first, often worsening over time.
-- ![](images/Vaginal Prolapse.jpeg){width="160"}
 
-### Uterine Prolapse
+![](images/Vaginal Prolapse.jpeg){.lvr-figure fig-alt="Vaginal prolapse in a cow"}
+
+### Uterine prolapse
 
 - Occurs shortly after calving, when the uterus turns inside out and passes through the vulva.
 - This is an emergency — contact us immediately.
-- Have her tied to something (Tree, tractor, contained somehow) by the time we get there.
-- ![](images/Uterine Prolapse.jpeg){width="162"}
+- Have her tied to something (tree, tractor, or otherwise contained) by the time we get there.
 
-### Rectal Prolapse
+![](images/Uterine Prolapse.jpeg){.lvr-figure fig-alt="Uterine prolapse in a cow after calving"}
+
+### Rectal prolapse
 
 - Tissue from the rectum protrudes through the anus.
 - Can be associated with straining, coughing, or other underlying conditions.
-- ![](images/Rectal Prolapse.jpeg){width="164"}
+
+![](images/Rectal Prolapse.jpeg){.lvr-figure fig-alt="Rectal prolapse in a cow"}
 
 ::: callout-warning
 Any prolapse should be treated. Contact LVR right away if you notice a prolapse in your herd.
 :::
 
-Contact us with questions and for more information!
+::: lvr-page-cta
+**Questions?** Call LVR at [(785) 333-8384](tel:+17853338384) — we're glad to help.
+:::

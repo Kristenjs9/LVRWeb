@@ -18,15 +18,17 @@ Bloat occurs when gas produced during digestion becomes trapped in the rumen, ca
 :::
 
 ::: {.column width="40%"}
-![](images/Bloat.png){width="50%"}
+![](images/Bloat.png){.lvr-figure fig-alt="Cow showing left-side abdominal distension from bloat"}
 :::
 :::::
 
-### Free-Gas Bloat
+## Treatment
 
-- Relieve gas pressure with tube
+### Free-gas bloat
+
+- Relieve gas pressure with a tube
 - Give Banamine
-- If it has a fever treat with Nuflor
+- If it has a fever, treat with Nuflor
 - Feed only prairie hay for at least 12 hours
 
 If it bloats again or doesn't go down when tubed, call for help.
@@ -40,4 +42,6 @@ Severe bloat can be fatal within hours. If an animal shows significant distensio
 - Introduce cattle to lush pasture gradually
 - Provide adequate dry hay/roughage before turnout onto legume-heavy pasture
 
-Contact us with questions and for more information!
+::: lvr-page-cta
+**Questions?** Call LVR at [(785) 333-8384](tel:+17853338384) — we're glad to help.
+:::

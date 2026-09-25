@@ -601,3 +601,32 @@ table:not(.dataTable) {
   padding: 2px 10px;
   margin: 0 0 0.55rem;
 }
+
+/* ---------------------------------------------------------
+   Per-page contact call-to-action (health pages, etc.)
+   --------------------------------------------------------- */
+.lvr-page-cta {
+  background: var(--lvr-gray-50);
+  border: 1px solid var(--lvr-gray-100);
+  border-left: 4px solid var(--lvr-accent);
+  border-radius: var(--lvr-radius);
+  padding: 1rem 1.25rem;
+  margin-top: 2rem;
+  font-size: 1.02rem;
+}
+.lvr-page-cta p { margin: 0; }
+.lvr-page-cta a { color: var(--lvr-accent); font-weight: 700; }
+
+/* Health-page figures: consistent, capped, centered.
+   Quarto may put the class on the <img> itself or on a wrapping figure/p,
+   so target both. */
+img.lvr-figure,
+.lvr-figure img {
+  display: block;
+  margin: 0.5rem auto 0;
+  max-height: 240px;
+  width: auto !important;
+  height: auto;
+  border: 1px solid var(--lvr-gray-100);
+  border-radius: var(--lvr-radius);
+}
