@@ -630,3 +630,56 @@ img.lvr-figure,
   border: 1px solid var(--lvr-gray-100);
   border-radius: var(--lvr-radius);
 }
+
+/* ---------------------------------------------------------
+   Contact popup (modal) — opened by the hero "Contact" button
+   --------------------------------------------------------- */
+.lvr-modal[hidden] { display: none; }
+.lvr-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.lvr-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 23, 41, 0.55);
+}
+.lvr-modal-box {
+  position: relative;
+  background: var(--lvr-white);
+  border-radius: var(--lvr-radius);
+  box-shadow: 0 12px 40px rgba(8, 23, 41, 0.35);
+  border-top: 6px solid var(--lvr-accent);
+  max-width: 380px;
+  width: 100%;
+  padding: 1.75rem 1.75rem 1.5rem;
+  text-align: center;
+}
+.lvr-modal-box h2 { margin: 0 0 0.75rem; color: var(--lvr-navy); }
+.lvr-modal-names { font-weight: 700; margin: 0 0 0.5rem; color: var(--lvr-text); }
+.lvr-modal-phone { margin: 0.25rem 0 0.75rem; }
+.lvr-modal-phone a {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--lvr-navy);
+  text-decoration: none;
+}
+.lvr-modal-phone a:hover { color: var(--lvr-accent); }
+.lvr-modal-note { color: var(--lvr-gray-600); margin: 0; font-size: 0.95rem; }
+.lvr-modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--lvr-gray-600);
+  cursor: pointer;
+}
+.lvr-modal-close:hover { color: var(--lvr-navy); }

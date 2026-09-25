@@ -8,14 +8,10 @@ toc: false
 ![](images/hero-cattle-flinthills.jpg){.lvr-hero-bg fig-alt="Cattle grazing a green ridge in the Kansas Flint Hills"}
 
 ::: lvr-hero-inner
-# Veterinary services & data analytics
-
-::: lvr-hero-sub
-Flint Hills of Kansas
-:::
+# Livestock Veterinary Resources
 
 [Client tools](#client-tools){.btn .btn-lg}
-[Contact](#contact){.btn .btn-lg .btn-accent}
+<a href="#" class="btn btn-lg btn-accent" onclick="lvrOpenContact();return false;">Contact</a>
 :::
 :::
 
@@ -87,3 +83,22 @@ We look forward to hearing from you!
 :::
 
 Want to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our [About page](about.qmd).
+
+```{=html}
+<div id="lvrContactModal" class="lvr-modal" hidden>
+  <div class="lvr-modal-backdrop" data-close></div>
+  <div class="lvr-modal-box" role="dialog" aria-modal="true" aria-labelledby="lvrContactTitle">
+    <button class="lvr-modal-close" aria-label="Close" data-close>&times;</button>
+    <h2 id="lvrContactTitle">Contact LVR</h2>
+    <p class="lvr-modal-names">Dr. Nora Schrag &amp; Dr. Tara Fountain</p>
+    <p class="lvr-modal-phone"><a href="tel:+17853338384">(785)&nbsp;333-8384</a></p>
+    <p class="lvr-modal-note">We look forward to hearing from you!</p>
+  </div>
+</div>
+<script>
+function lvrOpenContact(){var m=document.getElementById('lvrContactModal');if(m){m.hidden=false;document.body.style.overflow='hidden';}}
+function lvrCloseContact(){var m=document.getElementById('lvrContactModal');if(m){m.hidden=true;document.body.style.overflow='';}}
+document.addEventListener('click',function(e){if(e.target.closest('[data-close]'))lvrCloseContact();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lvrCloseContact();});
+</script>
+```
