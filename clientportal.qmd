@@ -7,23 +7,22 @@ draft: false
 ::::: {.column width="60%"}
 ## Access Your Client Portal
 
-Our online client portal gives you secure, anytime access to your account with LVR — including invoices, and herd health records.
+Our online client portal gives you secure, anytime access to your herd's medical records with LVR.
 
 ### What you can do in the portal
 
-- View and pay invoices online
-- Access medical records and treatment history for your herd
-- Request appointments or refills
+- Access your herd's medical records and treatment history
+- View VFDs, health papers, and visit history
 
 ### Logging in
 
 1.  Click the **Client Portal** button below.
 2.  Enter the email on file with our clinic.
 3.  You will be sent a login link to your email.
-4.  Once logged in, you'll see a dashboard with your account summary and any medical records, VFD's, health papers, visit history and more.
+4.  Once logged in, you'll see your medical records, VFDs, health papers, visit history and more.
 
 ::: callout-note
-If you don't see your account information after logging in, or you're having trouble accessing the portal, please [contact us](contact.qmd) and we'll get you set up.
+If you don't see your records after logging in, or you're having trouble accessing the portal, please call us at [(785) 333-8384](tel:+17853338384) and we'll get you set up.
 :::
 
 ::: text-center
@@ -35,6 +34,6 @@ If you don't see your account information after logging in, or you're having tro
 :::::
 
 ::: {.column width="40%"}
-![](images/Willow.jpg){style="border-radius:8px;" width="100%"}
+![The LVR client portal login page](images/portal-login.jpg){style="border-radius:8px; border:1px solid #eef1f5;" width="100%"}
 :::
 :::::::
