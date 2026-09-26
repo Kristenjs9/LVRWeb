@@ -9,6 +9,13 @@ draft: false
 
 Our online client portal gives you secure, anytime access to your herd's medical records with LVR.
 
+::: text-center
+<a href="https://lvr.portal.instinctvet.com"
+   class="btn btn-lg btn-info w-100"
+   target="_blank"
+   rel="noopener"> Go to Client Portal </a>
+:::
+
 ### What you can do in the portal
 
 - Access your herd's medical records and treatment history
@@ -23,13 +30,6 @@ Our online client portal gives you secure, anytime access to your herd's medical
 
 ::: callout-note
 If you don't see your records after logging in, or you're having trouble accessing the portal, please call us at [(785) 333-8384](tel:+17853338384) and we'll get you set up.
-:::
-
-::: text-center
-<a href="https://lvr.portal.instinctvet.com"
-   class="btn btn-lg btn-info w-100"
-   target="_blank"
-   rel="noopener"> Go to Client Portal </a>
 :::
 :::::
 

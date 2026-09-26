@@ -21,6 +21,8 @@ toc: false
 
 ## Client tools {#client-tools}
 
+### Calf Care
+
 :::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
@@ -41,9 +43,9 @@ toc: false
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-<a class="lvr-tool" href="Webdosechart.html">
-<span class="lvr-tool-title">Dosage Chart</span>
-<span class="lvr-tool-desc">Drug dosing by weight.</span>
+<a class="lvr-tool" href="calving.html">
+<span class="lvr-tool-title">Calving</span>
+<span class="lvr-tool-desc">Calving-season reference.</span>
 <span class="lvr-tool-cta">Open &rarr;</span>
 </a>
 :::
@@ -56,18 +58,78 @@ toc: false
 </a>
 :::
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-<a class="lvr-tool" href="calving.html">
-<span class="lvr-tool-title">Calving</span>
-<span class="lvr-tool-desc">Calving-season reference.</span>
-<span class="lvr-tool-cta">Open &rarr;</span>
-</a>
-:::
+::::
+
+### Cattle Health
+
+:::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 <a class="lvr-tool" href="flyinformation.html">
 <span class="lvr-tool-title">Fly Information</span>
 <span class="lvr-tool-desc">Identify &amp; manage flies.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="prolapses.html">
+<span class="lvr-tool-title">Prolapses</span>
+<span class="lvr-tool-desc">Vaginal, uterine &amp; rectal.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="bloat.html">
+<span class="lvr-tool-title">Bloat</span>
+<span class="lvr-tool-desc">Signs, treatment &amp; prevention.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="johnesdisease.html">
+<span class="lvr-tool-title">Johne's Disease</span>
+<span class="lvr-tool-desc">Signs &amp; herd management.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="hairyheelwart.html">
+<span class="lvr-tool-title">Lameness</span>
+<span class="lvr-tool-desc">Heel wart &amp; footrot.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::::
+
+### Other Client Resources
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="Webdosechart.html">
+<span class="lvr-tool-title">Dosage Chart</span>
+<span class="lvr-tool-desc">Drug dosing by weight.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="CattleInventory.html">
+<span class="lvr-tool-title">MicroBeef Cattle Inventory</span>
+<span class="lvr-tool-desc">Cattle inventory records.</span>
+<span class="lvr-tool-cta">Open &rarr;</span>
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+<a class="lvr-tool" href="ReproProtocols.html">
+<span class="lvr-tool-title">Repro Protocols</span>
+<span class="lvr-tool-desc">Breeding sync protocols.</span>
 <span class="lvr-tool-cta">Open &rarr;</span>
 </a>
 :::
