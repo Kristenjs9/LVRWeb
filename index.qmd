@@ -119,14 +119,6 @@ toc: false
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-<a class="lvr-tool" href="CattleInventory.html">
-<span class="lvr-tool-title">MicroBeef Cattle Inventory</span>
-<span class="lvr-tool-desc">Cattle inventory records.</span>
-<span class="lvr-tool-cta">Open &rarr;</span>
-</a>
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 <a class="lvr-tool" href="ReproProtocols.html">
 <span class="lvr-tool-title">Repro Protocols</span>
 <span class="lvr-tool-desc">Breeding sync protocols.</span>

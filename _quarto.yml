@@ -35,8 +35,6 @@ website:
         menu:
           - text: "Dosage Chart"
             href: Webdosechart.qmd
-          - text: "MicroBeef Cattle Inventory"
-            href: CattleInventory.qmd
           - text: "Repro Protocols"
             href: ReproProtocols.qmd
       - text: "Vet Resources"
