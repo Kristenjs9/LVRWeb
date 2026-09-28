@@ -17,8 +17,10 @@ library(shiny)
 ```
 
 ```{r}
-dose<-readxl::read_excel("data/Dosage Chart.xlsx") |> 
-  mutate(across(where(is.numeric), ceiling))
+dose<-readxl::read_excel("data/Dosage Chart.xlsx") |>
+  mutate(across(where(is.numeric), ceiling)) |>
+  rename(`Withdrawal Time (days)` = WT) |>
+  relocate(`Withdrawal Time (days)`)
 ```
 
 ::: {.column-screen style="padding-left: 10px; padding-right: 10px;"}
@@ -33,12 +35,14 @@ datatable(
     scrollX = TRUE,
     paging = FALSE,
     ordering = FALSE,
-    # columnDefs = list(
-    #   list(targets = 0, width = "150px"), 
-    #   list(targets = 1, width = "200px"), 
-    #   list(targets = 2, width = "150px"),
-    #   list(targets = 3:15, width = "100px" )
-    # ),
+    autoWidth = TRUE,
+    initComplete = JS(
+      "function(settings, json) {
+         var api = this.api();
+         setTimeout(function() { api.columns.adjust(); }, 50);
+         $(window).on('resize', function() { api.columns.adjust(); });
+      }"
+    ),
     drawCallback = JS(
       "function() {
          var table = this.api();
@@ -65,47 +69,13 @@ datatable(
   escape = FALSE,
   class = "hover highlight second-table", # Add a unique class
   rownames = FALSE # Suppress the left index column
-) %>% 
-  htmlwidgets::onRender("
-    function(el) {
-      var sheet = document.createElement('style');
-      sheet.innerHTML = `
-        .second-table thead th {
-          font-size: 12px !important;
-          font-weight: bold !important;
-          padding: 8px !important;
-          text-align: center !important;
-          background-color: #0d2240 !important;
-          color: #ffffff !important;
-        }
-        .second-table tbody td {
-          padding: 8px !important;
-          text-align: center !important;
-          font-size: 12px !important;
-        }
-        table.dataTable {
-          border-collapse: collapse !important;
-          width: 100% !important;
-        }
-        .second-table tbody td:hover {
-          outline: 2px solid #b8621b !important;
-        }
-        .second-table .row-highlight {
-          background-color: rgba(184, 98, 27, 0.12) !important;
-        }
-        .second-table .col-highlight {
-          background-color: rgba(184, 98, 27, 0.12) !important;
-        }
-      `;
-      document.body.appendChild(sheet);
-    }
-  ")
+)
 
 ```
 
 <p style="font-size: 0.85rem; color: #5b6877; margin-top: 0.75rem;">
 
-**SC** = Subcutaneous (Under Skin)  \|  **IV** = In the vein  \|  **TD** = Transdermal (On Skin)  \|  **WT** = Withdrawal time
+**SC** = Subcutaneous (Under Skin) | **IV** = In the vein | **TD** = Transdermal (On Skin)
 
 </p>
 :::
