@@ -726,3 +726,29 @@ img.lvr-figure,
 .lvr-bio { margin-top: 0.75rem; color: var(--lvr-text); font-size: 0.95rem; line-height: 1.6; }
 .lvr-bio[hidden] { display: none; }
 .lvr-bio p:last-child { margin-bottom: 0; }
+
+/* ---------------------------------------------------------
+   Dosage chart (Webdosechart) — styles applied up front so
+   DataTables measures column widths correctly (keeps the
+   weight-column headers aligned with the doses beneath them)
+   --------------------------------------------------------- */
+table.second-table {
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+.second-table thead th {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  padding: 8px !important;
+  text-align: center !important;
+  background-color: var(--lvr-navy) !important;
+  color: #ffffff !important;
+}
+.second-table tbody td {
+  padding: 8px !important;
+  text-align: center !important;
+  font-size: 12px !important;
+}
+.second-table tbody td:hover { outline: 2px solid var(--lvr-accent) !important; }
+.second-table .row-highlight { background-color: rgba(184, 98, 27, 0.12) !important; }
+.second-table .col-highlight { background-color: rgba(184, 98, 27, 0.12) !important; }
