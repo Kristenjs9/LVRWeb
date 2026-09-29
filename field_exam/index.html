@@ -199,8 +199,9 @@ background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padd
 </div>
 
 <div class="actions">
-  <button class="btn" type="button" id="clearBtn">New exam</button>
-  <button class="btn primary" type="button" id="copyBtn">Copy summary</button>
+  <button class="btn" type="button" id="clearBtn">New</button>
+  <button class="btn" type="button" id="copyBtn">Copy</button>
+  <button class="btn primary" type="button" id="emailBtn">Email</button>
 </div>
 
 <script>
@@ -419,6 +420,13 @@ background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padd
   });
   function fb(t){var ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();
     try{document.execCommand("copy");}catch(e){}document.body.removeChild(ta);}
+  document.getElementById("emailBtn").addEventListener("click",function(){
+    var body=buildSummary().replace(/\n/g,"\r\n");
+    var who=val("animalId")||state.groups.species||"";
+    var subject="Field Exam"+(who?" — "+who:"");
+    window.location.href="mailto:info@livestockveterinaryresources.com?subject="+
+      encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+  });
   document.getElementById("clearBtn").addEventListener("click",function(){
     if(!confirm("Clear this exam and start a new one?"))return;
     try{localStorage.removeItem(KEY);}catch(e){}location.reload();});
