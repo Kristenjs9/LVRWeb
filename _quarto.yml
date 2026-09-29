@@ -51,6 +51,8 @@ website:
             href: astinterpreter.qmd
           - text: "Metaphylaxis Decisions"
             href: regimenspend.qmd
+          - text: "Field Exam"
+            href: field_exam/index.html
       - text: "Research"
         href: research.qmd
       - text: "About"
@@ -68,3 +70,4 @@ editor: visual
 resources:
   - CNAME
   - health_records
+  - field_exam

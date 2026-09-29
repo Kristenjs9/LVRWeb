@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>LVR Field Exam</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+<header id="title-block-header">
+<h1 class="title">LVR Field Exam</h1>
+
+</header>
+
+
+<script>window.EXAM_CONFIG={"species":["Bovine","Equine","Ovine","Caprine","Canine","Feline","Other"],"ageUnits":["yr","mo","days"],"respEffort":["Normal","Increased","Labored"],"mm":["Pink","Pale","Injected","Cyanotic","Icteric","Tacky"],"systems":["Eyes","Ears / Nose","Oral / teeth","Lymph nodes","Cardiovascular","Respiratory","GI / Abdomen","Urogenital","Musculoskeletal","Skin / haircoat","Neurologic"],"syndromes":["Pneumonia","Lameness","Brainer","Metritis","Mastitis","Anaplasmosis","Bloat","Diarrhea","Other"],"subcats":{"Lameness":["Footrot","Hairy wart","Sole ulcer / abscess","Infected joint","Other"],"Bloat":["Frothy","Free gas"]},"treatments":["BioMycin","Norfenicol","Baytril","Excede","Macrosyn","Banamine","Dexamethasone","Transdermal Banamine","Lidocaine","Other"],"routes":["IV","IM","SQ","PO","Topical","Other"]};</script>
+<style>
+:root{
+--bg:#f4f6f3; --surface:#ffffff; --surface-2:#eef1ec; --ink:#1a201b; --muted:#5d6b60;
+--line:#d3dbd2; --accent:#2c5f2d; --accent-ink:#ffffff; --accent-soft:#e2ede1;
+--ok:#2f8f4e; --warn:#b26a00;
+--radius:12px; --tap:46px;
+--disp:"Barlow Semi Condensed","Arial Narrow",ui-sans-serif,system-ui,sans-serif;
+--body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+--bg:#12160f; --surface:#1b211a; --surface-2:#232a21; --ink:#e8ece6; --muted:#9aa79b;
+--line:#333c31; --accent:#6ab56a; --accent-ink:#0f140d; --accent-soft:#243021;
+--ok:#5cc178; --warn:#e0a049;
+}}
+:root[data-theme="dark"]{
+--bg:#12160f; --surface:#1b211a; --surface-2:#232a21; --ink:#e8ece6; --muted:#9aa79b;
+--line:#333c31; --accent:#6ab56a; --accent-ink:#0f140d; --accent-soft:#243021;
+--ok:#5cc178; --warn:#e0a049;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.4;
+-webkit-text-size-adjust:100%}
+.wrap{max-width:640px;margin:0 auto;padding-block:0 96px;padding-inline:16px}
+header.top{position:sticky;top:0;z-index:20;background:var(--accent);color:var(--accent-ink);
+margin:0 -16px 14px;padding:10px 16px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+header.top .row{display:flex;align-items:baseline;gap:8px;justify-content:space-between}
+header.top h1{font-family:var(--disp);font-size:19px;letter-spacing:.02em;margin:0;font-weight:700}
+header.top .sub{font-size:12px;opacity:.9}
+header.top .pt{font-size:13px;margin-top:3px;min-height:18px;opacity:.95;font-weight:500}
+section{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:14px}
+h2{font-family:var(--disp);font-size:16px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+color:var(--accent);margin:0 0 12px;display:flex;align-items:baseline;gap:8px}
+.field{margin-bottom:12px}
+.field:last-child{margin-bottom:0}
+label.lab{display:block;font-family:var(--disp);font-weight:600;font-size:13px;letter-spacing:.04em;
+text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+input[type=text],input[type=number],textarea{width:100%;font-family:var(--body);font-size:16px;color:var(--ink);
+background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:11px 12px;min-height:var(--tap)}
+textarea{min-height:64px;resize:vertical}
+input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.grid{display:grid;gap:10px}
+.g2{grid-template-columns:1fr 1fr}
+.g3{grid-template-columns:1fr 1fr 1fr}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{font-family:var(--body);font-size:15px;font-weight:500;color:var(--ink);background:var(--surface-2);
+border:1.5px solid var(--line);border-radius:999px;padding:0 14px;min-height:var(--tap);cursor:pointer;
+display:inline-flex;align-items:center;gap:6px;-webkit-tap-highlight-color:transparent}
+.pill.active{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.pill.sm{min-height:38px;font-size:14px;padding:0 12px}
+.seg{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface-2)}
+.seg button{font-family:var(--body);font-size:14px;font-weight:600;border:none;background:transparent;color:var(--muted);
+min-height:40px;padding:0 16px;cursor:pointer}
+.seg button.on-ok{background:var(--ok);color:#fff}
+.seg button.on-warn{background:var(--warn);color:#fff}
+.sysrow{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.sysrow:last-of-type{border-bottom:none}
+.sysrow .nm{font-weight:500}
+.sysnote{margin:2px 0 6px}
+.toggle-adv{display:flex;align-items:center;gap:8px;background:none;border:none;color:var(--accent);
+font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.04em;font-size:13px;cursor:pointer;padding:6px 0}
+.chev{transition:transform .15s}
+.chev.up{transform:rotate(180deg)}
+.adv{margin-top:6px}
+.panel{margin-top:10px;padding:12px;background:var(--accent-soft);border-radius:10px;border:1px solid var(--line)}
+.panel .subttl{font-family:var(--disp);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.actions{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);
+padding:10px 16px;display:flex;gap:10px;z-index:30;max-width:640px;margin:0 auto}
+.btn{flex:1;min-height:var(--tap);border-radius:10px;border:1.5px solid var(--accent);background:var(--surface);
+color:var(--accent);font-family:var(--disp);font-weight:700;letter-spacing:.03em;text-transform:uppercase;font-size:14px;cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+#summaryText{white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;
+background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--ink)}
+.hint{font-size:12px;color:var(--muted);margin-top:4px}
+@media (max-width:380px){ .g3{grid-template-columns:1fr 1fr} }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="row"><h1>Field Exam</h1><span class="sub">Livestock Veterinary Resources</span></div>
+    <div class="pt" id="ptline">New exam</div>
+  </header>
+
+  <section>
+    <h2>Patient</h2>
+    <div class="grid g2">
+      <div class="field"><label class="lab" for="owner">Owner</label><input type="text" id="owner" autocomplete="off"></div>
+      <div class="field"><label class="lab" for="animalId">Animal ID</label><input type="text" id="animalId" autocomplete="off"></div>
+    </div>
+    <div class="field"><label class="lab" for="color">Color / Markings</label><input type="text" id="color" autocomplete="off"></div>
+    <div class="field"><label class="lab">Species</label><div class="pills" data-group="species" data-mode="single"></div></div>
+    <div class="grid g2">
+      <div class="field"><label class="lab" for="age">Age</label>
+        <div style="display:flex;gap:8px;align-items:center">
+          <input type="number" id="age" inputmode="decimal" min="0" step="0.1" style="flex:1">
+          <div class="pills" data-group="ageUnit" data-mode="single" data-default-first style="flex:0 0 auto"></div>
+        </div>
+      </div>
+      <div class="field"><label class="lab">Sex</label>
+        <div class="pills" data-group="sex" data-mode="single" id="sexGroup">
+          <button class="pill" type="button">Male</button><button class="pill" type="button">Female</button>
+        </div>
+      </div>
+    </div>
+    <div class="field"><label class="lab">Reproductive status</label>
+      <div class="pills" data-group="repro" data-mode="single">
+        <button class="pill" type="button">Intact</button><button class="pill" type="button" id="neuterBtn">Neutered</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Vitals</h2>
+    <div class="grid g3">
+      <div class="field"><label class="lab" for="weight">Weight</label><input type="number" id="weight" inputmode="decimal" min="0"></div>
+      <div class="field"><label class="lab" for="temp">Temp °F</label><input type="number" id="temp" inputmode="decimal" min="0" step="0.1"></div>
+      <div class="field"><label class="lab" for="hr">HR</label><input type="number" id="hr" inputmode="numeric" min="0"></div>
+      <div class="field"><label class="lab" for="rr">RR</label><input type="number" id="rr" inputmode="numeric" min="0"></div>
+    </div>
+    <div class="field"><label class="lab">Resp effort</label><div class="pills" data-group="respEffort" data-mode="single"></div></div>
+    <div class="field"><label class="lab">Mucous membranes</label><div class="pills" data-group="mm" data-mode="single"></div></div>
+    <button class="toggle-adv" type="button" id="advToggle" aria-expanded="false">
+      <span>Bloodwork (optional)</span><span class="chev" aria-hidden="true">▾</span>
+    </button>
+    <div class="adv" id="advPanel" hidden>
+      <div class="grid g3">
+        <div class="field"><label class="lab" for="pcv">PCV %</label><input type="number" id="pcv" inputmode="decimal" min="0"></div>
+        <div class="field"><label class="lab" for="tp">Total protein</label><input type="number" id="tp" inputmode="decimal" min="0" step="0.1"></div>
+        <div class="field"><label class="lab" for="glucose">Glucose</label><input type="number" id="glucose" inputmode="numeric" min="0"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Systems <span class="hint" style="font-weight:400;text-transform:none;letter-spacing:0">tap Abnl to note</span></h2>
+    <div id="systems"></div>
+  </section>
+
+  <section>
+    <h2>Disease Syndrome</h2>
+    <div class="pills" data-mode="multi" id="synPills"></div>
+    <div id="synPanels"></div>
+  </section>
+
+  <section>
+    <h2>Treatments</h2>
+    <div class="pills" data-mode="multi" id="txPills"></div>
+    <div id="txPanels"></div>
+  </section>
+
+  <section>
+    <h2>Other Comments</h2>
+    <textarea id="otherComments" rows="4" placeholder="Anything else…" aria-label="Other comments"></textarea>
+  </section>
+
+  <section>
+    <h2>Summary</h2>
+    <div id="summaryText">—</div>
+    <div class="hint">Auto-built from your selections. Copy to paste into the record.</div>
+  </section>
+</div>
+
+<div class="actions">
+  <button class="btn" type="button" id="clearBtn">New exam</button>
+  <button class="btn primary" type="button" id="copyBtn">Copy summary</button>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var CFG=window.EXAM_CONFIG||{};
+  var KEY="lvr_field_exam_draft_v1";
+  var SYSTEMS=CFG.systems||[], SYNDROMES=CFG.syndromes||[], SUBCATS=CFG.subcats||{},
+      TREATMENTS=CFG.treatments||[], ROUTES=CFG.routes||[];
+  var state={groups:{},systems:{},syndromes:{},subcats:{},tx:{},txRoute:{}};
+  function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");}
+  function titleCase(id){return id.replace(/-/g," ").replace(/\b\w/g,function(c){return c.toUpperCase();});}
+  function val(id){var e=document.getElementById(id);return e?e.value.trim():"";}
+
+  // ---- option pill groups from config ----
+  var GROUP_OPTS={species:CFG.species,ageUnit:CFG.ageUnits,respEffort:CFG.respEffort,mm:CFG.mm};
+  Object.keys(GROUP_OPTS).forEach(function(name){
+    var g=document.querySelector('.pills[data-group="'+name+'"]'); if(!g||!GROUP_OPTS[name])return;
+    GROUP_OPTS[name].forEach(function(opt){
+      var b=document.createElement("button"); b.type="button";
+      b.className="pill"+(g.hasAttribute("data-default-first")?" sm":""); b.textContent=opt; g.appendChild(b);
+    });
+  });
+
+  // ---- systems ----
+  var sysWrap=document.getElementById("systems");
+  SYSTEMS.forEach(function(name){
+    var id=slug(name); state.systems[id]={abnl:false,note:""};
+    var row=document.createElement("div"); row.className="sysrow";
+    row.innerHTML='<span class="nm">'+name+'</span>'+
+      '<div class="seg" role="group" aria-label="'+name+'">'+
+        '<button type="button" class="on-ok" data-v="normal">Normal</button>'+
+        '<button type="button" data-v="abnl">Abnl</button></div>';
+    var note=document.createElement("input"); note.type="text"; note.placeholder=name+" findings…";
+    note.className="sysnote"; note.hidden=true; note.setAttribute("aria-label",name+" findings");
+    var btns=row.querySelectorAll(".seg button");
+    btns[0].addEventListener("click",function(){setSys(id,false);});
+    btns[1].addEventListener("click",function(){setSys(id,true);});
+    note.addEventListener("input",function(){state.systems[id].note=note.value;save();render();});
+    sysWrap.appendChild(row); sysWrap.appendChild(note);
+    state.systems[id]._btns=btns; state.systems[id]._note=note;
+  });
+  function setSys(id,abnl){var o=state.systems[id];o.abnl=abnl;
+    o._btns[0].className=abnl?"":"on-ok"; o._btns[1].className=abnl?"on-warn":"";
+    o._note.hidden=!abnl; save(); render();}
+
+  // ---- syndromes ----
+  var synPills=document.getElementById("synPills"), synPanels=document.getElementById("synPanels");
+  SYNDROMES.forEach(function(name){
+    var id=slug(name); state.syndromes[id]=false; state.subcats[id]=[];
+    var b=document.createElement("button"); b.type="button"; b.className="pill"; b.textContent=name;
+    b.addEventListener("click",function(){state.syndromes[id]=!state.syndromes[id];
+      b.classList.toggle("active",state.syndromes[id]);
+      document.getElementById("panel-"+id).hidden=!state.syndromes[id];save();render();});
+    synPills.appendChild(b);
+    var panel=document.createElement("div"); panel.className="panel"; panel.id="panel-"+id; panel.hidden=true;
+    var inner="";
+    if(name==="Other")inner+='<div class="field"><label class="lab" for="other-name">Which</label><input type="text" id="other-name" autocomplete="off"></div>';
+    if(SUBCATS[name]){inner+='<p class="subttl">'+name+' type</p><div class="pills" data-sub="'+id+'" style="margin-bottom:10px">';
+      SUBCATS[name].forEach(function(sc){inner+='<button type="button" class="pill sm">'+sc+'</button>';});inner+='</div>';}
+    inner+='<label class="lab" for="note-'+id+'">Notes</label><textarea id="note-'+id+'"></textarea>';
+    panel.innerHTML=inner; synPanels.appendChild(panel);
+    panel.querySelector("#note-"+id).addEventListener("input",function(){save();render();});
+    var on=panel.querySelector("#other-name"); if(on)on.addEventListener("input",function(){save();render();});
+    var sw=panel.querySelector('[data-sub="'+id+'"]');
+    if(sw)sw.querySelectorAll("button").forEach(function(sb){sb.addEventListener("click",function(){sb.classList.toggle("active");
+      state.subcats[id]=Array.prototype.map.call(sw.querySelectorAll("button.active"),function(x){return x.textContent;});save();render();});});
+    state.syndromes[id+"_btn"]=b;
+  });
+
+  // ---- treatments ----
+  var txPills=document.getElementById("txPills"), txPanels=document.getElementById("txPanels");
+  TREATMENTS.forEach(function(name){
+    var id=slug(name); state.tx[id]=false; state.txRoute[id]=null;
+    var b=document.createElement("button"); b.type="button"; b.className="pill"; b.textContent=name;
+    b.addEventListener("click",function(){state.tx[id]=!state.tx[id];
+      b.classList.toggle("active",state.tx[id]);
+      document.getElementById("txpanel-"+id).hidden=!state.tx[id];save();render();});
+    txPills.appendChild(b);
+    var panel=document.createElement("div"); panel.className="panel"; panel.id="txpanel-"+id; panel.hidden=true;
+    var inner="";
+    if(name==="Other")inner+='<div class="field"><label class="lab" for="tx-other-name">Drug</label><input type="text" id="tx-other-name" autocomplete="off"></div>';
+    inner+='<div class="field"><label class="lab" for="ml-'+id+'">Dose (ml)</label><input type="number" id="ml-'+id+'" inputmode="decimal" min="0" step="0.1"></div>';
+    inner+='<p class="subttl">Route</p><div class="pills" data-route="'+id+'">';
+    ROUTES.forEach(function(r){inner+='<button type="button" class="pill sm">'+r+'</button>';});inner+='</div>';
+    panel.innerHTML=inner; txPanels.appendChild(panel);
+    panel.querySelector("#ml-"+id).addEventListener("input",function(){save();render();});
+    var on=panel.querySelector("#tx-other-name"); if(on)on.addEventListener("input",function(){save();render();});
+    var rw=panel.querySelector('[data-route="'+id+'"]');
+    rw.querySelectorAll("button").forEach(function(rb){rb.addEventListener("click",function(){
+      var was=rb.classList.contains("active");
+      rw.querySelectorAll("button").forEach(function(x){x.classList.remove("active");});
+      if(!was){rb.classList.add("active");state.txRoute[id]=rb.textContent.trim();}else state.txRoute[id]=null;
+      save();render();});});
+    state.tx[id+"_btn"]=b;
+  });
+
+  // ---- generic single/multi groups (species, ageUnit, respEffort, mm, sex, repro) ----
+  document.querySelectorAll('.pills[data-group]').forEach(function(g){
+    var name=g.getAttribute("data-group"), mode=g.getAttribute("data-mode");
+    state.groups[name]=mode==="single"?null:[];
+    g.querySelectorAll("button").forEach(function(btn){
+      btn.addEventListener("click",function(){
+        if(mode==="single"){var was=btn.classList.contains("active");
+          g.querySelectorAll("button").forEach(function(x){x.classList.remove("active");});
+          if(!was){btn.classList.add("active");state.groups[name]=btn.textContent.trim();}else state.groups[name]=null;
+          if(name==="sex")updateRepro();
+        }else{btn.classList.toggle("active");
+          state.groups[name]=Array.prototype.map.call(g.querySelectorAll("button.active"),function(x){return x.textContent.trim();});}
+        save();render();
+      });
+    });
+    if(g.hasAttribute("data-default-first")){var f=g.querySelector("button"); if(f){f.classList.add("active");state.groups[name]=f.textContent.trim();}}
+  });
+  function updateRepro(){var s=state.groups.sex,nb=document.getElementById("neuterBtn");
+    nb.textContent=s==="Male"?"Castrated":s==="Female"?"Spayed":"Neutered";}
+
+  // ---- bloodwork toggle ----
+  var adv=document.getElementById("advPanel"), advT=document.getElementById("advToggle");
+  advT.addEventListener("click",function(){var open=adv.hidden; adv.hidden=!open;
+    advT.setAttribute("aria-expanded",open?"true":"false");advT.querySelector(".chev").classList.toggle("up",open);});
+
+  // ---- text/number autosave ----
+  ["owner","animalId","color","age","weight","temp","hr","rr","pcv","tp","glucose","otherComments"].forEach(function(id){
+    var el=document.getElementById(id); if(el)el.addEventListener("input",function(){save();render();});});
+
+  // ---- summary ----
+  function buildSummary(){
+    var L=[];
+    var idp=[]; if(val("owner"))idp.push(val("owner")); if(val("animalId"))idp.push("ID "+val("animalId"));
+    var sig=[]; if(state.groups.species)sig.push(state.groups.species);
+    if(val("age"))sig.push(val("age")+" "+(state.groups.ageUnit||""));
+    var sx=[]; if(state.groups.sex)sx.push(state.groups.sex); if(state.groups.repro)sx.push(state.groups.repro);
+    if(sx.length)sig.push(sx.join(" ")); if(val("color"))sig.push(val("color"));
+    var head=[idp.join(", "),sig.join(", ")].filter(Boolean).join(" — "); if(head)L.push(head);
+
+    var v=[];
+    if(val("weight"))v.push("Wt "+val("weight")); if(val("temp"))v.push("T "+val("temp"));
+    if(val("hr"))v.push("HR "+val("hr")); if(val("rr"))v.push("RR "+val("rr"));
+    if(state.groups.respEffort)v.push("Effort "+state.groups.respEffort);
+    if(state.groups.mm)v.push("MM "+state.groups.mm);
+    if(v.length)L.push("Vitals: "+v.join(", "));
+    var lab=[]; if(val("pcv"))lab.push("PCV "+val("pcv")); if(val("tp"))lab.push("TP "+val("tp")); if(val("glucose"))lab.push("Gluc "+val("glucose"));
+    if(lab.length)L.push("Bloodwork: "+lab.join(", "));
+
+    var abn=[]; Object.keys(state.systems).forEach(function(id){var s=state.systems[id];
+      if(s.abnl)abn.push(titleCase(id)+(s.note?": "+s.note:""));});
+    L.push(abn.length?"Abnormal systems: "+abn.join("; "):"Systems: all normal");
+
+    var syn=[]; SYNDROMES.forEach(function(name){var id=slug(name); if(!state.syndromes[id])return;
+      var p=name; if(name==="Other"){var o=val("other-name"); if(o)p="Other ("+o+")";}
+      if(state.subcats[id]&&state.subcats[id].length)p+=" ["+state.subcats[id].join(", ")+"]";
+      var nt=val("note-"+id); if(nt)p+=": "+nt; syn.push(p);});
+    if(syn.length)L.push("Syndrome: "+syn.join(" | "));
+
+    var tx=[]; TREATMENTS.forEach(function(name){var id=slug(name); if(!state.tx[id])return;
+      var label=name; if(name==="Other"){var dn=val("tx-other-name"); if(dn)label=dn;}
+      var parts=[label]; var ml=val("ml-"+id); if(ml)parts.push(ml+" ml");
+      if(state.txRoute[id])parts.push(state.txRoute[id]); tx.push(parts.join(" "));});
+    if(tx.length)L.push("Treatments: "+tx.join("; "));
+    if(val("otherComments"))L.push("Comments: "+val("otherComments"));
+    return L.join("\n");
+  }
+  function render(){
+    document.getElementById("summaryText").textContent=buildSummary()||"—";
+    var pt=[]; if(val("animalId"))pt.push("ID "+val("animalId")); if(state.groups.species)pt.push(state.groups.species);
+    var a=[]; SYNDROMES.forEach(function(n){if(state.syndromes[slug(n)])a.push(n);}); if(a.length)pt.push(a.join(", "));
+    document.getElementById("ptline").textContent=pt.length?pt.join(" · "):"New exam";
+  }
+
+  // ---- persistence ----
+  function collect(){
+    var d={inputs:{},groups:state.groups,systems:{},syndromes:{},subcats:state.subcats,
+           tx:{},txRoute:{},txMl:{},synNotes:{},adv:!adv.hidden};
+    ["owner","animalId","color","age","weight","temp","hr","rr","pcv","tp","glucose","other-name","tx-other-name","otherComments"].forEach(function(id){
+      var e=document.getElementById(id); if(e)d.inputs[id]=e.value;});
+    Object.keys(state.systems).forEach(function(id){d.systems[id]={abnl:state.systems[id].abnl,note:state.systems[id].note};});
+    SYNDROMES.forEach(function(n){var id=slug(n); d.syndromes[id]=!!state.syndromes[id];
+      var e=document.getElementById("note-"+id); if(e)d.synNotes[id]=e.value;});
+    TREATMENTS.forEach(function(n){var id=slug(n); d.tx[id]=!!state.tx[id]; d.txRoute[id]=state.txRoute[id]||null;
+      var e=document.getElementById("ml-"+id); if(e)d.txMl[id]=e.value;});
+    return d;
+  }
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(collect()));}catch(e){}}
+  function load(){
+    var raw; try{raw=localStorage.getItem(KEY);}catch(e){return;} if(!raw)return;
+    var d; try{d=JSON.parse(raw);}catch(e){return;}
+    if(d.inputs)Object.keys(d.inputs).forEach(function(id){var e=document.getElementById(id); if(e)e.value=d.inputs[id];});
+    if(d.groups)Object.keys(d.groups).forEach(function(name){var v=d.groups[name];
+      var g=document.querySelector('.pills[data-group="'+name+'"]'); if(!g)return;
+      g.querySelectorAll("button").forEach(function(b){var t=b.textContent.trim();
+        if(Array.isArray(v)){if(v.indexOf(t)>=0)b.classList.add("active");}else if(v===t)b.classList.add("active");});
+      state.groups[name]=v;}); updateRepro();
+    if(d.systems)Object.keys(d.systems).forEach(function(id){var s=d.systems[id]; if(!s||!state.systems[id])return;
+      state.systems[id].note=s.note||""; state.systems[id]._note.value=s.note||""; setSys(id,!!s.abnl);});
+    if(d.syndromes)Object.keys(d.syndromes).forEach(function(id){if(d.syndromes[id]){var b=state.syndromes[id+"_btn"];
+      if(b){state.syndromes[id]=true;b.classList.add("active");var p=document.getElementById("panel-"+id);if(p)p.hidden=false;}}});
+    if(d.subcats)Object.keys(d.subcats).forEach(function(id){state.subcats[id]=d.subcats[id]||[];
+      var w=document.querySelector('[data-sub="'+id+'"]'); if(!w)return;
+      w.querySelectorAll("button").forEach(function(b){if(d.subcats[id].indexOf(b.textContent)>=0)b.classList.add("active");});});
+    if(d.synNotes)Object.keys(d.synNotes).forEach(function(id){var e=document.getElementById("note-"+id); if(e)e.value=d.synNotes[id];});
+    if(d.tx)Object.keys(d.tx).forEach(function(id){if(d.tx[id]){var b=state.tx[id+"_btn"];
+      if(b){state.tx[id]=true;b.classList.add("active");var p=document.getElementById("txpanel-"+id);if(p)p.hidden=false;}}});
+    if(d.txRoute)Object.keys(d.txRoute).forEach(function(id){var r=d.txRoute[id]; if(!r)return; state.txRoute[id]=r;
+      var w=document.querySelector('[data-route="'+id+'"]'); if(!w)return;
+      w.querySelectorAll("button").forEach(function(b){if(b.textContent.trim()===r)b.classList.add("active");});});
+    if(d.txMl)Object.keys(d.txMl).forEach(function(id){var e=document.getElementById("ml-"+id); if(e)e.value=d.txMl[id];});
+    if(d.adv){adv.hidden=false;advT.setAttribute("aria-expanded","true");advT.querySelector(".chev").classList.add("up");}
+  }
+
+  document.getElementById("copyBtn").addEventListener("click",function(){
+    var t=buildSummary(), btn=this;
+    function ok(){var o=btn.textContent;btn.textContent="Copied ✓";setTimeout(function(){btn.textContent=o;},1400);}
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(ok,function(){fb(t);ok();});
+    else{fb(t);ok();}
+  });
+  function fb(t){var ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();
+    try{document.execCommand("copy");}catch(e){}document.body.removeChild(ta);}
+  document.getElementById("clearBtn").addEventListener("click",function(){
+    if(!confirm("Clear this exam and start a new one?"))return;
+    try{localStorage.removeItem(KEY);}catch(e){}location.reload();});
+
+  load(); render();
+})();
+</script>
+
+
+
+
+
+</body></html>
