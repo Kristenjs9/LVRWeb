@@ -53,6 +53,8 @@ website:
             href: regimenspend.qmd
           - text: "Field Exam"
             href: field_exam/index.html
+          - text: "Processing"
+            href: processing/index.html
       - text: "Research"
         href: research.qmd
       - text: "About"
@@ -71,3 +73,4 @@ resources:
   - CNAME
   - health_records
   - field_exam
+  - processing
