@@ -35,95 +35,158 @@
     "text": "Warning\n\n\n\nDo NOT use this page unless you understand the limitations of these calculations, and when they do not apply.\n\n\n\nCI for Proportions\nProportional Uncertainty\nPower Curves\n\n\n\n\n\n\nSource: ExplainXKCD"
   },
   {
-    "objectID": "johnesdisease.html",
-    "href": "johnesdisease.html",
-    "title": "Johne’s Disease",
+    "objectID": "productguide.html",
+    "href": "productguide.html",
+    "title": "Product Guide",
     "section": "",
-    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3 years of age or older."
+    "text": "What each product in your LVR processing protocol protects against, and whether a vaccine is modified-live (MLV) or killed. Always read the label, and call LVR at (785) 333-8384 with questions."
   },
   {
-    "objectID": "johnesdisease.html#overview",
-    "href": "johnesdisease.html#overview",
-    "title": "Johne’s Disease",
+    "objectID": "productguide.html#alpha-7-cattle-vaccine",
+    "href": "productguide.html#alpha-7-cattle-vaccine",
+    "title": "Product Guide",
+    "section": "Alpha-7 Cattle Vaccine",
+    "text": "Alpha-7 Cattle Vaccine\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)\nUsed for: Clostridial\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#alpha-7-mb1",
+    "href": "productguide.html#alpha-7-mb1",
+    "title": "Product Guide",
+    "section": "Alpha-7/MB1",
+    "text": "Alpha-7/MB1\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D); pinkeye (Moraxella bovis)\nUsed for: Clostridial; Pinkeye\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 60 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#dectomax-pour-on",
+    "href": "productguide.html#dectomax-pour-on",
+    "title": "Product Guide",
+    "section": "Dectomax Pour-On",
+    "text": "Dectomax Pour-On\nMacrocyclic lactone (doramectin)\nProtects against: Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies\nUsed for: Internal parasites; External parasites\nLabel dose: 5 mL per 100 lb, Pour on topline\nSlaughter withdrawal: 45 days\nMade by: Zoetis"
+  },
+  {
+    "objectID": "productguide.html#express-fp-5-vl5-hb",
+    "href": "productguide.html#express-fp-5-vl5-hb",
+    "title": "Product Guide",
+    "section": "Express FP 5-VL5 HB",
+    "text": "Express FP 5-VL5 HB\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo-bovis, icterohaemorrhagiae, pomona)\nUsed for: Reproductive; Respiratory viral (injectable)\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#inforce-3",
+    "href": "productguide.html#inforce-3",
+    "title": "Product Guide",
+    "section": "Inforce 3",
+    "text": "Inforce 3\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), PI3, BRSV\nUsed for: Respiratory viral (intranasal)\nLabel dose: 2 mL, Intranasal\nMade by: Zoetis"
+  },
+  {
+    "objectID": "productguide.html#pyramid-5",
+    "href": "productguide.html#pyramid-5",
+    "title": "Product Guide",
+    "section": "Pyramid 5",
+    "text": "Pyramid 5\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV\nUsed for: Respiratory viral (injectable)\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#pyramid-5-presponse-sq",
+    "href": "productguide.html#pyramid-5-presponse-sq",
+    "title": "Product Guide",
+    "section": "Pyramid 5 + Presponse SQ",
+    "text": "Pyramid 5 + Presponse SQ\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Mannheimia haemolytica pneumonia (leukotoxoid)\nUsed for: Respiratory viral (injectable); Mannheimia-Pasteurella\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#synanthic-bovine-dewormer-suspension-22-5",
+    "href": "productguide.html#synanthic-bovine-dewormer-suspension-22-5",
+    "title": "Product Guide",
+    "section": "Synanthic Bovine Dewormer Suspension 22.5%",
+    "text": "Synanthic Bovine Dewormer Suspension 22.5%\nBenzimidazole (oxfendazole)\nProtects against: Stomach and intestinal roundworms, lungworms, tapeworms\nUsed for: Internal parasites\nLabel dose: 1 mL per 110 lb, Oral\nSlaughter withdrawal: 11 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#vetrimec-pour-on",
+    "href": "productguide.html#vetrimec-pour-on",
+    "title": "Product Guide",
+    "section": "Vetrimec Pour-On",
+    "text": "Vetrimec Pour-On\nMacrocyclic lactone (ivermectin)\nProtects against: Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies\nUsed for: Internal parasites; External parasites\nLabel dose: 5 mL per 100 lb, Pour on topline\nSlaughter withdrawal: 48 days\nMade by: Norbrook"
+  },
+  {
+    "objectID": "productguide.html#vira-shield-6-vl5",
+    "href": "productguide.html#vira-shield-6-vl5",
+    "title": "Product Guide",
+    "section": "Vira Shield 6 + VL5",
+    "text": "Vira Shield 6 + VL5\nKilled vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo, icterohaemorrhagiae, pomona)\nUsed for: Reproductive; Respiratory viral (injectable)\nLabel dose: 5 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Elanco"
+  },
+  {
+    "objectID": "productguide.html#vision-7",
+    "href": "productguide.html#vision-7",
+    "title": "Product Guide",
+    "section": "Vision 7",
+    "text": "Vision 7\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)\nUsed for: Clostridial\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Merck"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Livestock Veterinary Resources",
     "section": "",
-    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3 years of age or older."
+    "text": "Client tools Contact\nClinical veterinary services: LVR partners with clients to improve herd health by providing production data analytics and mobile large animal clinical veterinary services to select clients near Olsburg, KS.\nResearch: LVR participates in contract research projects which improve livestock health by supporting policy change and product development."
   },
   {
-    "objectID": "johnesdisease.html#signs",
-    "href": "johnesdisease.html#signs",
-    "title": "Johne’s Disease",
-    "section": "Signs",
-    "text": "Signs\n\nChronic, watery diarrhea without blood or straining\nProgressive weight loss despite normal appetite\nDecreased milk production\nNormal temperature (helps distinguish from other causes of diarrhea)"
+    "objectID": "index.html#client-tools",
+    "href": "index.html#client-tools",
+    "title": "Livestock Veterinary Resources",
+    "section": "Client tools",
+    "text": "Client tools\n\nCalf Care\n\n\n New Sick Calf Exam Exam beside the calf; text the clinic. Open → \n\n\n Calf Hydration & Colostrum Hydration & colostrum guidance. Open → \n\n\n Calving Calving-season reference. Open → \n\n\n Vaccine Recommendations Protocols & timing. Open → \n\n\n\n\nCattle Health\n\n\n Fly Information Identify & manage flies. Open → \n\n\n Prolapses Vaginal, uterine & rectal. Open → \n\n\n Bloat Signs, treatment & prevention. Open → \n\n\n Johne’s Disease Signs & herd management. Open → \n\n\n Lameness Heel wart & footrot. Open → \n\n\n\n\nOther Client Resources\n\n\n Dosage Chart Drug dosing by weight. Open → \n\n\n Repro Protocols Breeding sync protocols. Open → \n\n\n\nDr. Nora Schrag and Dr. Tara Fountain\nPhone: (785) 333-8384\nWe look forward to hearing from you!\n\nWant to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our About page.\n\n  \n  \n    ×\n    Contact LVR\n    Dr. Nora Schrag & Dr. Tara Fountain\n    (785) 333-8384\n    We look forward to hearing from you!"
   },
   {
-    "objectID": "johnesdisease.html#why-it-matters",
-    "href": "johnesdisease.html#why-it-matters",
-    "title": "Johne’s Disease",
-    "section": "Why it matters",
-    "text": "Why it matters\n\nThere is no cure once an animal is clinically affected.\nInfected animals shed bacteria into the environment well before showing symptoms, making early detection and herd-level management critical.\nCan have economic impacts through reduced productivity and culling."
-  },
-  {
-    "objectID": "johnesdisease.html#prevention-management",
-    "href": "johnesdisease.html#prevention-management",
-    "title": "Johne’s Disease",
-    "section": "Prevention & Management",
-    "text": "Prevention & Management\n\nTest and cull strategically to reduce herd prevalence\nManage calving areas to minimize manure contact with newborn calves\nFeed colostrum/milk only from test-negative dams when possible\nMaintain clean water and feed sources, away from manure runoff\n\n\n\n\n\n\n\nNote\n\n\n\nAsk us about herd-level testing options if you suspect Johne’s disease may be present in your herd.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
-  },
-  {
-    "objectID": "heatstress.html",
-    "href": "heatstress.html",
-    "title": "Cattle Heat Stress Resources",
+    "objectID": "hairyheelwart.html",
+    "href": "hairyheelwart.html",
+    "title": "Lameness",
     "section": "",
-    "text": "K-State Mesonet Animal Comfort Index - this tool uses temperature, humidity, and wind speed to calculate an animal comfort index. Cattle on pasture with plenty of water generally do not need special attention, but cattle in a lot might, and especially fat cattle in a lot. Make sure you have a plan for providing extra water if the animal comfort index is in the orange or red. Consider providing extra water when index is yellow if times of orange or red are predicted following the yellow time.\n\nHeat Stress\nWater Requirements"
+    "text": "Both hairy heel wart (digital dermatitis) and footrot are common causes of lameness in cattle, but they have different causes and require different treatment approaches."
   },
   {
-    "objectID": "flyinformation.html#quick-reference",
-    "href": "flyinformation.html#quick-reference",
-    "title": "",
-    "section": "Quick Reference",
-    "text": "Quick Reference\n\n\n\n\n\n\n\n\nFly Type\nWhat to Look For\nBest Control\n\n\n\n\nHorn Flies\nSmall (3–5mm), gather on the back and sides, bite and feed on blood\nEar tags, pour-ons, back rubbers/dust bags\n\n\nFace Flies\nDark gray, 6–8mm, non-biting but spread pinkeye, gather near eyes, nose, and wounds\nPyrethroid ear tags, pour-ons, back rubbers/dust bags\n\n\nStable Flies\nGray checkerboard pattern, 7–8mm, bite and feed on blood, gather on legs, active mid-May–September\nSanitation, premise spraying\n\n\n\n\n\n\nHorn Flies\nWhat to look for: Small flies (3–5mm) that gather on the back and sides of cattle and bite and feed on blood.\nControl:\n\nEar tags — remove in the fall to help prevent resistance\nPour-ons like ivermectin — protect for about 28 days, so reapply as needed\nBack rubbers and dust bags — let cattle treat themselves, no handling required\nOral larvicides in feed or mineral — stop new larvae but don’t kill adult flies\n\n\n\nFace Flies\nWhat to look for: Dark gray flies (6–8mm) that don’t bite but spread pinkeye. They gather around the eyes, nose, and wounds.\nControl:\n\nPyrethroid ear tags\nPour-ons\nBack rubbers and dust bags — let cattle treat themselves, no handling required\n\n\n\nStable Flies\nWhat to look for: Gray flies with a checkerboard pattern (7–8mm) that bite and feed on blood, usually on the legs. Most common mid-May through September.\nControl:\n\nSanitation — remove manure piles and other larvae breeding sites (most effective option)\nPremise spraying — flies rest in shaded areas, so treating those spots can help"
-  },
-  {
-    "objectID": "flyinformation.html#recommended-products",
-    "href": "flyinformation.html#recommended-products",
-    "title": "",
-    "section": "Recommended Products",
-    "text": "Recommended Products\n\n\n\nCyonara\nType: Pour-on\nFliesTicks\nApplied along the topline, Cyonara is our recommended pour-on for fly and tick control.\n\n\n\nCatron\nType: Spray\nFliesTicks\nCan be sprayed directly on ears and sores for targeted fly and tick control.\n\n\n\nPermethrin 10%\nType: Fogger\nFliesTicks\nUsed in a fogger for premise treatment to help knock down adult fly and tick populations."
-  },
-  {
-    "objectID": "CattleInventory.html",
-    "href": "CattleInventory.html",
-    "title": "",
+    "objectID": "hairyheelwart.html#overview",
+    "href": "hairyheelwart.html#overview",
+    "title": "Lameness",
     "section": "",
-    "text": "Note\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n Cattle Inventory"
+    "text": "Both hairy heel wart (digital dermatitis) and footrot are common causes of lameness in cattle, but they have different causes and require different treatment approaches."
   },
   {
-    "objectID": "CattleInventory.html#microbeef-cattle-inventory",
-    "href": "CattleInventory.html#microbeef-cattle-inventory",
-    "title": "",
-    "section": "",
-    "text": "Note\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n Cattle Inventory"
+    "objectID": "hairyheelwart.html#hairy-heel-wart-digital-dermatitis",
+    "href": "hairyheelwart.html#hairy-heel-wart-digital-dermatitis",
+    "title": "Lameness",
+    "section": "Hairy Heel Wart (Digital Dermatitis)",
+    "text": "Hairy Heel Wart (Digital Dermatitis)\n\nA bacterial skin infection, typically on the back of the heel near the skin-hoof junction.\nAppears right at the hair line as a raw, raspberry-like or hairy/wart-like lesion.\nNo swelling, often pointing toes.\nHighly contagious within a herd.\n\nManagement:\n\nTopical antibiotic treatment directly on the lesion\nFootbaths to reduce herd-wide spread\nImproving pen/lot drainage and reducing standing manure/mud"
   },
   {
-    "objectID": "CalfHydrationCR.html",
-    "href": "CalfHydrationCR.html",
-    "title": "Calf Hydration",
-    "section": "",
-    "text": "LVR Recommended Products:"
+    "objectID": "hairyheelwart.html#footrot",
+    "href": "hairyheelwart.html#footrot",
+    "title": "Lameness",
+    "section": "Footrot",
+    "text": "Footrot\n\nA bacterial infection of the soft tissue between the toes, usually following a break in the skin (cuts, abrasions, abscess sites).\nEntire foot is swollen not just one side.\nGenerally affects one animal at a time rather than spreading rapidly like digital dermatitis.\n\nManagement:\n\nSystemic antibiotic treatment (not just topical)\nExpect significant improvement within 2 days, if not call us.\nKeeping the area clean and dry during recovery\nAddressing environmental factors (rocks, debris, wet lots) that cause the initial injury\n\n\n\n\nPhoto courtesy of Gerard Cramer\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf lameness doesn’t improve within a few days of treatment for footrot or 2 weeks for heel wart, or if you’re unsure which condition you’re dealing with, give us a call.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
-    "objectID": "astinterpreter.html",
-    "href": "astinterpreter.html",
-    "title": "AST Interpreter",
+    "objectID": "feedlotreporting.html",
+    "href": "feedlotreporting.html",
+    "title": "Feedlot Reporting",
     "section": "",
-    "text": "Warning\n\n\n\nThis tool is still under development."
+    "text": "Under Construction! Check back soon!"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "clientportal.html",
+    "href": "clientportal.html",
+    "title": "Client Portal",
     "section": "",
-    "text": "Our team combines hands-on large animal practice with research and data analytics. Tap a photo to read more about each of us.\n\n\n  \n    \n    \n      Dr. Nora Schrag\n      Read bio ▾\n      \n        Nora Schrag received her DVM from Kansas State University in 2006, and then spent her first year of practice in the Chaco region of Paraguay. For the next 6 years she enjoyed rural mixed animal practice in southeast Nebraska. She then returned to Kansas State College of Veterinary Medicine to teach livestock field services. This position eventually transitioned into doing research, a PhD, and board certification in clinical pharmacology (Dip. ACVCP). Nora enjoys the challenge of applying research within the real world of clinical practice. Her time is split between practice in the Flint Hills of Kansas and doing data analytics for a variety of veterinary related projects.\n      \n    \n  \n\n  \n    \n    \n      Dr. Tara Fountain\n      Read bio ▾\n      \n        Dr. Tara Fountain is from central Missouri where she grew up on a cow-calf operation. She graduated from Kansas State University in 2014 with a Bachelors of Animal Sciences and Industry. In 2020, she graduated from Kansas State University College of Veterinary Medicine, and completed her masters degree in Veterinary Biomedical Sciences. After graduation, she practiced in Concordia, KS at a mixed animal veterinary clinic before moving back to the Randolph area. She has most recently been working in a small animal veterinary clinic in Manhattan, but is excited for the opportunity to work in a mixed animal setting again. She and her husband, Nick, live near Randolph with their daughter, Raya. Together they operate a seedstock Charolais and Angus operation.\n      \n    \n  \n\n  \n    \n    \n      Kristen Dunivan\n      Read bio ▾\n      \n        Kristen graduated with a Masters in Veterinary Clinical Sciences from Kansas State University in 2022. She completed her bachelors in Animal Science at Kansas State University in 2020, and spent 3 years during undergrad working at the Beef Cattle Research Center as well as a summer at the Dairy. She grew up with horses and now manages a horse boarding facility in Randolph, KS. Kristen is passionate about improving animal health and welfare through data analysis and evidence-based practices. She proudly holds the title of “Sidekick” to Dr. Schrag, and is excited to be a part of the Livestock Veterinary Resources team."
+    "text": "Our online client portal gives you secure, anytime access to your herd’s medical records with LVR.\n\n Go to Client Portal \n\n\n\n\nAccess your herd’s medical records and treatment history\nView VFDs, health papers, and visit history\n\n\n\n\n\nClick the Client Portal button below.\nEnter the email on file with our clinic.\nYou will be sent a login link to your email.\nOnce logged in, you’ll see your medical records, VFDs, health papers, visit history and more.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you don’t see your records after logging in, or you’re having trouble accessing the portal, please call us at (785) 333-8384 and we’ll get you set up.\n\n\n\n\n\n\n\n\nThe LVR client portal login page"
+  },
+  {
+    "objectID": "clientportal.html#access-your-client-portal",
+    "href": "clientportal.html#access-your-client-portal",
+    "title": "Client Portal",
+    "section": "",
+    "text": "Our online client portal gives you secure, anytime access to your herd’s medical records with LVR.\n\n Go to Client Portal \n\n\n\n\nAccess your herd’s medical records and treatment history\nView VFDs, health papers, and visit history\n\n\n\n\n\nClick the Client Portal button below.\nEnter the email on file with our clinic.\nYou will be sent a login link to your email.\nOnce logged in, you’ll see your medical records, VFDs, health papers, visit history and more.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you don’t see your records after logging in, or you’re having trouble accessing the portal, please call us at (785) 333-8384 and we’ll get you set up."
+  },
+  {
+    "objectID": "calving.html",
+    "href": "calving.html",
+    "title": "Calving",
+    "section": "",
+    "text": "Stage 1\nAnimal is restless, may get up and down, abdominal contractions present\nDuration: 1–12 hours\n⇩\nStage 2\nWater bag out or animal is laying down pushing\nDuration:\n\n1–2 hours (cow)\n1–4 hours (heifer)\n\n⇩\nCalf Delivered\n\nCow should make progress every 30 minutes.\nIf you come back 30 min later and everything looks the same, you likely have a problem.\n\nDummy Calves\n\n\n\n\n\nImage Source"
   },
   {
     "objectID": "bloat.html",
@@ -161,74 +224,95 @@
     "text": "Prevention\n\nIntroduce cattle to lush pasture gradually\nProvide adequate dry hay/roughage before turnout onto legume-heavy pasture\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
-    "objectID": "calving.html",
-    "href": "calving.html",
-    "title": "Calving",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Stage 1\nAnimal is restless, may get up and down, abdominal contractions present\nDuration: 1–12 hours\n⇩\nStage 2\nWater bag out or animal is laying down pushing\nDuration:\n\n1–2 hours (cow)\n1–4 hours (heifer)\n\n⇩\nCalf Delivered\n\nCow should make progress every 30 minutes.\nIf you come back 30 min later and everything looks the same, you likely have a problem.\n\nDummy Calves\n\n\n\n\n\nImage Source"
+    "text": "Our team combines hands-on large animal practice with research and data analytics. Tap a photo to read more about each of us.\n\n\n  \n    \n    \n      Dr. Nora Schrag\n      Read bio ▾\n      \n        Nora Schrag received her DVM from Kansas State University in 2006, and then spent her first year of practice in the Chaco region of Paraguay. For the next 6 years she enjoyed rural mixed animal practice in southeast Nebraska. She then returned to Kansas State College of Veterinary Medicine to teach livestock field services. This position eventually transitioned into doing research, a PhD, and board certification in clinical pharmacology (Dip. ACVCP). Nora enjoys the challenge of applying research within the real world of clinical practice. Her time is split between practice in the Flint Hills of Kansas and doing data analytics for a variety of veterinary related projects.\n      \n    \n  \n\n  \n    \n    \n      Dr. Tara Fountain\n      Read bio ▾\n      \n        Dr. Tara Fountain is from central Missouri where she grew up on a cow-calf operation. She graduated from Kansas State University in 2014 with a Bachelors of Animal Sciences and Industry. In 2020, she graduated from Kansas State University College of Veterinary Medicine, and completed her masters degree in Veterinary Biomedical Sciences. After graduation, she practiced in Concordia, KS at a mixed animal veterinary clinic before moving back to the Randolph area. She has most recently been working in a small animal veterinary clinic in Manhattan, but is excited for the opportunity to work in a mixed animal setting again. She and her husband, Nick, live near Randolph with their daughter, Raya. Together they operate a seedstock Charolais and Angus operation.\n      \n    \n  \n\n  \n    \n    \n      Kristen Dunivan\n      Read bio ▾\n      \n        Kristen graduated with a Masters in Veterinary Clinical Sciences from Kansas State University in 2022. She completed her bachelors in Animal Science at Kansas State University in 2020, and spent 3 years during undergrad working at the Beef Cattle Research Center as well as a summer at the Dairy. She grew up with horses and now manages a horse boarding facility in Randolph, KS. Kristen is passionate about improving animal health and welfare through data analysis and evidence-based practices. She proudly holds the title of “Sidekick” to Dr. Schrag, and is excited to be a part of the Livestock Veterinary Resources team."
   },
   {
-    "objectID": "clientportal.html",
-    "href": "clientportal.html",
-    "title": "Client Portal",
+    "objectID": "astinterpreter.html",
+    "href": "astinterpreter.html",
+    "title": "AST Interpreter",
     "section": "",
-    "text": "Our online client portal gives you secure, anytime access to your herd’s medical records with LVR.\n\n Go to Client Portal \n\n\n\n\nAccess your herd’s medical records and treatment history\nView VFDs, health papers, and visit history\n\n\n\n\n\nClick the Client Portal button below.\nEnter the email on file with our clinic.\nYou will be sent a login link to your email.\nOnce logged in, you’ll see your medical records, VFDs, health papers, visit history and more.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you don’t see your records after logging in, or you’re having trouble accessing the portal, please call us at (785) 333-8384 and we’ll get you set up.\n\n\n\n\n\n\n\n\nThe LVR client portal login page"
+    "text": "Warning\n\n\n\nThis tool is still under development."
   },
   {
-    "objectID": "clientportal.html#access-your-client-portal",
-    "href": "clientportal.html#access-your-client-portal",
-    "title": "Client Portal",
+    "objectID": "CalfHydrationCR.html",
+    "href": "CalfHydrationCR.html",
+    "title": "Calf Hydration",
     "section": "",
-    "text": "Our online client portal gives you secure, anytime access to your herd’s medical records with LVR.\n\n Go to Client Portal \n\n\n\n\nAccess your herd’s medical records and treatment history\nView VFDs, health papers, and visit history\n\n\n\n\n\nClick the Client Portal button below.\nEnter the email on file with our clinic.\nYou will be sent a login link to your email.\nOnce logged in, you’ll see your medical records, VFDs, health papers, visit history and more.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you don’t see your records after logging in, or you’re having trouble accessing the portal, please call us at (785) 333-8384 and we’ll get you set up."
+    "text": "LVR Recommended Products:"
   },
   {
-    "objectID": "feedlotreporting.html",
-    "href": "feedlotreporting.html",
-    "title": "Feedlot Reporting",
+    "objectID": "CattleInventory.html",
+    "href": "CattleInventory.html",
+    "title": "",
     "section": "",
-    "text": "Under Construction! Check back soon!"
+    "text": "Note\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n Cattle Inventory"
   },
   {
-    "objectID": "hairyheelwart.html",
-    "href": "hairyheelwart.html",
-    "title": "Lameness",
+    "objectID": "CattleInventory.html#microbeef-cattle-inventory",
+    "href": "CattleInventory.html#microbeef-cattle-inventory",
+    "title": "",
     "section": "",
-    "text": "Both hairy heel wart (digital dermatitis) and footrot are common causes of lameness in cattle, but they have different causes and require different treatment approaches."
+    "text": "Note\n\n\n\nThis application only works if your herd has been set up through LVR\n\n\n\n Cattle Inventory"
   },
   {
-    "objectID": "hairyheelwart.html#overview",
-    "href": "hairyheelwart.html#overview",
-    "title": "Lameness",
+    "objectID": "flyinformation.html#quick-reference",
+    "href": "flyinformation.html#quick-reference",
+    "title": "",
+    "section": "Quick Reference",
+    "text": "Quick Reference\n\n\n\n\n\n\n\n\nFly Type\nWhat to Look For\nBest Control\n\n\n\n\nHorn Flies\nSmall (3–5mm), gather on the back and sides, bite and feed on blood\nEar tags, pour-ons, back rubbers/dust bags\n\n\nFace Flies\nDark gray, 6–8mm, non-biting but spread pinkeye, gather near eyes, nose, and wounds\nPyrethroid ear tags, pour-ons, back rubbers/dust bags\n\n\nStable Flies\nGray checkerboard pattern, 7–8mm, bite and feed on blood, gather on legs, active mid-May–September\nSanitation, premise spraying\n\n\n\n\n\n\nHorn Flies\nWhat to look for: Small flies (3–5mm) that gather on the back and sides of cattle and bite and feed on blood.\nControl:\n\nEar tags — remove in the fall to help prevent resistance\nPour-ons like ivermectin — protect for about 28 days, so reapply as needed\nBack rubbers and dust bags — let cattle treat themselves, no handling required\nOral larvicides in feed or mineral — stop new larvae but don’t kill adult flies\n\n\n\nFace Flies\nWhat to look for: Dark gray flies (6–8mm) that don’t bite but spread pinkeye. They gather around the eyes, nose, and wounds.\nControl:\n\nPyrethroid ear tags\nPour-ons\nBack rubbers and dust bags — let cattle treat themselves, no handling required\n\n\n\nStable Flies\nWhat to look for: Gray flies with a checkerboard pattern (7–8mm) that bite and feed on blood, usually on the legs. Most common mid-May through September.\nControl:\n\nSanitation — remove manure piles and other larvae breeding sites (most effective option)\nPremise spraying — flies rest in shaded areas, so treating those spots can help"
+  },
+  {
+    "objectID": "flyinformation.html#recommended-products",
+    "href": "flyinformation.html#recommended-products",
+    "title": "",
+    "section": "Recommended Products",
+    "text": "Recommended Products\n\n\n\nCyonara\nType: Pour-on\nFliesTicks\nApplied along the topline, Cyonara is our recommended pour-on for fly and tick control.\n\n\n\nCatron\nType: Spray\nFliesTicks\nCan be sprayed directly on ears and sores for targeted fly and tick control.\n\n\n\nPermethrin 10%\nType: Fogger\nFliesTicks\nUsed in a fogger for premise treatment to help knock down adult fly and tick populations."
+  },
+  {
+    "objectID": "heatstress.html",
+    "href": "heatstress.html",
+    "title": "Cattle Heat Stress Resources",
     "section": "",
-    "text": "Both hairy heel wart (digital dermatitis) and footrot are common causes of lameness in cattle, but they have different causes and require different treatment approaches."
+    "text": "K-State Mesonet Animal Comfort Index - this tool uses temperature, humidity, and wind speed to calculate an animal comfort index. Cattle on pasture with plenty of water generally do not need special attention, but cattle in a lot might, and especially fat cattle in a lot. Make sure you have a plan for providing extra water if the animal comfort index is in the orange or red. Consider providing extra water when index is yellow if times of orange or red are predicted following the yellow time.\n\nHeat Stress\nWater Requirements"
   },
   {
-    "objectID": "hairyheelwart.html#hairy-heel-wart-digital-dermatitis",
-    "href": "hairyheelwart.html#hairy-heel-wart-digital-dermatitis",
-    "title": "Lameness",
-    "section": "Hairy Heel Wart (Digital Dermatitis)",
-    "text": "Hairy Heel Wart (Digital Dermatitis)\n\nA bacterial skin infection, typically on the back of the heel near the skin-hoof junction.\nAppears right at the hair line as a raw, raspberry-like or hairy/wart-like lesion.\nNo swelling, often pointing toes.\nHighly contagious within a herd.\n\nManagement:\n\nTopical antibiotic treatment directly on the lesion\nFootbaths to reduce herd-wide spread\nImproving pen/lot drainage and reducing standing manure/mud"
-  },
-  {
-    "objectID": "hairyheelwart.html#footrot",
-    "href": "hairyheelwart.html#footrot",
-    "title": "Lameness",
-    "section": "Footrot",
-    "text": "Footrot\n\nA bacterial infection of the soft tissue between the toes, usually following a break in the skin (cuts, abrasions, abscess sites).\nEntire foot is swollen not just one side.\nGenerally affects one animal at a time rather than spreading rapidly like digital dermatitis.\n\nManagement:\n\nSystemic antibiotic treatment (not just topical)\nExpect significant improvement within 2 days, if not call us.\nKeeping the area clean and dry during recovery\nAddressing environmental factors (rocks, debris, wet lots) that cause the initial injury\n\n\n\n\nPhoto courtesy of Gerard Cramer\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf lameness doesn’t improve within a few days of treatment for footrot or 2 weeks for heel wart, or if you’re unsure which condition you’re dealing with, give us a call.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Livestock Veterinary Resources",
+    "objectID": "johnesdisease.html",
+    "href": "johnesdisease.html",
+    "title": "Johne’s Disease",
     "section": "",
-    "text": "Client tools Contact\nClinical veterinary services: LVR partners with clients to improve herd health by providing production data analytics and mobile large animal clinical veterinary services to select clients near Olsburg, KS.\nResearch: LVR participates in contract research projects which improve livestock health by supporting policy change and product development."
+    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3 years of age or older."
   },
   {
-    "objectID": "index.html#client-tools",
-    "href": "index.html#client-tools",
-    "title": "Livestock Veterinary Resources",
-    "section": "Client tools",
-    "text": "Client tools\n\nCalf Care\n\n\n New Sick Calf Exam Exam beside the calf; text the clinic. Open → \n\n\n Calf Hydration & Colostrum Hydration & colostrum guidance. Open → \n\n\n Calving Calving-season reference. Open → \n\n\n Vaccine Recommendations Protocols & timing. Open → \n\n\n\n\nCattle Health\n\n\n Fly Information Identify & manage flies. Open → \n\n\n Prolapses Vaginal, uterine & rectal. Open → \n\n\n Bloat Signs, treatment & prevention. Open → \n\n\n Johne’s Disease Signs & herd management. Open → \n\n\n Lameness Heel wart & footrot. Open → \n\n\n\n\nOther Client Resources\n\n\n Dosage Chart Drug dosing by weight. Open → \n\n\n Repro Protocols Breeding sync protocols. Open → \n\n\n\nDr. Nora Schrag and Dr. Tara Fountain\nPhone: (785) 333-8384\nWe look forward to hearing from you!\n\nWant to learn more about Dr. Schrag, Dr. Fountain, and Kristen first? Visit our About page.\n\n  \n  \n    ×\n    Contact LVR\n    Dr. Nora Schrag & Dr. Tara Fountain\n    (785) 333-8384\n    We look forward to hearing from you!"
+    "objectID": "johnesdisease.html#overview",
+    "href": "johnesdisease.html#overview",
+    "title": "Johne’s Disease",
+    "section": "",
+    "text": "Johne’s disease is a chronic, contagious bacterial infection of the intestinal tract in cattle, caused by Mycobacterium avium subspecies paratuberculosis (MAP). It spreads primarily through manure-contaminated feed, water, or colostrum/milk, and most commonly infects calves under 6 months of age — though clinical signs often don’t appear until 3 years of age or older."
+  },
+  {
+    "objectID": "johnesdisease.html#signs",
+    "href": "johnesdisease.html#signs",
+    "title": "Johne’s Disease",
+    "section": "Signs",
+    "text": "Signs\n\nChronic, watery diarrhea without blood or straining\nProgressive weight loss despite normal appetite\nDecreased milk production\nNormal temperature (helps distinguish from other causes of diarrhea)"
+  },
+  {
+    "objectID": "johnesdisease.html#why-it-matters",
+    "href": "johnesdisease.html#why-it-matters",
+    "title": "Johne’s Disease",
+    "section": "Why it matters",
+    "text": "Why it matters\n\nThere is no cure once an animal is clinically affected.\nInfected animals shed bacteria into the environment well before showing symptoms, making early detection and herd-level management critical.\nCan have economic impacts through reduced productivity and culling."
+  },
+  {
+    "objectID": "johnesdisease.html#prevention-management",
+    "href": "johnesdisease.html#prevention-management",
+    "title": "Johne’s Disease",
+    "section": "Prevention & Management",
+    "text": "Prevention & Management\n\nTest and cull strategically to reduce herd prevalence\nManage calving areas to minimize manure contact with newborn calves\nFeed colostrum/milk only from test-negative dams when possible\nMaintain clean water and feed sources, away from manure runoff\n\n\n\n\n\n\n\nNote\n\n\n\nAsk us about herd-level testing options if you suspect Johne’s disease may be present in your herd.\n\n\n\nQuestions? Call LVR at (785) 333-8384 — we’re glad to help."
   },
   {
     "objectID": "prolapses.html",
