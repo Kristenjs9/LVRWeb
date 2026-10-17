@@ -46,77 +46,84 @@
     "href": "productguide.html#alpha-7-cattle-vaccine",
     "title": "Product Guide",
     "section": "Alpha-7 Cattle Vaccine",
-    "text": "Alpha-7 Cattle Vaccine\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)\nUsed for: Clostridial\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+    "text": "Alpha-7 Cattle Vaccine\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)\nUsed for: Blackleg\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
   },
   {
     "objectID": "productguide.html#alpha-7-mb1",
     "href": "productguide.html#alpha-7-mb1",
     "title": "Product Guide",
     "section": "Alpha-7/MB1",
-    "text": "Alpha-7/MB1\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D); pinkeye (Moraxella bovis)\nUsed for: Clostridial; Pinkeye\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 60 days\nMade by: Boehringer Ingelheim"
+    "text": "Alpha-7/MB1\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D); pinkeye (Moraxella bovis)\nUsed for: Blackleg & pinkeye\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 60 days\nMade by: Boehringer Ingelheim"
+  },
+  {
+    "objectID": "productguide.html#alpha-cd",
+    "href": "productguide.html#alpha-cd",
+    "title": "Product Guide",
+    "section": "Alpha-CD",
+    "text": "Alpha-CD\nToxoid vaccine (not live)\nProtects against: Enterotoxemia (Clostridium perfringens types C and D)\nUsed for: Enterotoxemia (overeating disease)\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 60 days\nMade by: Boehringer Ingelheim"
   },
   {
     "objectID": "productguide.html#dectomax-pour-on",
     "href": "productguide.html#dectomax-pour-on",
     "title": "Product Guide",
     "section": "Dectomax Pour-On",
-    "text": "Dectomax Pour-On\nMacrocyclic lactone (doramectin)\nProtects against: Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies\nUsed for: Internal parasites; External parasites\nLabel dose: 5 mL per 100 lb, Pour on topline\nSlaughter withdrawal: 45 days\nMade by: Zoetis"
+    "text": "Dectomax Pour-On\nMacrocyclic lactone (doramectin)\nProtects against: Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies\nUsed for: External/Internal parasites\nLabel dose: 5 mL per 100 lb, Pour down the back\nSlaughter withdrawal: 45 days\nMade by: Zoetis"
   },
   {
     "objectID": "productguide.html#express-fp-5-vl5-hb",
     "href": "productguide.html#express-fp-5-vl5-hb",
     "title": "Product Guide",
     "section": "Express FP 5-VL5 HB",
-    "text": "Express FP 5-VL5 HB\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo-bovis, icterohaemorrhagiae, pomona)\nUsed for: Reproductive; Respiratory viral (injectable)\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+    "text": "Express FP 5-VL5 HB\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo-bovis, icterohaemorrhagiae, pomona)\nUsed for: Abortion & breeding diseases; pneumonia\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
   },
   {
     "objectID": "productguide.html#inforce-3",
     "href": "productguide.html#inforce-3",
     "title": "Product Guide",
     "section": "Inforce 3",
-    "text": "Inforce 3\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), PI3, BRSV\nUsed for: Respiratory viral (intranasal)\nLabel dose: 2 mL, Intranasal\nMade by: Zoetis"
+    "text": "Inforce 3\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), PI3, BRSV\nUsed for: Pneumonia\nLabel dose: 2 mL, Intranasal\nMade by: Zoetis"
   },
   {
     "objectID": "productguide.html#pyramid-5",
     "href": "productguide.html#pyramid-5",
     "title": "Product Guide",
     "section": "Pyramid 5",
-    "text": "Pyramid 5\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV\nUsed for: Respiratory viral (injectable)\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+    "text": "Pyramid 5\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV\nUsed for: Pneumonia\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
   },
   {
     "objectID": "productguide.html#pyramid-5-presponse-sq",
     "href": "productguide.html#pyramid-5-presponse-sq",
     "title": "Product Guide",
     "section": "Pyramid 5 + Presponse SQ",
-    "text": "Pyramid 5 + Presponse SQ\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Mannheimia haemolytica pneumonia (leukotoxoid)\nUsed for: Respiratory viral (injectable); Mannheimia-Pasteurella\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
+    "text": "Pyramid 5 + Presponse SQ\nModified-live (MLV) vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Mannheimia haemolytica pneumonia (leukotoxoid)\nUsed for: Pneumonia & shipping fever\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 21 days\nMade by: Boehringer Ingelheim"
   },
   {
     "objectID": "productguide.html#synanthic-bovine-dewormer-suspension-22-5",
     "href": "productguide.html#synanthic-bovine-dewormer-suspension-22-5",
     "title": "Product Guide",
     "section": "Synanthic Bovine Dewormer Suspension 22.5%",
-    "text": "Synanthic Bovine Dewormer Suspension 22.5%\nBenzimidazole (oxfendazole)\nProtects against: Stomach and intestinal roundworms, lungworms, tapeworms\nUsed for: Internal parasites\nLabel dose: 1 mL per 110 lb, Oral\nSlaughter withdrawal: 11 days\nMade by: Boehringer Ingelheim"
+    "text": "Synanthic Bovine Dewormer Suspension 22.5%\nBenzimidazole (oxfendazole)\nProtects against: Stomach and intestinal roundworms, lungworms, tapeworms\nUsed for: Worms\nLabel dose: 1 mL per 110 lb, In mouth\nSlaughter withdrawal: 11 days\nMade by: Boehringer Ingelheim"
   },
   {
     "objectID": "productguide.html#vetrimec-pour-on",
     "href": "productguide.html#vetrimec-pour-on",
     "title": "Product Guide",
     "section": "Vetrimec Pour-On",
-    "text": "Vetrimec Pour-On\nMacrocyclic lactone (ivermectin)\nProtects against: Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies\nUsed for: Internal parasites; External parasites\nLabel dose: 5 mL per 100 lb, Pour on topline\nSlaughter withdrawal: 48 days\nMade by: Norbrook"
+    "text": "Vetrimec Pour-On\nMacrocyclic lactone (ivermectin)\nProtects against: Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies\nUsed for: Worms, flies & lice\nLabel dose: 5 mL per 100 lb, Pour down the back\nSlaughter withdrawal: 48 days\nMade by: Norbrook"
   },
   {
     "objectID": "productguide.html#vira-shield-6-vl5",
     "href": "productguide.html#vira-shield-6-vl5",
     "title": "Product Guide",
     "section": "Vira Shield 6 + VL5",
-    "text": "Vira Shield 6 + VL5\nKilled vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo, icterohaemorrhagiae, pomona)\nUsed for: Reproductive; Respiratory viral (injectable)\nLabel dose: 5 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Elanco"
+    "text": "Vira Shield 6 + VL5\nKilled vaccine\nProtects against: IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo, icterohaemorrhagiae, pomona)\nUsed for: Abortion & breeding diseases; pneumonia\nLabel dose: 5 mL, Under the skin, neck\nSlaughter withdrawal: 21 days\nMade by: Elanco"
   },
   {
     "objectID": "productguide.html#vision-7",
     "href": "productguide.html#vision-7",
     "title": "Product Guide",
     "section": "Vision 7",
-    "text": "Vision 7\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)\nUsed for: Clostridial\nLabel dose: 2 mL, SQ neck\nSlaughter withdrawal: 21 days\nMade by: Merck"
+    "text": "Vision 7\nKilled vaccine\nProtects against: Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)\nUsed for: Blackleg\nLabel dose: 2 mL, Under the skin, neck\nSlaughter withdrawal: 21 days\nMade by: Merck"
   },
   {
     "objectID": "index.html",
