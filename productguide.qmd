@@ -1,0 +1,115 @@
+---
+title: "Product Guide"
+description: "What the vaccines and dewormers in LVR herd protocols protect against."
+---
+
+What each product in your LVR processing protocol protects against, and whether a vaccine
+is modified-live (MLV) or killed. Always read the label, and call LVR at (785) 333-8384
+with questions.
+
+## Alpha-7 Cattle Vaccine {#alpha-7-cattle-vaccine}
+
+**Killed vaccine**  
+**Protects against:** Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)  
+**Used for:** Blackleg  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 21 days  
+**Made by:** Boehringer Ingelheim  
+
+## Alpha-7/MB1 {#alpha-7-mb1}
+
+**Killed vaccine**  
+**Protects against:** Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D); pinkeye (Moraxella bovis)  
+**Used for:** Blackleg & pinkeye  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 60 days  
+**Made by:** Boehringer Ingelheim  
+
+## Alpha-CD {#alpha-cd}
+
+**Toxoid vaccine (not live)**  
+**Protects against:** Enterotoxemia (Clostridium perfringens types C and D)  
+**Used for:** Enterotoxemia (overeating disease)  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 60 days  
+**Made by:** Boehringer Ingelheim  
+
+## Dectomax Pour-On {#dectomax-pour-on}
+
+**Macrocyclic lactone (doramectin)**  
+**Protects against:** Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies  
+**Used for:** External/Internal parasites  
+**Label dose:** 5 mL per 100 lb, Pour down the back  
+**Slaughter withdrawal:** 45 days  
+**Made by:** Zoetis  
+
+## Express FP 5-VL5 HB {#express-fp-5-vl5-hb}
+
+**Modified-live (MLV) vaccine**  
+**Protects against:** IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo-bovis, icterohaemorrhagiae, pomona)  
+**Used for:** Abortion & breeding diseases; pneumonia  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 21 days  
+**Made by:** Boehringer Ingelheim  
+
+## Inforce 3 {#inforce-3}
+
+**Modified-live (MLV) vaccine**  
+**Protects against:** IBR (red nose), PI3, BRSV  
+**Used for:** Pneumonia  
+**Label dose:** 2 mL, Intranasal  
+**Made by:** Zoetis  
+
+## Pyramid 5 {#pyramid-5}
+
+**Modified-live (MLV) vaccine**  
+**Protects against:** IBR (red nose), BVD types 1 and 2, PI3, BRSV  
+**Used for:** Pneumonia  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 21 days  
+**Made by:** Boehringer Ingelheim  
+
+## Pyramid 5 + Presponse SQ {#pyramid-5-presponse-sq}
+
+**Modified-live (MLV) vaccine**  
+**Protects against:** IBR (red nose), BVD types 1 and 2, PI3, BRSV; Mannheimia haemolytica pneumonia (leukotoxoid)  
+**Used for:** Pneumonia & shipping fever  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 21 days  
+**Made by:** Boehringer Ingelheim  
+
+## Synanthic Bovine Dewormer Suspension 22.5% {#synanthic-bovine-dewormer-suspension-22-5}
+
+**Benzimidazole (oxfendazole)**  
+**Protects against:** Stomach and intestinal roundworms, lungworms, tapeworms  
+**Used for:** Worms  
+**Label dose:** 1 mL per 110 lb, In mouth  
+**Slaughter withdrawal:** 11 days  
+**Made by:** Boehringer Ingelheim  
+
+## Vetrimec Pour-On {#vetrimec-pour-on}
+
+**Macrocyclic lactone (ivermectin)**  
+**Protects against:** Stomach and intestinal roundworms, lungworms, grubs, lice, mites, horn flies  
+**Used for:** Worms, flies & lice  
+**Label dose:** 5 mL per 100 lb, Pour down the back  
+**Slaughter withdrawal:** 48 days  
+**Made by:** Norbrook  
+
+## Vira Shield 6 + VL5 {#vira-shield-6-vl5}
+
+**Killed vaccine**  
+**Protects against:** IBR (red nose), BVD types 1 and 2, PI3, BRSV; Vibriosis (Campylobacter fetus), leptospirosis (L. canicola, grippotyphosa, hardjo, icterohaemorrhagiae, pomona)  
+**Used for:** Abortion & breeding diseases; pneumonia  
+**Label dose:** 5 mL, Under the skin, neck  
+**Slaughter withdrawal:** 21 days  
+**Made by:** Elanco  
+
+## Vision 7 {#vision-7}
+
+**Killed vaccine**  
+**Protects against:** Blackleg (C. chauvoei), malignant edema (C. septicum), black disease (C. novyi), C. sordellii, enterotoxemia (C. perfringens types C and D)  
+**Used for:** Blackleg  
+**Label dose:** 2 mL, Under the skin, neck  
+**Slaughter withdrawal:** 21 days  
+**Made by:** Merck  
