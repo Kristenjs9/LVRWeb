@@ -37,6 +37,8 @@ website:
             href: Webdosechart.qmd
           - text: "Repro Protocols"
             href: ReproProtocols.qmd
+          - text: "Product Guide"
+            href: productguide.qmd
       - text: "Vet Resources"
         menu: 
           - text: "Proportions and Power"
