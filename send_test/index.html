@@ -88,21 +88,26 @@
 
   <section>
     <h2>Send it</h2>
-    <a class="send" id="sendLink" href="#" aria-disabled="true">Open email</a>
+    <a class="send" id="sendLink" href="#" aria-disabled="true">Email to info@</a>
     <p class="hint" id="sendHint">Type your initials and the phone name first.</p>
-    <p>If no email opens, or it opens with the message cut off, copy everything and paste it into a new email to:</p>
-    <p class="addr">livestockvets@gmail.com</p>
-    <div class="row"><button class="btn" type="button" id="copyBtn">Copy subject and message</button><span class="hint" id="copyMsg"></span></div>
+    <p>If the email doesn't open, or opens cut off, send the visit as a file instead. Pick your mail app, then put this in the To line:</p>
+    <p class="addr">info@livestockveterinaryresources.com</p>
+    <div class="row">
+      <button class="btn" type="button" id="shareBtn">Share as file</button>
+      <button class="btn" type="button" id="copyBtn">Copy text</button>
+      <span class="hint" id="altMsg"></span>
+    </div>
   </section>
 
   <section>
     <h2>Steps</h2>
     <ol>
       <li>Type your initials and the phone name.</li>
-      <li>Tap <b>Open email</b>. Your mail app should open with the subject and a long message already filled in.</li>
-      <li>Scroll to the bottom of the message. The last line should read <b>-----END LVR VISIT-----</b>.</li>
-      <li>Tap send. Turn on airplane mode first if you want to test sending with no signal; turn it off afterwards.</li>
-      <li>Tell Nora what happened: email opened or not, end line there or not.</li>
+      <li>Tap <b>Email to info@</b>. Your mail app should open with the subject and a long message filled in.</li>
+      <li>Scroll to the bottom. The last line should read <b id="endLine">END LVR VISIT</b>.</li>
+      <li>Tap Send.</li>
+      <li>Then try <b>Share as file</b> the same way, so we know the backup works too.</li>
+      <li>Tell Nora what happened with each.</li>
     </ol>
     <p class="hint">Claude then reads what arrived and checks every line came through unchanged.</p>
   </section>
@@ -112,49 +117,35 @@
 (function(){
   "use strict";
   var SRC = {"source_doc": "INS-386", "n_lines": 83, "lines": [{"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1551", "item": "Bute Injectable (Phenylbutazone 20%)", "qty": 9, "unit_price": 0.7389, "desc_chars": 36}, {"item_id": "1552", "item": "Tetanus Toxoid (equine dose)", "qty": 1, "unit_price": 14, "desc_chars": 28}, {"item_id": "1432", "item": "BioMycin 200 mg/ml (oxytetracycline) per ml", "qty": 25, "unit_price": 0.16, "desc_chars": 43}, {"item_id": "1491", "item": "Treatment Time - Level 1", "qty": 1, "unit_price": 95, "desc_chars": 14}, {"item_id": "1467", "item": "Dormosedan (Detomidine Hydrochloride), 1 ml (10mg/mL)", "qty": 0.5, "unit_price": 20.68, "desc_chars": 53}, {"item_id": "1553", "item": "ToMorrow Tube (Cephapirin 300 mg)", "qty": 1, "unit_price": 4.63, "desc_chars": 33}, {"item_id": "1452", "item": "Standard White Porous Tape Roll", "qty": 1, "unit_price": 7.5, "desc_chars": 31}, {"item_id": "1381", "item": "Tape co Flex 4\" (Vet Wrap)", "qty": 1, "unit_price": 1.4, "desc_chars": 26}, {"item_id": "1335", "item": "Butorphanol (10 mg/ml), 1 ml", "qty": 0.5, "unit_price": 19.1, "desc_chars": 28}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1384", "item": "Specialist Cotton Blend Cast Padding, 4\" x 4yd (price per unit)", "qty": 2, "unit_price": 1.73, "desc_chars": 63}, {"item_id": "1342", "item": "Physical Exam - Brief", "qty": 1, "unit_price": 15, "desc_chars": 21}, {"item_id": "1625", "item": "Doxycycline Tablets (100 mg) - 500 ct bottle", "qty": 1, "unit_price": 36, "desc_chars": 44}, {"item_id": "1630", "item": "Bandage Level 1", "qty": 1, "unit_price": 30, "desc_chars": 15}, {"item_id": "1624", "item": "Silver Sulfadiazine Cream (1% SSD), price per oz", "qty": 1, "unit_price": 12.42, "desc_chars": 48}, {"item_id": "1382", "item": "Lightplast Pro-Athletic Elastic Adhesive Tape, White, 3\" x 5yd (price per unit)", "qty": 1, "unit_price": 7.13, "desc_chars": 79}, {"item_id": "1466", "item": "Animalintex Poultice Pad, 8\" x 16\"", "qty": 1, "unit_price": 9.91, "desc_chars": 34}, {"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1551", "item": "Bute Injectable (Phenylbutazone 20%)", "qty": 5, "unit_price": 1.05, "desc_chars": 36}, {"item_id": "1465", "item": "Animalintex Hoof Poultice, Pre-Cut Hoof Shape (price per unit)", "qty": 1, "unit_price": 4.18, "desc_chars": 62}, {"item_id": "1384", "item": "Specialist Cotton Blend Cast Padding, 4\" x 4yd (price per unit)", "qty": 3, "unit_price": 1.73, "desc_chars": 63}, {"item_id": "1382", "item": "Lightplast Pro-Athletic Elastic Adhesive Tape, White, 3\" x 5yd (price per unit)", "qty": 1, "unit_price": 7.13, "desc_chars": 79}, {"item_id": "1555", "item": "Brown Gauze, Non-Sterile, Latex-Free, 6\" x 5yd (price per unit)", "qty": 1, "unit_price": 1, "desc_chars": 63}, {"item_id": "1381", "item": "Tape co Flex 4\" (Vet Wrap)", "qty": 1, "unit_price": 1.4, "desc_chars": 26}, {"item_id": "1468", "item": "Bandage Change", "qty": 1, "unit_price": 30, "desc_chars": 14}, {"item_id": "1467", "item": "Dormosedan (Detomidine Hydrochloride), 1 ml (10mg/mL)", "qty": 0.4, "unit_price": 20.675, "desc_chars": 53}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1382", "item": "Lightplast Pro-Athletic Elastic Adhesive Tape, White, 3\" x 5yd (price per unit)", "qty": 1, "unit_price": 7.13, "desc_chars": 79}, {"item_id": "1381", "item": "Tape co Flex 4\" (Vet Wrap)", "qty": 3, "unit_price": 1.4, "desc_chars": 26}, {"item_id": "1466", "item": "Animalintex Poultice Pad, 8\" x 16\"", "qty": 1, "unit_price": 9.91, "desc_chars": 34}, {"item_id": "1465", "item": "Animalintex Hoof Poultice, Pre-Cut Hoof Shape (price per unit)", "qty": 1, "unit_price": 4.18, "desc_chars": 62}, {"item_id": "1384", "item": "Specialist Cotton Blend Cast Padding, 4\" x 4yd (price per unit)", "qty": 3, "unit_price": 1.73, "desc_chars": 63}, {"item_id": "1452", "item": "Standard White Porous Tape Roll", "qty": 1, "unit_price": 7.5, "desc_chars": 31}, {"item_id": "1555", "item": "Brown Gauze, Non-Sterile, Latex-Free, 6\" x 5yd (price per unit)", "qty": 2, "unit_price": 1, "desc_chars": 63}, {"item_id": "1468", "item": "Bandage Change", "qty": 1, "unit_price": 30, "desc_chars": 14}, {"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1467", "item": "Dormosedan (Detomidine Hydrochloride), 1 ml (10mg/mL)", "qty": 0.4, "unit_price": 20.675, "desc_chars": 53}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1468", "item": "Bandage Change", "qty": 1, "unit_price": 30, "desc_chars": 14}, {"item_id": "1384", "item": "Specialist Cotton Blend Cast Padding, 4\" x 4yd (price per unit)", "qty": 3, "unit_price": 1.73, "desc_chars": 63}, {"item_id": "1466", "item": "Animalintex Poultice Pad, 8\" x 16\"", "qty": 1, "unit_price": 9.91, "desc_chars": 34}, {"item_id": "1382", "item": "Lightplast Pro-Athletic Elastic Adhesive Tape, White, 3\" x 5yd (price per unit)", "qty": 1, "unit_price": 7.13, "desc_chars": 79}, {"item_id": "1465", "item": "Animalintex Hoof Poultice, Pre-Cut Hoof Shape (price per unit)", "qty": 1, "unit_price": 4.18, "desc_chars": 62}, {"item_id": "1381", "item": "Tape co Flex 4\" (Vet Wrap)", "qty": 3, "unit_price": 1.4, "desc_chars": 26}, {"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1467", "item": "Dormosedan (Detomidine Hydrochloride), 1 ml (10mg/mL)", "qty": 0.4, "unit_price": 20.675, "desc_chars": 53}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1418", "item": "Penicillin G Procaine (300,000 IU/ml), 1 ml", "qty": 35, "unit_price": 0.21, "desc_chars": 43}, {"item_id": "1668", "item": "Gentamicin 100mg/ml, 1 ml", "qty": 28, "unit_price": 3.15, "desc_chars": 25}, {"item_id": "1551", "item": "Bute Injectable (Phenylbutazone 20%)", "qty": 9, "unit_price": 0.7389, "desc_chars": 36}, {"item_id": "1468", "item": "Bandage Change", "qty": 1, "unit_price": 30, "desc_chars": 14}, {"item_id": "1382", "item": "Lightplast Pro-Athletic Elastic Adhesive Tape, White, 3\" x 5yd (price per unit)", "qty": 1, "unit_price": 7.13, "desc_chars": 79}, {"item_id": "1384", "item": "Specialist Cotton Blend Cast Padding, 4\" x 4yd (price per unit)", "qty": 3, "unit_price": 1.73, "desc_chars": 63}, {"item_id": "1381", "item": "Tape co Flex 4\" (Vet Wrap)", "qty": 3, "unit_price": 1.4, "desc_chars": 26}, {"item_id": "1466", "item": "Animalintex Poultice Pad, 8\" x 16\"", "qty": 1, "unit_price": 9.91, "desc_chars": 34}, {"item_id": "1555", "item": "Brown Gauze, Non-Sterile, Latex-Free, 6\" x 5yd (price per unit)", "qty": 1, "unit_price": 1, "desc_chars": 63}, {"item_id": "1452", "item": "Standard White Porous Tape Roll", "qty": 1, "unit_price": 7.5, "desc_chars": 31}, {"item_id": "1465", "item": "Animalintex Hoof Poultice, Pre-Cut Hoof Shape (price per unit)", "qty": 1, "unit_price": 4.18, "desc_chars": 62}, {"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1467", "item": "Dormosedan (Detomidine Hydrochloride), 1 ml (10mg/mL)", "qty": 0.4, "unit_price": 20.675, "desc_chars": 53}, {"item_id": "1418", "item": "Penicillin G Procaine (300,000 IU/ml), 1 ml", "qty": 35, "unit_price": 0.21, "desc_chars": 43}, {"item_id": "1668", "item": "Gentamicin 100mg/ml, 1 ml", "qty": 28, "unit_price": 3.15, "desc_chars": 25}, {"item_id": "1551", "item": "Bute Injectable (Phenylbutazone 20%)", "qty": 9, "unit_price": 0.7389, "desc_chars": 36}, {"item_id": "1468", "item": "Bandage Change", "qty": 1, "unit_price": 30, "desc_chars": 14}, {"item_id": "1384", "item": "Specialist Cotton Blend Cast Padding, 4\" x 4yd (price per unit)", "qty": 3, "unit_price": 1.73, "desc_chars": 63}, {"item_id": "1381", "item": "Tape co Flex 4\" (Vet Wrap)", "qty": 3, "unit_price": 1.4, "desc_chars": 26}, {"item_id": "1466", "item": "Animalintex Poultice Pad, 8\" x 16\"", "qty": 1, "unit_price": 9.91, "desc_chars": 34}, {"item_id": "1382", "item": "Lightplast Pro-Athletic Elastic Adhesive Tape, White, 3\" x 5yd (price per unit)", "qty": 1, "unit_price": 7.13, "desc_chars": 79}, {"item_id": "1452", "item": "Standard White Porous Tape Roll", "qty": 1, "unit_price": 7.5, "desc_chars": 31}, {"item_id": "1465", "item": "Animalintex Hoof Poultice, Pre-Cut Hoof Shape (price per unit)", "qty": 1, "unit_price": 4.18, "desc_chars": 62}, {"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1467", "item": "Dormosedan (Detomidine Hydrochloride), 1 ml (10mg/mL)", "qty": 0.4, "unit_price": 20.675, "desc_chars": 53}, {"item_id": "1355", "item": "IV Injection", "qty": 1, "unit_price": 12, "desc_chars": 12}, {"item_id": "1418", "item": "Penicillin G Procaine (300,000 IU/ml), 1 ml", "qty": 35, "unit_price": 0.21, "desc_chars": 43}, {"item_id": "1668", "item": "Gentamicin 100mg/ml, 1 ml", "qty": 28, "unit_price": 3.15, "desc_chars": 25}, {"item_id": "1551", "item": "Bute Injectable (Phenylbutazone 20%)", "qty": 9, "unit_price": 0.7389, "desc_chars": 36}, {"item_id": "1340", "item": "Farm Call", "qty": 1, "unit_price": 58, "desc_chars": 9}, {"item_id": "1342", "item": "Physical Exam - Brief", "qty": 1, "unit_price": 15, "desc_chars": 21}, {"item_id": "1469", "item": "Uniprim Powder for Horses (Trimethoprim and Sulfadiazine), 200gm container", "qty": 1, "unit_price": 23.89, "desc_chars": 74}, {"item_id": "1432", "item": "BioMycin 200 mg/ml (oxytetracycline) per ml", "qty": 30, "unit_price": 0.16, "desc_chars": 43}]};
-  var TO = "livestockvets@gmail.com";
+  var TO = "info@livestockveterinaryresources.com";
   var FILLER = "Test note: animal checked at the chute, findings recorded, nothing unusual seen. ";
 
   function $(id){ return document.getElementById(id); }
   function pad(n){ return ("0"+n).slice(-2); }
-  function money(n){ return "$"+n.toFixed(2); }
   function fill(n){ var s=""; while(s.length<n) s+=FILLER; return s.slice(0,n); }
+  // Prices print at 2 decimals, or up to 5 when the price carries more (a fraction-of-a-cent mL price).
+  function price(p){ var t=p.toFixed(5).replace(/0+$/,""); return t.split(".")[1].length<2 ? p.toFixed(2) : t; }
 
-  var CRC_TABLE=(function(){ var t=[],c; for(var n=0;n<256;n++){ c=n; for(var k=0;k<8;k++) c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1); t[n]=c>>>0; } return t; })();
-  function crc32(bytes){ var c=0xFFFFFFFF; for(var i=0;i<bytes.length;i++) c=CRC_TABLE[(c^bytes[i])&0xFF]^(c>>>8); return ((c^0xFFFFFFFF)>>>0).toString(16).padStart(8,"0"); }
-  function b64(bytes){ var s=""; for(var i=0;i<bytes.length;i+=0x8000) s+=String.fromCharCode.apply(null, bytes.subarray(i,i+0x8000)); return btoa(s); }
-
+  // The visit as plain text: what staff see is what the office scripts read.
+  // One charge per line: <qty> x [<QuickBooks item id>] <item name> @ <unit price>
   function build(){
     var initials=$("initials").value.trim().toUpperCase().replace(/[^A-Z]/g,"");
     var device=$("device").value.trim();
     var now=new Date();
-    var stamp=now.getFullYear()+pad(now.getMonth()+1)+pad(now.getDate())+"-"+pad(now.getHours())+pad(now.getMinutes())+pad(now.getSeconds());
-    var visitId=(initials||"XX")+"-"+stamp;
+    var day=now.getFullYear()+"-"+pad(now.getMonth()+1)+"-"+pad(now.getDate());
+    var visitId=(initials||"XX")+"-"+day.replace(/-/g,"")+"-"+pad(now.getHours())+pad(now.getMinutes())+pad(now.getSeconds());
     var lines=SRC.lines.concat(SRC.lines);
     var noteChars=2*SRC.lines.reduce(function(a,l){ return a+l.desc_chars; },0);
-    var charges=lines.map(function(l){ return {item_id:l.item_id, item:l.item, qty:l.qty, unit_price:l.unit_price}; });
-    var visit={
-      format:"lvr-visit/1", test:true, test_device:device, visit_id:visitId, corrects:null,
-      staff:initials||null, visit_date:now.getFullYear()+"-"+pad(now.getMonth()+1)+"-"+pad(now.getDate()),
-      client:{qbo_customer_id:null, name:"SEND TEST (not a client)"},
-      animals:[{animal_id:null, new:{kind:"Herd", name:"Test herd", species:"Bovine"}, head:120}],
-      visit_type:"Herd work",
-      notes:{reason:"Send test", history:"", findings:fill(noteChars), assessment:"", plan:""},
-      charges:charges
-    };
-    var json=JSON.stringify(visit);
-    var bytes=new TextEncoder().encode(json);
-    var enc=b64(bytes).replace(/(.{76})/g,"$1\n");
-    var block="-----BEGIN LVR VISIT v1 bytes="+bytes.length+" crc32="+crc32(bytes)+"-----\n"+enc+"\n-----END LVR VISIT-----";
-
-    var total=0, L=["LVR SEND TEST - not a real visit","Visit "+visitId,"Phone: "+(device||"?"),"",
-      "Charges ("+lines.length+" lines):"];
-    lines.forEach(function(l){ var t=l.qty*l.unit_price; total+=t; L.push("  "+l.qty+" x "+l.item+" @ "+money(l.unit_price)+" = "+money(t)); });
-    L.push("Total: "+money(total),"","Notes:",visit.notes.findings,"","Data for the office computer (do not edit):",block);
+    var total=0;
+    var L=["LVR VISIT v1","Visit: "+visitId,"Date: "+day,"Staff: "+(initials||"?"),
+      "Client: [none] SEND TEST (not a client)","Animal: [new] Herd | Test herd | Bovine | 120 head",
+      "Type: Herd work","Test phone: "+(device||"?"),"","Charges:"];
+    lines.forEach(function(l){ total+=l.qty*l.unit_price; L.push(l.qty+" x ["+l.item_id+"] "+l.item+" @ "+price(l.unit_price)); });
+    L.push("Total: "+total.toFixed(2),"","Notes:",fill(noteChars),"","END LVR VISIT ("+lines.length+" charges)");
     var body=L.join("\n");
     var subject="LVR send test - "+(initials||"XX")+" - "+(device||"phone");
     var href="mailto:"+TO+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body.replace(/\n/g,"\r\n"));
-    return {ready:!!(initials&&device), subject:subject, body:body, href:href, lines:lines.length};
+    return {ready:!!(initials&&device), id:visitId, subject:subject, body:body, href:href, lines:lines.length};
   }
 
   function render(){
@@ -162,6 +153,7 @@
     $("nLines").textContent=b.lines;
     $("nChars").textContent=b.body.length.toLocaleString();
     $("nLink").textContent=b.href.length.toLocaleString();
+    $("endLine").textContent="END LVR VISIT ("+b.lines+" charges)";
     $("preview").textContent="Subject: "+b.subject+"\n\n"+b.body;
     var a=$("sendLink");
     a.setAttribute("href", b.ready? b.href : "#");
@@ -170,16 +162,24 @@
     try{ localStorage.setItem("lvr_send_test", JSON.stringify({i:$("initials").value, d:$("device").value})); }catch(e){}
   }
 
+  function msg(t){ $("altMsg").textContent=t; }
   $("src").textContent=SRC.source_doc+", "+SRC.n_lines+" lines";
   try{ var saved=JSON.parse(localStorage.getItem("lvr_send_test")||"{}"); if(saved.i)$("initials").value=saved.i; if(saved.d)$("device").value=saved.d; }catch(e){}
   ["initials","device"].forEach(function(id){ $(id).addEventListener("input", render); });
   // Rebuild at the moment of tapping so the visit id carries the send time.
   $("sendLink").addEventListener("click", function(){ var b=build(); if(b.ready) this.setAttribute("href", b.href); });
+  $("shareBtn").addEventListener("click", function(){
+    var b=build();
+    if(!b.ready){ msg("Type your initials and the phone name first."); return; }
+    var file=new File([b.body.replace(/\n/g,"\r\n")], "LVR visit "+b.id+".txt", {type:"text/plain"});
+    if(!(navigator.canShare && navigator.canShare({files:[file]}))){ msg("This phone can't share files from the browser. Use Copy text instead."); return; }
+    navigator.share({files:[file], title:b.subject}).then(function(){ msg("Shared. Check the To line says info@ before sending."); },
+      function(e){ msg(e && e.name==="AbortError" ? "Cancelled." : "Sharing didn't work here. Use Copy text instead."); });
+  });
   $("copyBtn").addEventListener("click", function(){
     var b=build(), text="Subject: "+b.subject+"\n\n"+b.body;
-    function done(msg){ $("copyMsg").textContent=msg; }
-    function fallback(){ var p=$("preview"); p.parentNode.open=true; var r=document.createRange(); r.selectNodeContents(p); var s=getSelection(); s.removeAllRanges(); s.addRange(r); done("Selected below: use your phone's Copy."); }
-    if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function(){ done("Copied."); }, fallback); else fallback();
+    function fallback(){ var p=$("preview"); p.parentNode.open=true; var r=document.createRange(); r.selectNodeContents(p); var s=getSelection(); s.removeAllRanges(); s.addRange(r); msg("Selected below: use your phone's Copy."); }
+    if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function(){ msg("Copied. Paste into a new email to info@."); }, fallback); else fallback();
   });
   render();
 })();
