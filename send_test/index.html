@@ -67,12 +67,8 @@
 
   <section>
     <h2>Who is testing</h2>
-    <div class="two">
-      <div class="field"><label for="initials">Your initials</label>
-        <input type="text" id="initials" autocomplete="off" autocapitalize="characters" maxlength="4" placeholder="NS"></div>
-      <div class="field"><label for="device">This phone</label>
-        <input type="text" id="device" autocomplete="off" placeholder="e.g. Tara iPhone, Gmail app"></div>
-    </div>
+    <div class="field"><label for="initials">Your initials</label>
+      <input type="text" id="initials" autocomplete="off" autocapitalize="characters" maxlength="4" placeholder="NS"></div>
   </section>
 
   <section>
@@ -89,7 +85,7 @@
   <section>
     <h2>Send it</h2>
     <a class="send" id="sendLink" href="#" aria-disabled="true">Email the visit</a>
-    <p class="hint" id="sendHint">Type your initials and the phone name first.</p>
+    <p class="hint" id="sendHint">Type your initials first.</p>
     <p>If the email doesn't open, or opens cut off, send the visit as a file instead. Pick your mail app, then put this in the To line:</p>
     <p class="addr">livestockvets@gmail.com</p>
     <div class="row">
@@ -102,7 +98,7 @@
   <section>
     <h2>Steps</h2>
     <ol>
-      <li>Type your initials and the phone name.</li>
+      <li>Type your initials.</li>
       <li>Tap <b>Email the visit</b>. Your mail app should open with the subject and a long message filled in.</li>
       <li>Scroll to the bottom. The last line should read <b id="endLine">END LVR VISIT</b>.</li>
       <li>Tap Send.</li>
@@ -130,7 +126,6 @@
   // One charge per line: <qty> x [<QuickBooks item id>] <item name> @ <unit price>
   function build(){
     var initials=$("initials").value.trim().toUpperCase().replace(/[^A-Z]/g,"");
-    var device=$("device").value.trim();
     var now=new Date();
     var day=now.getFullYear()+"-"+pad(now.getMonth()+1)+"-"+pad(now.getDate());
     var visitId=(initials||"XX")+"-"+day.replace(/-/g,"")+"-"+pad(now.getHours())+pad(now.getMinutes())+pad(now.getSeconds());
@@ -139,13 +134,13 @@
     var total=0;
     var L=["LVR VISIT v1","Visit: "+visitId,"Date: "+day,"Staff: "+(initials||"?"),
       "Client: [none] SEND TEST (not a client)","Animal: [new] Herd | Test herd | Bovine | 120 head",
-      "Type: Herd work","Test phone: "+(device||"?"),"","Charges:"];
+      "Type: Herd work","","Charges:"];
     lines.forEach(function(l){ total+=l.qty*l.unit_price; L.push(l.qty+" x ["+l.item_id+"] "+l.item+" @ "+price(l.unit_price)); });
     L.push("Total: "+total.toFixed(2),"","Notes:",fill(noteChars),"","END LVR VISIT ("+lines.length+" charges)");
     var body=L.join("\n");
-    var subject="LVR send test - "+(initials||"XX")+" - "+(device||"phone");
+    var subject="LVR send test - "+(initials||"XX");
     var href="mailto:"+TO+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body.replace(/\n/g,"\r\n"));
-    return {ready:!!(initials&&device), id:visitId, subject:subject, body:body, href:href, lines:lines.length};
+    return {ready:!!initials, id:visitId, subject:subject, body:body, href:href, lines:lines.length};
   }
 
   function render(){
@@ -158,19 +153,19 @@
     var a=$("sendLink");
     a.setAttribute("href", b.ready? b.href : "#");
     a.setAttribute("aria-disabled", b.ready? "false":"true");
-    $("sendHint").textContent= b.ready? "Opens your mail app. It may take a few seconds with a message this long." : "Type your initials and the phone name first.";
-    try{ localStorage.setItem("lvr_send_test", JSON.stringify({i:$("initials").value, d:$("device").value})); }catch(e){}
+    $("sendHint").textContent= b.ready? "Opens your mail app. It may take a few seconds with a message this long." : "Type your initials first.";
+    try{ localStorage.setItem("lvr_send_test", JSON.stringify({i:$("initials").value})); }catch(e){}
   }
 
   function msg(t){ $("altMsg").textContent=t; }
   $("src").textContent=SRC.source_doc+", "+SRC.n_lines+" lines";
-  try{ var saved=JSON.parse(localStorage.getItem("lvr_send_test")||"{}"); if(saved.i)$("initials").value=saved.i; if(saved.d)$("device").value=saved.d; }catch(e){}
-  ["initials","device"].forEach(function(id){ $(id).addEventListener("input", render); });
+  try{ var saved=JSON.parse(localStorage.getItem("lvr_send_test")||"{}"); if(saved.i)$("initials").value=saved.i; }catch(e){}
+  $("initials").addEventListener("input", render);
   // Rebuild at the moment of tapping so the visit id carries the send time.
   $("sendLink").addEventListener("click", function(){ var b=build(); if(b.ready) this.setAttribute("href", b.href); });
   $("shareBtn").addEventListener("click", function(){
     var b=build();
-    if(!b.ready){ msg("Type your initials and the phone name first."); return; }
+    if(!b.ready){ msg("Type your initials first."); return; }
     var file=new File([b.body.replace(/\n/g,"\r\n")], "LVR visit "+b.id+".txt", {type:"text/plain"});
     if(!(navigator.canShare && navigator.canShare({files:[file]}))){ msg("This phone can't share files from the browser. Use Copy text instead."); return; }
     navigator.share({files:[file], title:b.subject}).then(function(){ msg("Shared. Put livestockvets@gmail.com in the To line before sending."); },
