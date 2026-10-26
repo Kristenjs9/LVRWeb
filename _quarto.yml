@@ -74,3 +74,4 @@ resources:
   - health_records
   - field_exam
   - send_test
+  - travel_sheet

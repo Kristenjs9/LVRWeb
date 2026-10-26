@@ -55,3 +55,6 @@ rsconnect/
 # Source dump of Steve's photos — only hand-picked copies (saved directly
 # into images/) get committed, not this whole staging folder.
 images/StevePhotos/
+# Travel sheet: built by LVRRecords/functions/build_travel_sheet.py; holds encrypted client data,
+# published to gh-pages only, never committed here.
+travel_sheet/
