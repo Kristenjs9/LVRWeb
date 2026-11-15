@@ -752,3 +752,109 @@ table.second-table {
 .second-table tbody td:hover { outline: 2px solid var(--lvr-accent) !important; }
 .second-table .row-highlight { background-color: rgba(184, 98, 27, 0.12) !important; }
 .second-table .col-highlight { background-color: rgba(184, 98, 27, 0.12) !important; }
+
+/* ---------------------------------------------------------
+   Vaccine Recommendations page (vaccinereccomendations.qmd)
+   Navy = 5-Way Respiratory, orange = 7-Way Clostridial
+   --------------------------------------------------------- */
+table.lvr-vax-schedule {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--lvr-gray-100);
+  margin: 0.5rem 0 0.5rem;
+}
+table.lvr-vax-schedule thead th {
+  background-color: var(--lvr-gray-50);
+  color: var(--lvr-navy);
+  font-weight: 700;
+  text-align: center;
+  padding: 0.75rem 0.4rem;
+  border-bottom: 2px solid var(--lvr-gray-300);
+}
+table.lvr-vax-schedule thead th:first-child { width: 22%; }
+table.lvr-vax-schedule tbody th {
+  color: var(--lvr-navy);
+  font-weight: 700;
+  padding: 0.85rem 0.75rem;
+  vertical-align: middle;
+}
+table.lvr-vax-schedule td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.85rem 0.4rem;
+}
+table.lvr-vax-schedule tbody tr + tr > * {
+  border-top: 1px solid var(--lvr-gray-100);
+}
+.lvr-vax-none { color: var(--lvr-gray-300); font-size: 1.2rem; }
+
+.lvr-vax-chip {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+  margin: 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--lvr-white);
+  white-space: nowrap;
+}
+.lvr-vax-resp { background-color: var(--lvr-navy); }
+.lvr-vax-clos { background-color: var(--lvr-accent); }
+
+.lvr-vax-footnote {
+  color: var(--lvr-gray-600);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.lvr-vax-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.lvr-vax-card {
+  background: var(--lvr-white);
+  border: 1px solid var(--lvr-gray-100);
+  border-top: 4px solid var(--lvr-navy);
+  border-radius: var(--lvr-radius);
+  box-shadow: var(--lvr-shadow);
+  padding: 1.1rem 1.25rem;
+}
+.lvr-vax-card-clos { border-top-color: var(--lvr-accent); }
+.lvr-vax-card h3 { margin: 0 0 0.35rem; font-size: 1.2rem; }
+.lvr-vax-card h3 .lvr-vax-chip { margin: 0 0.3rem 0 0; font-size: 0.9rem; vertical-align: 0.1em; }
+.lvr-vax-covers { color: var(--lvr-gray-600); font-size: 0.92rem; margin: 0 0 0.75rem; }
+.lvr-vax-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lvr-gray-600);
+  margin: 0 0 0.25rem;
+}
+.lvr-vax-card ul { margin: 0; padding-left: 1.1rem; }
+
+.lvr-vax-optional {
+  border: 1px solid var(--lvr-gray-100);
+  border-radius: var(--lvr-radius);
+  background: var(--lvr-gray-50);
+}
+.lvr-vax-opt {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 0.75rem;
+  padding: 0.8rem 1.1rem;
+}
+.lvr-vax-opt + .lvr-vax-opt { border-top: 1px solid var(--lvr-gray-100); }
+.lvr-vax-opt p { margin: 0; }
+.lvr-vax-opt-name { font-weight: 700; color: var(--lvr-navy); }
+
+@media (max-width: 540px) {
+  table.lvr-vax-schedule thead th { font-size: 0.85rem; }
+  table.lvr-vax-schedule tbody th { padding: 0.75rem 0.4rem; font-size: 0.9rem; }
+  .lvr-vax-chip { font-size: 0.72rem; padding: 0.12rem 0.5rem; }
+  .lvr-vax-opt { grid-template-columns: 1fr; gap: 0.15rem; }
+}

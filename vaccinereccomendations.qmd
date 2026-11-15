@@ -3,111 +3,99 @@ title: "Vaccine Recommendations"
 ---
 
 <div style="width:100%; text-align:center; margin-bottom: 1rem;">
-  <img src="images/Calf.JPG" 
+  <img src="images/Calf.JPG"
        style="width:100%; max-height:250px; object-fit:cover; border-radius:8px;" />
 </div>
 
+Calves should get a **5-Way Respiratory** and a **7-Way Clostridial** vaccine **2 times** between 30 days of age and weaning.
 
-Calves should receive at minimum a 5 Way Respiratory vaccine and 7 Way Clostridial vaccine 2 times between 30 days of age and weaning.
+## Pick one schedule
 
 ```{=html}
-<!-- Option 1 -->
-<div style="width:100%; border:1px solid #aaa;">
+<table class="lvr-vax-schedule">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Turnout</th>
+      <th>Pre-Weaning</th>
+      <th>Weaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Option 1</th>
+      <td><span class="lvr-vax-chip lvr-vax-resp">5-Way</span><span class="lvr-vax-chip lvr-vax-clos">7-Way</span></td>
+      <td><span class="lvr-vax-chip lvr-vax-resp">5-Way</span><span class="lvr-vax-chip lvr-vax-clos">7-Way</span></td>
+      <td class="lvr-vax-none">&mdash;</td>
+    </tr>
+    <tr>
+      <th scope="row">Option 2</th>
+      <td><span class="lvr-vax-chip lvr-vax-resp">5-Way</span><span class="lvr-vax-chip lvr-vax-clos">7-Way</span></td>
+      <td class="lvr-vax-none">&mdash;</td>
+      <td><span class="lvr-vax-chip lvr-vax-resp">5-Way</span><span class="lvr-vax-chip lvr-vax-clos">7-Way</span></td>
+    </tr>
+    <tr>
+      <th scope="row">Option 3</th>
+      <td class="lvr-vax-none">&mdash;</td>
+      <td><span class="lvr-vax-chip lvr-vax-resp">5-Way</span><span class="lvr-vax-chip lvr-vax-clos">7-Way</span></td>
+      <td><span class="lvr-vax-chip lvr-vax-resp">5-Way</span><span class="lvr-vax-chip lvr-vax-clos">7-Way</span></td>
+    </tr>
+  </tbody>
+</table>
 
-  <h3 style="text-align:center; background-color:#d3d3d3; border-bottom:1px solid #aaa; padding:10px; margin:0;">
-    Option 1
-  </h3>
+<p class="lvr-vax-footnote">Allow at least 3 weeks between pre-weaning and weaning shots.</p>
 
-  <table style="border-collapse: collapse; width: 100%; table-layout: fixed; text-align: center;">
-    <thead style="background-color: #d3d3d3;">
-      <tr>
-        <th style="border: 1px solid #aaa; width: 33.33%; height: 80px;">Turnout</th>
-        <th style="border: 1px solid #aaa; width: 33.33%;">Pre-Weaning</th>
-        <th style="border: 1px solid #aaa; width: 33.33%;">Weaning</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="background-color: #e97451; border: 1px solid #aaa; height: 80px;">5 Way Respiratory</td>
-        <td style="background-color: #e97451; border: 1px solid #aaa;">5 Way Respiratory</td>
-        <td style="border: 1px solid #aaa;"></td>
-      </tr>
-      <tr>
-        <td style="background-color: #7bb274; border: 1px solid #aaa;">7 Way Clostridial</td>
-        <td style="background-color: #7bb274; border: 1px solid #aaa;">7 Way Clostridial</td>
-        <td style="border: 1px solid #aaa;"></td>
-      </tr>
-    </tbody>
-  </table>
+<h2>What to buy</h2>
+
+<div class="lvr-vax-grid">
+  <div class="lvr-vax-card lvr-vax-card-resp">
+    <h3><span class="lvr-vax-chip lvr-vax-resp">5-Way</span> Respiratory</h3>
+    <p class="lvr-vax-covers">IBR, BVD Types 1 &amp; 2, PI3, BRSV</p>
+    <p class="lvr-vax-label">Examples</p>
+    <ul>
+      <li>Bovi-Shield Gold 5</li>
+      <li>Pyramid 5</li>
+      <li>Express 5</li>
+      <li>Vista 5</li>
+      <li>Titanium 5</li>
+    </ul>
+  </div>
+  <div class="lvr-vax-card lvr-vax-card-clos">
+    <h3><span class="lvr-vax-chip lvr-vax-clos">7-Way</span> Clostridial</h3>
+    <p class="lvr-vax-covers">Blackleg and related clostridial diseases</p>
+    <p class="lvr-vax-label">Examples</p>
+    <ul>
+      <li>Ultrabac 7</li>
+      <li>Vision 7</li>
+      <li>Alpha-7</li>
+      <li>UltraChoice 7</li>
+      <li>Covexin 8</li>
+    </ul>
+  </div>
 </div>
 
-<br>
+<h2>Optional</h2>
 
-<!-- Option 2 -->
-<div style="width:100%; border:1px solid #aaa;">
-
-  <h3 style="text-align:center; background-color:#d3d3d3; border-bottom:1px solid #aaa; padding:10px; margin:0;">
-    Option 2
-  </h3>
-
-  <table style="border-collapse: collapse; width: 100%; table-layout: fixed; text-align: center;">
-    <thead style="background-color: #d3d3d3;">
-      <tr>
-        <th style="border: 1px solid #aaa; width: 33.33%; height: 80px;">Turnout</th>
-        <th style="border: 1px solid #aaa; width: 33.33%;">Pre-Weaning</th>
-        <th style="border: 1px solid #aaa; width: 33.33%;">Weaning</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="background-color: #e97451; border: 1px solid #aaa;">5 Way Respiratory</td>
-        <td style="border: 1px solid #aaa;"></td>
-        <td style="background-color: #e97451; border: 1px solid #aaa;">5 Way Respiratory</td>
-      </tr>
-      <tr>
-        <td style="background-color: #7bb274; border: 1px solid #aaa;">7 Way Clostridial</td>
-        <td style="border: 1px solid #aaa;"></td>
-        <td style="background-color: #7bb274; border: 1px solid #aaa;">7 Way Clostridial</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="lvr-vax-optional">
+  <div class="lvr-vax-opt">
+    <p class="lvr-vax-opt-name">Inforce 3</p>
+    <p>Faster protection and better protection in young calves. Particularly good for BRSV.</p>
+  </div>
+  <div class="lvr-vax-opt">
+    <p class="lvr-vax-opt-name">Pasteurella</p>
+    <p>Bacterial pneumonia vaccine, such as Presponse or One Shot.</p>
+  </div>
+  <div class="lvr-vax-opt">
+    <p class="lvr-vax-opt-name">Pinkeye</p>
+    <p>Variable efficacy at best.</p>
+  </div>
+  <div class="lvr-vax-opt">
+    <p class="lvr-vax-opt-name">Scours</p>
+    <p>Medgene is recommended because it has current rotavirus strains. Efficacy is not good.</p>
+  </div>
 </div>
-
-<br>
-
-<!-- Option 3 -->
-<div style="width:100%; border:1px solid #aaa;">
-
-  <h3 style="text-align:center; background-color:#d3d3d3; border-bottom:1px solid #aaa; padding:10px; margin:0;">
-    Option 3
-  </h3>
-
-  <table style="border-collapse: collapse; width: 100%; table-layout: fixed; text-align: center;">
-    <thead style="background-color: #d3d3d3;">
-      <tr>
-        <th style="border: 1px solid #aaa; width: 33.33%; height: 80px;">Turnout</th>
-        <th style="border: 1px solid #aaa; width: 33.33%;">Pre-Weaning</th>
-        <th style="border: 1px solid #aaa; width: 33.33%;">Weaning</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border: 1px solid #aaa;"></td>
-        <td style="background-color: #e97451; border: 1px solid #aaa;">5 Way Respiratory</td>
-        <td style="background-color: #e97451; border: 1px solid #aaa;">5 Way Respiratory</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #aaa;"></td>
-        <td style="background-color: #7bb274; border: 1px solid #aaa;">7 Way Clostridial</td>
-        <td style="background-color: #7bb274; border: 1px solid #aaa;">7 Way Clostridial</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<br>
 ```
 
-**\*3-week minimum between pre-weaning and weaning\***
-
-Contact us with questions and for more information!
+::: lvr-page-cta
+**Questions?** Call LVR at [(785) 333-8384](tel:+17853338384) — we're glad to help.
+:::
